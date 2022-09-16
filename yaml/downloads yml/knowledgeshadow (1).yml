@@ -1,0 +1,683 @@
+kshadowcornhatching:
+    items:
+      embedrow:
+        type: 2
+        title: "Shadowcorn Hatching Guide and Shadowcorns FAQs"
+        text: "Click on \"Hatching an Egg\" button to learn how to hatch a Shadowcorn egg, and on \"FAQ\" button to learn more about Shadowcorns."
+      buttonrow3:
+        type: 3
+        items:
+          button1:
+            buttonclass: 1
+            buttonname: "Shadowcorn Hatching" 
+            buttonids: "kshadowcornhatching"  
+            buttontype: "Success" 
+            buttondisabled: true 
+          button2:
+            buttonclass: 1
+            buttonname: "Hatching an Egg" 
+            buttonids: "kshadowcornhatching1"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+          button3:
+            buttonclass: 1
+            buttonname: "FAQ" 
+            buttonids: "kshadowcornhatching2"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+    options:
+      ephemeral: true 
+      update: true 
+
+kshadowcornhatching1:
+  items:
+    embedrow:
+      type: 2
+      title: "How to Hatch a Shadowcorn Egg?"
+      text: ":exclamation: **Note that hatching for Shadowcorn Eggs will occur on darkforest.cryptounicorns.fun**
+            \n
+            \n1️⃣ Go to https://darkforest.cryptounicorns.fun/.
+            \n2️⃣ Connect your wallet by clicking on the **\"Connect Your Wallet\"** button at the top right corner of the page."
+      image: "https://cdn.discordapp.com/attachments/980696706628857856/1013073856262578237/unknown.png"
+    buttonrow0:
+      type: 3
+      items:
+        nav:
+          buttonclass: 1
+          buttonname: "Navigation"
+          buttonids: "nav"
+          buttontype: "Success"
+          buttondisabled: true
+        button1:
+          buttonclass: 1
+          buttonname: "Back" 
+          buttonids: "kshadowcornhatching"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button2:
+          buttonclass: 1
+          buttonname: "Next" 
+          buttonids: "kshadowcornhatching12"  
+          buttontype: "Secondary" 
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "FAQ" 
+          buttonids: "kshadowcornhatching2"  
+          buttontype: "Secondary" 
+          buttondisabled: false  
+    buttonrow1:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Game Guides" 
+          buttonids: "genguides"  
+          buttontype: "Success" 
+          buttondisabled: true 
+        button2:
+          buttonclass: 1
+          buttonname: "Notion Guide" 
+          buttonids: "knotionguide"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button3:
+          buttonclass: 1
+          buttonname: "Zendesk Knowledge Base" 
+          buttonids: "kzendeskknowledgebase"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button4:
+          buttonclass: 1
+          buttonname: "Lootbox Guide" 
+          buttonids: "klootboxguide"  
+          buttontype: "Secondary" 
+          buttondisabled: false
+        button5:
+          buttonclass: 1
+          buttonname: "Keystone Guide" 
+          buttonids: "kkeystoneguide"  
+          buttontype: "Secondary" 
+          buttondisabled: false
+    buttonrow3:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Knowledge Base" 
+          buttonids: "kb"  
+          buttontype: "Success" 
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "Staking and rewards" 
+          buttonids: "kstakingandrewards"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button3:
+          buttonclass: 1
+          buttonname: "New Releases" 
+          buttonids: "knewreleases"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button4:
+          buttonclass: 1
+          buttonname: "Events" 
+          buttonids: "kevent-bulletin"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button5:
+          buttonclass: 1
+          buttonname: "Zendesk Guide" 
+          buttonids: "kothers"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+  options:
+    ephemeral: true 
+    update: true 
+
+kshadowcornhatching12:
+  items:
+    embedrow:
+      type: 2
+      title: "How to Hatch a Shadowcorn Egg?"
+      text: "3️⃣ Click on the Shadowcorn Hatching button on the webpage.
+            \n4️⃣ Hatching occurs at the \"Summoning Altar.\"
+            \n5️⃣ Click on your desired egg, then a pop-up will appear."
+      image: "https://cdn.discordapp.com/attachments/980696706628857856/1013073856707166259/unknown.png"
+    buttonrow0:
+      type: 3
+      items:
+        nav:
+          buttonclass: 1
+          buttonname: "Navigation"
+          buttonids: "nav"
+          buttontype: "Success"
+          buttondisabled: true
+        button1:
+          buttonclass: 1
+          buttonname: "Back" 
+          buttonids: "kshadowcornhatching1"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button2:
+          buttonclass: 1
+          buttonname: "Next" 
+          buttonids: "kshadowcornhatching13"  
+          buttontype: "Secondary" 
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "FAQ" 
+          buttonids: "kshadowcornhatching2"  
+          buttontype: "Secondary" 
+          buttondisabled: false  
+    buttonrow1:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Game Guides" 
+          buttonids: "genguides"  
+          buttontype: "Success" 
+          buttondisabled: true 
+        button2:
+          buttonclass: 1
+          buttonname: "Notion Guide" 
+          buttonids: "knotionguide"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button3:
+          buttonclass: 1
+          buttonname: "Zendesk Knowledge Base" 
+          buttonids: "kzendeskknowledgebase"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button4:
+          buttonclass: 1
+          buttonname: "Lootbox Guide" 
+          buttonids: "klootboxguide"  
+          buttontype: "Secondary" 
+          buttondisabled: false
+        button5:
+          buttonclass: 1
+          buttonname: "Keystone Guide" 
+          buttonids: "kkeystoneguide"  
+          buttontype: "Secondary" 
+          buttondisabled: false
+    buttonrow3:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Knowledge Base" 
+          buttonids: "kb"  
+          buttontype: "Success" 
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "Staking and rewards" 
+          buttonids: "kstakingandrewards"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button3:
+          buttonclass: 1
+          buttonname: "New Releases" 
+          buttonids: "knewreleases"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button4:
+          buttonclass: 1
+          buttonname: "Events" 
+          buttonids: "kevent-bulletin"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button5:
+          buttonclass: 1
+          buttonname: "Zendesk Guide" 
+          buttonids: "kothers"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+  options:
+    ephemeral: true 
+    update: true 
+
+kshadowcornhatching13:
+  items:
+    embedrow:
+      type: 2
+      title: "How to Hatch a Shadowcorn Egg?"
+      text: "6️⃣ On the pop-up page, click the “Hatch Egg” button to hatch the egg."
+      image: "https://cdn.discordapp.com/attachments/980696706628857856/1013073857436991488/unknown.png"
+    buttonrow0:
+      type: 3
+      items:
+        nav:
+          buttonclass: 1
+          buttonname: "Navigation"
+          buttonids: "nav"
+          buttontype: "Success"
+          buttondisabled: true
+        button1:
+          buttonclass: 1
+          buttonname: "Back" 
+          buttonids: "kshadowcornhatching12"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button2:
+          buttonclass: 1
+          buttonname: "Next" 
+          buttonids: "kshadowcornhatching14"  
+          buttontype: "Secondary" 
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "FAQ" 
+          buttonids: "kshadowcornhatching2"  
+          buttontype: "Secondary" 
+          buttondisabled: false  
+    buttonrow1:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Game Guides" 
+          buttonids: "genguides"  
+          buttontype: "Success" 
+          buttondisabled: true 
+        button2:
+          buttonclass: 1
+          buttonname: "Notion Guide" 
+          buttonids: "knotionguide"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button3:
+          buttonclass: 1
+          buttonname: "Zendesk Knowledge Base" 
+          buttonids: "kzendeskknowledgebase"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button4:
+          buttonclass: 1
+          buttonname: "Lootbox Guide" 
+          buttonids: "klootboxguide"  
+          buttontype: "Secondary" 
+          buttondisabled: false
+        button5:
+          buttonclass: 1
+          buttonname: "Keystone Guide" 
+          buttonids: "kkeystoneguide"  
+          buttontype: "Secondary" 
+          buttondisabled: false
+    buttonrow3:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Knowledge Base" 
+          buttonids: "kb"  
+          buttontype: "Success" 
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "Staking and rewards" 
+          buttonids: "kstakingandrewards"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button3:
+          buttonclass: 1
+          buttonname: "New Releases" 
+          buttonids: "knewreleases"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button4:
+          buttonclass: 1
+          buttonname: "Events" 
+          buttonids: "kevent-bulletin"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button5:
+          buttonclass: 1
+          buttonname: "Zendesk Guide" 
+          buttonids: "kothers"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+  options:
+    ephemeral: true 
+    update: true 
+
+kshadowcornhatching14:
+  items:
+    embedrow:
+      type: 2
+      title: "How to Hatch a Shadowcorn Egg?"
+      text: "7️⃣ There will be an animation to indicate that the Shadowcorn Egg is \"hatching\"."
+      image: "https://cdn.discordapp.com/attachments/980696706628857856/1013073857856413786/unknown.png"
+    buttonrow0:
+      type: 3
+      items:
+        nav:
+          buttonclass: 1
+          buttonname: "Navigation"
+          buttonids: "nav"
+          buttontype: "Success"
+          buttondisabled: true
+        button1:
+          buttonclass: 1
+          buttonname: "Back" 
+          buttonids: "kshadowcornhatching13"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button2:
+          buttonclass: 1
+          buttonname: "Next" 
+          buttonids: "kshadowcornhatching15"  
+          buttontype: "Secondary" 
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "FAQ" 
+          buttonids: "kshadowcornhatching2"  
+          buttontype: "Secondary" 
+          buttondisabled: false  
+    buttonrow1:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Game Guides" 
+          buttonids: "genguides"  
+          buttontype: "Success" 
+          buttondisabled: true 
+        button2:
+          buttonclass: 1
+          buttonname: "Notion Guide" 
+          buttonids: "knotionguide"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button3:
+          buttonclass: 1
+          buttonname: "Zendesk Knowledge Base" 
+          buttonids: "kzendeskknowledgebase"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button4:
+          buttonclass: 1
+          buttonname: "Lootbox Guide" 
+          buttonids: "klootboxguide"  
+          buttontype: "Secondary" 
+          buttondisabled: false
+        button5:
+          buttonclass: 1
+          buttonname: "Keystone Guide" 
+          buttonids: "kkeystoneguide"  
+          buttontype: "Secondary" 
+          buttondisabled: false
+    buttonrow3:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Knowledge Base" 
+          buttonids: "kb"  
+          buttontype: "Success" 
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "Staking and rewards" 
+          buttonids: "kstakingandrewards"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button3:
+          buttonclass: 1
+          buttonname: "New Releases" 
+          buttonids: "knewreleases"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button4:
+          buttonclass: 1
+          buttonname: "Events" 
+          buttonids: "kevent-bulletin"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button5:
+          buttonclass: 1
+          buttonname: "Zendesk Guide" 
+          buttonids: "kothers"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+  options:
+    ephemeral: true 
+    update: true 
+
+kshadowcornhatching15:
+  items:
+    embedrow:
+      type: 2
+      title: "How to Hatch a Shadowcorn Egg?"
+      text: "8️⃣ After the hatching process, the egg animation will change into an animation of a Shadowcorn, and its Traits will roll out on the right side."
+      image: "https://cdn.discordapp.com/attachments/980696706628857856/1013073858951139418/unknown.png"
+    buttonrow0:
+      type: 3
+      items:
+        nav:
+          buttonclass: 1
+          buttonname: "Navigation"
+          buttonids: "nav"
+          buttontype: "Success"
+          buttondisabled: true
+        button1:
+          buttonclass: 1
+          buttonname: "Back" 
+          buttonids: "kshadowcornhatching14"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button3:
+          buttonclass: 1
+          buttonname: "FAQ" 
+          buttonids: "kshadowcornhatching2"  
+          buttontype: "Secondary" 
+          buttondisabled: false  
+    buttonrow1:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Game Guides" 
+          buttonids: "genguides"  
+          buttontype: "Success" 
+          buttondisabled: true 
+        button2:
+          buttonclass: 1
+          buttonname: "Notion Guide" 
+          buttonids: "knotionguide"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button3:
+          buttonclass: 1
+          buttonname: "Zendesk Knowledge Base" 
+          buttonids: "kzendeskknowledgebase"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button4:
+          buttonclass: 1
+          buttonname: "Lootbox Guide" 
+          buttonids: "klootboxguide"  
+          buttontype: "Secondary" 
+          buttondisabled: false
+        button5:
+          buttonclass: 1
+          buttonname: "Keystone Guide" 
+          buttonids: "kkeystoneguide"  
+          buttontype: "Secondary" 
+          buttondisabled: false
+    buttonrow3:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Knowledge Base" 
+          buttonids: "kb"  
+          buttontype: "Success" 
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "Staking and rewards" 
+          buttonids: "kstakingandrewards"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button3:
+          buttonclass: 1
+          buttonname: "New Releases" 
+          buttonids: "knewreleases"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button4:
+          buttonclass: 1
+          buttonname: "Events" 
+          buttonids: "kevent-bulletin"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button5:
+          buttonclass: 1
+          buttonname: "Zendesk Guide" 
+          buttonids: "kothers"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+  options:
+    ephemeral: true 
+    update: true 
+
+kshadowcornhatching2:
+    items:
+      embedrow:
+        type: 2
+        title: "Shadowcorn FAQs"
+        text: "**How much is the Hatching cost for a Shadowcorn Egg?**\n
+              To successfully hatch a Shadowcorn Egg you will need the following in your wallet:\n
+              :UNIM: 10,000 UNIM\n
+              :RBW: 100 RBW\n
+              \n
+              **What are the class types of Shadowcorns?**\n
+              Here are the five Shadowcorn classes that will dominate the Dark Forest:\n
+              ➡️ Fire\n
+              ➡️ Slime\n
+              ➡️ Volt\n
+              ➡️ Soul\n
+              ➡️ Nebula\n
+              \n
+              **Do Shadowcorns classes have a rarity?**
+              Yes, Shadowcorn classes have 3 tiers of rarity!\n
+              ➡️ Common\n
+              ➡️ Rare\n
+              ➡️ Mythic\n
+              \n
+              Each Class has an equal amount of Shadowcorns across rarities:\n
+              ➡️ 400 Common Shadowcorns per Class\n
+              ➡️ 190 Rare Shadowcorns per Class\n
+              ➡️ 10 Mythic Shadowcorns per Class\n
+              \n
+              **Do Shadowcorns have Stats?**\n
+              Shadowcorn has Traits that work like Unicorns’ Stats, except there aren’t the equivalent of Parts/Genes.\n
+              \n
+              Here are the 5 Shadowcorn Traits:\n
+              ➡️ Might\n
+              ➡️ Wickedness\n
+              ➡️ Tenacity\n
+              ➡️ Cunning\n
+              ➡️ Arcana\n
+              \n
+              **Can I breed my Shadowcorns?**\n
+              No, Shadowcorns cannot be bred.\n
+              \n
+              :question: Learn more about Shadowcorns here: https://medium.com/@lagunagames/shadowcorns-roadmap-reveal-640250afea04"
+    buttonrow0:
+      type: 3
+      items:
+        nav:
+          buttonclass: 1
+          buttonname: "Navigation"
+          buttonids: "nav"
+          buttontype: "Success"
+          buttondisabled: true
+        button1:
+          buttonclass: 1
+          buttonname: "Back" 
+          buttonids: "kshadowcornhatching"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button2:
+          buttonclass: 1
+          buttonname: "Hatching an Egg" 
+          buttonids: "kshadowcornhatching1"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+    buttonrow1:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Game Guides" 
+          buttonids: "genguides"  
+          buttontype: "Success" 
+          buttondisabled: true 
+        button2:
+          buttonclass: 1
+          buttonname: "Notion Guide" 
+          buttonids: "knotionguide"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button3:
+          buttonclass: 1
+          buttonname: "Zendesk Knowledge Base" 
+          buttonids: "kzendeskknowledgebase"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button4:
+          buttonclass: 1
+          buttonname: "Lootbox Guide" 
+          buttonids: "klootboxguide"  
+          buttontype: "Secondary" 
+          buttondisabled: false
+        button5:
+          buttonclass: 1
+          buttonname: "Keystone Guide" 
+          buttonids: "kkeystoneguide"  
+          buttontype: "Secondary" 
+          buttondisabled: false
+    buttonrow3:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Knowledge Base" 
+          buttonids: "kb"  
+          buttontype: "Success" 
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "Staking and rewards" 
+          buttonids: "kstakingandrewards"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button3:
+          buttonclass: 1
+          buttonname: "New Releases" 
+          buttonids: "knewreleases"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button4:
+          buttonclass: 1
+          buttonname: "Events" 
+          buttonids: "kevent-bulletin"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button5:
+          buttonclass: 1
+          buttonname: "Zendesk Guide" 
+          buttonids: "kothers"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+    options:
+      ephemeral: true 
+      update: true 

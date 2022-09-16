@@ -1,0 +1,117 @@
+kstakingandrewards: #Page name / id
+  items:
+    embedrow:
+      type: 2
+      title: "Staking and Rewards"
+      text: "Need to know how to stake or claim rewards?"
+
+    buttonrow:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "RBW Staking" #Name of the button
+          buttonids: "button1"  #'page' name/id to redirect to
+          buttontype: "Primary" #button Color type
+          buttondisabled: true #If button is disabled or not
+        button2:
+          buttonclass: 1
+          buttonname: "Steps" #Name of the button
+          buttonids: "kstakingandrewards-rbwsteps"  #'page' name/id to redirect to
+          buttontype: "Secondary" #button Color type
+          buttondisabled: false #If button is disabled or know
+        button3:
+          buttonclass: 1
+          buttonname: "Rewards and Benefits" #Name of the button
+          buttonids: "kstakingandrewards-rbwrab"  #'page' name/id to redirect to
+          buttontype: "Secondary" #button Color type
+          buttondisabled: false #If button is disabled or not
+        button4:
+          buttonclass: 1
+          buttonname: "Eligibility" #Name of the button
+          buttonids: "kstakingandrewards-rbweligibility"  #'page' name/id to redirect to
+          buttontype: "Secondary" #button Color type
+          buttondisabled: false #If button is disabled or not
+        button5:
+          buttonclass: 1
+          buttonname: "Useful Links" #Name of the button
+          buttonids: "kstakingandrewards-rbwuseful"  #'page' name/id to redirect to
+          buttontype: "Secondary" #button Color type
+          buttondisabled: false #If button is disabled or not
+    buttonrow2:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "LP Staking" #Name of the button
+          buttonids: "buttono1"  #'page' name/id to redirect to
+          buttontype: "Primary" #button Color type
+          buttondisabled: true #If button is disabled or not
+        button2:
+          buttonclass: 1
+          buttonname: "Steps" #Name of the button
+          buttonids: "kstakingandrewards-lpsteps"  #'page' name/id to redirect to
+          buttontype: "Secondary" #button Color type
+          buttondisabled: false #If button is disabled or know
+        button3:
+          buttonclass: 1
+          buttonname: "RBWLP to sRBWLP Conversion" #Name of the button
+          buttonids: "kstakingandrewards-lpconversion"  #'page' name/id to redirect to
+          buttontype: "Secondary" #button Color type
+          buttondisabled: false #If button is disabled or not
+        button4:
+          buttonclass: 1
+          buttonname: "LP Staking Rewards" #Name of the button
+          buttonids: "kstakingandrewards-lprewards"  #'page' name/id to redirect to
+          buttontype: "Secondary" #button Color type
+          buttondisabled: false #If button is disabled or not
+    buttonrow3:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Claiming Rewards" #Name of the button
+          buttonids: "buttono2"  #'page' name/id to redirect to
+          buttontype: "Primary" #button Color type
+          buttondisabled: true #If button is disabled or not
+        button2:
+          buttonclass: 1
+          buttonname: "How to Claim Rewards" #Name of the button
+          buttonids: "kstakingandrewards-claiming"  #'page' name/id to redirect to
+          buttontype: "Secondary" #button Color type
+          buttondisabled: false #If button is disabled or know
+        button3:
+          buttonclass: 1
+          buttonname: "Loyalty/Rewards Program RBW Airdrop " #Name of the button
+          buttonids: "kstakingandrewards-loyaltyrewards"  #'page' name/id to redirect to
+          buttontype: "Secondary" #button Color type
+          buttondisabled: false #If button is disabled or not
+  options:
+    ephemeral: true #leave at true for now
+    update: false # set to true for third level menu
+
+
+
+kstakingandrewards-lpconversion:
+  items:
+    pageitem2:
+      #embed type processing
+      type: 2
+      title: "RBWLP to sRBWLP Conversion"
+      text: "The longer you choose to stake the LP tokens, the more sRBWLP tokens you will receive which will increase your share of the daily RBW rewards.
+            \n
+            \nWe will be using the same converts for RBWLP as we are using for RBW."
+      image: "https://cdn.discordapp.com/attachments/980696706628857856/1013074754758004806/unknown.png"
+    buttonrow:
+      type: 3
+      items:
+        button2:
+          buttonclass: 1
+          buttonname: "Back" #Name of the button
+          buttonids: "kstakingandrewards"  #'page' name/id to redirect to
+          buttontype: "Primary" #button Color type
+          buttondisabled: false #If button is disabled or not
+  options:
+    ephemeral: true
+    #Setting update to true will update original button
+    update: true

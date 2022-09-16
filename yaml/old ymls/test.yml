@@ -1,0 +1,36 @@
+mainpage: #Page name / id
+  items:
+    imagerow:
+      type: 1
+      image-file: "popcat.gif"
+
+    embedrow:
+      type: 2
+      title: "Template Title"
+      text: "Template Text"
+
+    buttonrow:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Primary" #Name of the button
+          buttonids: "primarytemplate"  #'page' name/id to redirect to
+          buttontype: "Primary" #button Color type
+          buttondisabled: true #If button is disabled or not
+        button2:
+          buttonclass: 1
+          buttonname: "Back" #Name of the button
+          buttonids: "mainpage"  #'page' name/id to redirect to
+          buttontype: "Primary" #button Color type
+          buttondisabled: false #If button is disabled or not
+        llinkbutton:
+          buttonclass: 3
+          buttonname: "Custom Button 3"
+          buttonurl: 'https://discord.js.org' #.setURL()
+            #this might be substituted for the 'page' name if ever
+          buttontype: "Link"
+          buttondisabled: false
+  options:
+    ephemeral: true #leave at true for now
+    update: false # set to true for third level menu

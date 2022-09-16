@@ -1,0 +1,111 @@
+language:
+  items:
+    pageitem:
+      #for type image
+      type: 1
+      image-file: "popcat.gif" #"teaser.mp4"
+    pageitem2:
+      type: 2
+      title: "  "
+      text: "Pick your languages below and begin interacting with others!"
+    pageitem3:
+      type: 4
+      tag: "language"
+      placeholder: "West, East, and South Asia"
+      maxcount: 5
+      options:
+        option1:
+          label: "Chinese"
+          description: "China" #page it leads to
+          id: "role-927352223032287244"
+        option2:
+          label: "Indian"
+          description: "Indian" #page it leads to
+          id: "role-953597960023842836"
+        option3:
+          label: "Japanese"
+          description: "Japanese" #page it leads to
+          id: "role-928142248628092960"
+        option4:
+          label: "Korean"
+          description: "Korean" #page it leads to
+          id: "role-928143561969508382"
+        option5:
+          label: "Turkish"
+          description: "Turkish" #page it leads to
+          id: "role-928145394116984843"
+    pageitem4:
+      type: 4
+      tag: "language"
+      placeholder: "Southeast Asia and Oceania"
+      maxcount: 6
+      options:
+        option1:
+          label: "Filipino"
+          description: "Filipino" #page it leads to
+          id: "role-928142425581568031"
+        option2:
+          label: "Indonesian"
+          description: "Indonesian" #page it leads to
+          id: "role-928145512236990465"
+        option3:
+          label: "Malay"
+          description: "Malay" #page it leads to
+          id: "role-928143387431927808"
+        option4:
+          label: "Samoan"
+          description: "Samoan" #page it leads to
+          id: "role-968362067075674143"
+        option5:
+          label: "Thai"
+          description: "Thai" #page it leads to
+          id: "role-928144386238345237"
+        option6:
+          label: "Viet"
+          description: "Viet" #page it leads to
+          id: "role-928145547980832818"
+    pageitem5:
+      type: 4
+      tag: "language"
+      placeholder: "Europe"
+      maxcount: 9
+      options:
+        option1:
+          label: "Czech"
+          description: "Czech" #page it leads to
+          id: "role-928145464568725544"
+        option2:
+          label: "Dutch"
+          description: "Dutch" #page it leads to
+          id: "role-928153683647168542"
+        option3:
+          label: "French"
+          description: "French" #page it leads to
+          id: "role-928145579975016541"
+        option4:
+          label: "German"
+          description: "German" #page it leads to
+          id: "role-928143978824613889"
+        option5:
+          label: "Italian"
+          description: "Italian" #page it leads to
+          id: "role-928144347994681345"
+        option6:
+          label: "Polish"
+          description: "Polish" #page it leads to
+          id: "role-928145411393355796"
+        option7:
+          label: "Portuguese"
+          description: "Portuguese" #page it leads to
+          id: "role-928142365720465410"
+        option8:
+          label: "Russian"
+          description: "Russian" #page it leads to
+          id: "role-928143928513925170"
+        option9:
+          label: "Spanish"
+          description: "Spanish" #page it leads to
+          id: "role-928142407332143164"
+  options:
+    update: false
+    ephemeral: false

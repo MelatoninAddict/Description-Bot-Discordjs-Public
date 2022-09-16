@@ -1,0 +1,34 @@
+enterserver:
+  items:
+    pageitem:
+      #for type image
+      type: 1
+      image-file: "popcat.gif" #"teaser.mp4"
+    pageitem2:
+      type: 2
+      title: "    "
+      text: "Watch the video to know more what Cypto Unicorns is about and when you're finished, clik the \"Ready\" button below."
+    pageitem3:
+      type: 3
+      items:
+        button15:
+          buttonclass: 1
+          buttonname: "=============="
+          buttonids: "role-10126754200611799242" #page it leads to
+          buttontype: "Secondary"
+          buttondisabled: true
+        button1:
+          buttonclass: 1
+          buttonname: "Ready"
+          buttonids: "role-1012675420061179924" #page it leads to
+          buttontype: "Success"
+          buttondisabled: false
+        button12:
+          buttonclass: 1
+          buttonname: "=============="
+          buttonids: "role-10126754200611799243" #page it leads to
+          buttontype: "Secondary"
+          buttondisabled: true
+  options:
+    update: false
+    ephemeral: false

@@ -1,0 +1,353 @@
+kstakingandrewards-lprewards:
+  items:
+    pageitem2:
+      #embed type processing
+      type: 2
+      title: "LP Staking Rewards"
+      text: "
+            We will release an LP Leaderboard that will reward players points daily for the amount of sRBWLP that they have.While this leaderboard will be separate from the RBW Staking Leaderboard, we will be using the same formula:\n
+            \n
+            Points = sRBWLP Amount * Days that the deposit HAS been staked."
+    buttonrow2:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Daily Rewards" #Name of the button
+          buttonids: "kstakingandrewards-lprewards-daily"  #'page' name/id to redirect to
+          buttontype: "Secondary" #button Color type
+          buttondisabled: false #If button is disabled or not
+        button2:
+          buttonclass: 1
+          buttonname: "Monthly Rewards" #Name of the button
+          buttonids: "kstakingandrewards-lprewards-monthly"  #'page' name/id to redirect to
+          buttontype: "Secondary" #button Color type
+          buttondisabled: false #If button is disabled or not
+        button3:
+          buttonclass: 1
+          buttonname: "Season Rewards" #Name of the button
+          buttonids: "kstakingandrewards-lprewards-season"  #'page' name/id to redirect to
+          buttontype: "Secondary" #button Color type
+          buttondisabled: false #If button is disabled or not
+        button5:
+          buttonclass: 1
+          buttonname: "Back" #Name of the button
+          buttonids: "kstakingandrewards"  #'page' name/id to redirect to
+          buttontype: "Secondary" #button Color type
+          buttondisabled: false #If button is disabled or not
+  options:
+    ephemeral: true
+    #Setting update to true will update original button
+    update: true
+
+
+kstakingandrewards-lprewards-daily:
+  items:
+    pageitem2:
+      #embed type processing
+      type: 2
+      title: "Daily Rewards"
+      text: "Like with RBW Staking, all daily rewards must be claimed. It will then undergo a 7-day vesting period before you can receive it in your wallet."
+    buttonrow2:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Daily Rewards" #Name of the button
+          buttonids: "kstakingandrewards-lprewards-daily"  #'page' name/id to redirect to
+          buttontype: "Secondary" #button Color type
+          buttondisabled: true #If button is disabled or not
+        button2:
+          buttonclass: 1
+          buttonname: "Monthly Rewards" #Name of the button
+          buttonids: "kstakingandrewards-lprewards-monthly"  #'page' name/id to redirect to
+          buttontype: "Secondary" #button Color type
+          buttondisabled: false #If button is disabled or not
+        button3:
+          buttonclass: 1
+          buttonname: "Season Rewards" #Name of the button
+          buttonids: "kstakingandrewards-lprewards-season"  #'page' name/id to redirect to
+          buttontype: "Secondary" #button Color type
+          buttondisabled: false #If button is disabled or not
+        button5:
+          buttonclass: 1
+          buttonname: "Back" #Name of the button
+          buttonids: "kstakingandrewards"  #'page' name/id to redirect to
+          buttontype: "Secondary" #button Color type
+          buttondisabled: false #If button is disabled or not
+  options:
+    ephemeral: true
+    #Setting update to true will update original button
+    update: true
+
+kstakingandrewards-lprewards-monthly:
+  items:
+    pageitem2:
+      #embed type processing
+      type: 2
+      title: "Monthly Rewards"
+      text: "We will be distributing monthly UNIM & RBW rewards to players that are in the required position at the end of each month."
+      image: "https://cdn.discordapp.com/attachments/980696706628857856/1013074801008586842/unknown.png"
+    buttonrow2:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Daily Rewards" #Name of the button
+          buttonids: "kstakingandrewards-lprewards-daily"  #'page' name/id to redirect to
+          buttontype: "Secondary" #button Color type
+          buttondisabled: false #If button is disabled or not
+        button2:
+          buttonclass: 1
+          buttonname: "Monthly Rewards" #Name of the button
+          buttonids: "kstakingandrewards-lprewards-monthly"  #'page' name/id to redirect to
+          buttontype: "Secondary" #button Color type
+          buttondisabled: true #If button is disabled or not
+        button3:
+          buttonclass: 1
+          buttonname: "Season Rewards" #Name of the button
+          buttonids: "kstakingandrewards-lprewards-season"  #'page' name/id to redirect to
+          buttontype: "Secondary" #button Color type
+          buttondisabled: false #If button is disabled or not
+        button5:
+          buttonclass: 1
+          buttonname: "Back" #Name of the button
+          buttonids: "kstakingandrewards"  #'page' name/id to redirect to
+          buttontype: "Secondary" #button Color type
+          buttondisabled: false #If button is disabled or not
+  options:
+    ephemeral: true
+    #Setting update to true will update original button
+    update: true
+
+
+kstakingandrewards-lprewards-season:
+  items:
+    pageitem2:
+      #embed type processing
+      type: 2
+      title: "SeaSON Rewards"
+      text: "At the end of the year-long LP Leaderboard, we will be distributing the following rewards to users that hold the current positions:"
+      image: "https://cdn.discordapp.com/attachments/980696706628857856/1013074855819759698/unknown.png"
+    buttonrow2:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Daily Rewards" #Name of the button
+          buttonids: "kstakingandrewards-lprewards-daily"  #'page' name/id to redirect to
+          buttontype: "Secondary" #button Color type
+          buttondisabled: false #If button is disabled or not
+        button2:
+          buttonclass: 1
+          buttonname: "Monthly Rewards" #Name of the button
+          buttonids: "kstakingandrewards-lprewards-monthly"  #'page' name/id to redirect to
+          buttontype: "Secondary" #button Color type
+          buttondisabled: false #If button is disabled or not
+        button3:
+          buttonclass: 1
+          buttonname: "Season Rewards" #Name of the button
+          buttonids: "kstakingandrewards-lprewards-season"  #'page' name/id to redirect to
+          buttontype: "Secondary" #button Color type
+          buttondisabled: true #If button is disabled or not
+        button5:
+          buttonclass: 1
+          buttonname: "Back" #Name of the button
+          buttonids: "kstakingandrewards"  #'page' name/id to redirect to
+          buttontype: "Secondary" #button Color type
+          buttondisabled: false #If button is disabled or not
+  options:
+    ephemeral: true
+    #Setting update to true will update original button
+    update: true
+
+
+
+
+
+kstakingandrewards-lpsteps:
+  items:
+    pageitem2:
+      #embed type processing
+      type: 2
+      title: "Staking in the RBW/wETH Liquidity Pool"
+      text: "There are two main steps to staking in the Liquidity Pool (LP). First, you need to obtain RBWLP tokens through Balancer by investing in the pool. After that, you may stake these RBWLP tokens in the Vault staking website to gain RBW rewards.
+            \n\nPart I contains steps on how to obtain RBWLP Tokens through Balancer
+            \n\n
+            Part II contains how to stake RBWLP Tokens on Vault"
+    buttonrow:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Part I" #Name of the button
+          buttonids: "kstakingandrewards-rbwsteps1"  #'page' name/id to redirect to
+          buttontype: "Primary" #button Color type
+          buttondisabled: false #If button is disabled or not
+        button3:
+          buttonclass: 1
+          buttonname: "Part II" #Name of the button
+          buttonids: "kstakingandrewards-rbwsteps2"  #'page' name/id to redirect to
+          buttontype: "Primary" #button Color type
+          buttondisabled: false #If button is disabled or not
+        button2:
+          buttonclass: 1
+          buttonname: "Back" #Name of the button
+          buttonids: "kstakingandrewards"  #'page' name/id to redirect to
+          buttontype: "Primary" #button Color type
+          buttondisabled: false #If button is disabled or not
+  options:
+    ephemeral: true
+    #Setting update to true will update original button
+    update: true
+
+kstakingandrewards-lpsteps1:
+  items:
+    pageitem2:
+      #embed type processing
+      type: 2
+      title: "Part I"
+      text: "1️⃣ Go to the Balancer website:🔗 https://bit.ly/3y0kyA5
+            \n
+            \n2️⃣ Connect your wallet. Make sure that you are connected to the Polygon network.
+            \n
+            \n
+            3️⃣ Click the Invest button."
+      image: "https://cdn.discordapp.com/attachments/980696706628857856/1013074694871728178/unknown.png"
+    buttonrow:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Next" #Name of the button
+          buttonids: "kstakingandrewards-lpsteps12"  #'page' name/id to redirect to
+          buttontype: "Primary" #button Color type
+          buttondisabled: false #If button is disabled or not
+        button2:
+          buttonclass: 1
+          buttonname: "Back" #Name of the button
+          buttonids: "kstakingandrewards-lpsteps"  #'page' name/id to redirect to
+          buttontype: "Primary" #button Color type
+          buttondisabled: false #If button is disabled or not
+  options:
+    ephemeral: true
+    #Setting update to true will update original button
+    update: true
+
+
+kstakingandrewards-lpsteps12:
+  items:
+    pageitem2:
+      #embed type processing
+      type: 2
+      title: "Part I"
+      text: "4️⃣ Insert the intended wETH & RBW amounts and click Preview."
+      image: "https://cdn.discordapp.com/attachments/980696706628857856/1013074695479885854/unknown.png"
+    buttonrow:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Next" #Name of the button
+          buttonids: "kstakingandrewards-lpsteps13"  #'page' name/id to redirect to
+          buttontype: "Primary" #button Color type
+          buttondisabled: false #If button is disabled or not
+        button2:
+          buttonclass: 1
+          buttonname: "Back" #Name of the button
+          buttonids: "kstakingandrewards-lpsteps"  #'page' name/id to redirect to
+          buttontype: "Primary" #button Color type
+          buttondisabled: false #If button is disabled or not
+  options:
+    ephemeral: true
+    #Setting update to true will update original button
+    update: true
+
+
+kstakingandrewards-lpsteps13:
+  items:
+    pageitem2:
+      #embed type processing
+      type: 2
+      title: "Part I"
+      text: "5️⃣Once you have reviewed the RBW - wETH amounts, click the Invest button.\n
+            \n
+            6️⃣ Once you have invested the desired RBW & wETH, the amount of 50RBW - 50ETH LP tokens (RBWLP) you received will be visible via trading on Balancer and the Vault website."
+      image: "https://cdn.discordapp.com/attachments/980696706628857856/1013074696184541314/unknown.png"
+    buttonrow:
+      type: 3
+      items:
+        button2:
+          buttonclass: 1
+          buttonname: "Back" #Name of the button
+          buttonids: "kstakingandrewards-lpsteps"  #'page' name/id to redirect to
+          buttontype: "Primary" #button Color type
+          buttondisabled: false #If button is disabled or not
+  options:
+    ephemeral: true
+    #Setting update to true will update original button
+    update: true
+
+
+
+
+kstakingandrewards-lpsteps2:
+  items:
+    pageitem2:
+      #embed type processing
+      type: 2
+      title: "Part II: Staking RBWLP Tokens on Vault"
+      text: "1️⃣ Go to the Vault website:🔗 https://cryptounicorns.vault.inc/#/
+            \n
+            \n2️⃣ Connect your wallet, and make sure the wallet is on Polygon.
+            \n
+            \n
+            3️⃣ Click on the Stake button located next to RBWLP"
+      image: "https://cdn.discordapp.com/attachments/980696706628857856/1013074696683667486/unknown.png"
+    buttonrow:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Next" #Name of the button
+          buttonids: "kstakingandrewards-lpsteps22"  #'page' name/id to redirect to
+          buttontype: "Primary" #button Color type
+          buttondisabled: false #If button is disabled or not
+        button2:
+          buttonclass: 1
+          buttonname: "Back" #Name of the button
+          buttonids: "kstakingandrewards-lpsteps"  #'page' name/id to redirect to
+          buttontype: "Primary" #button Color type
+          buttondisabled: false #If button is disabled or not
+  options:
+    ephemeral: true
+    #Setting update to true will update original button
+    update: true
+
+
+kstakingandrewards-lpsteps22:
+  items:
+    pageitem2:
+      #embed type processing
+      type: 2
+      title: "Part II: Staking RBWLP Tokens on Vault"
+      text: "4️⃣ Choose the intended duration on the slider.
+            \n
+            \n5️⃣ Type in the RBWLP that you intend to stake, or click on the MAX button to stake all your RBWLP.
+            \n
+            \n
+            6️⃣ Click on Approve, and then click on Stake."
+      image: "https://cdn.discordapp.com/attachments/980696706628857856/1013074697191161916/unknown.png"
+    buttonrow:
+      type: 3
+      items:
+        button2:
+          buttonclass: 1
+          buttonname: "Back" #Name of the button
+          buttonids: "kstakingandrewards-lpsteps"  #'page' name/id to redirect to
+          buttontype: "Primary" #button Color type
+          buttondisabled: false #If button is disabled or not
+  options:
+    ephemeral: true
+    #Setting update to true will update original button
+    update: true

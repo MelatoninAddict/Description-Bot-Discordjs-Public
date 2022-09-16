@@ -1,0 +1,42 @@
+knowledgebase:
+  items:
+    embedrow:
+      type: 2
+      title: "Knowledge Base"
+      text: "Have a question about CU? Find them here!"
+    buttonrow:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Game Guides"
+          buttonids: "kgameguide"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button2:
+          buttonclass: 1
+          buttonname: "Staking and rewards"
+          buttonids: "kstakingandrewards"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "New Releases"
+          buttonids: "knewreleases"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Events"
+          buttonids: "kevent-bulletin"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button5:
+          buttonclass: 1
+          buttonname: "Zendesk Guide"
+          buttonids: "kothers"
+          buttontype: "Secondary"
+          buttondisabled: false
+  options:
+    ephemeral: false
+    update: false

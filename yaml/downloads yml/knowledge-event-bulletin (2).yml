@@ -1,0 +1,1250 @@
+kevent-bulletin:
+    items:
+      embed:
+        type: 2
+        title: "🗓 EVENT BULLETIN 🗓"
+        text: " "
+      eb-buttons-1:
+        type: 3
+        items:
+          nav:
+            buttonclass: 1
+            buttonname: "Event Bulletin"
+            buttonids: "discord-nav"
+            buttontype: "Success"
+            buttondisabled: true
+          onchain:
+            buttonclass: 1
+            buttonname: "On-Chain Events and Reward Programs"
+            buttonids: "kevent-bulletin-onchain"
+            buttontype: "Secondary"
+            buttondisabled: false
+          discord:
+            buttonclass: 1
+            buttonname: "Discord Community Events"
+            buttonids: "kevent-bulletin-discord"
+            buttontype: "Secondary"
+            buttondisabled: false
+          twitter:
+            buttonclass: 1
+            buttonname: "Twitter Events"
+            buttonids: "kevent-bulletin-twitter"
+            buttontype: "Secondary"
+            buttondisabled: false
+      buttonrow0:
+        type: 3
+        items:
+          button4:
+            buttonclass: 1
+            buttonname: "Knowledge Base" 
+            buttonids: "kb"  
+            buttontype: "Success" 
+            buttondisabled: true 
+          button1:
+            buttonclass: 1
+            buttonname: "Game Guides" 
+            buttonids: "kgameguide"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+          button2:
+            buttonclass: 1
+            buttonname: "Staking and rewards" 
+            buttonids: "kstakingandrewards"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+          button3:
+            buttonclass: 1
+            buttonname: "New Releases" 
+            buttonids: "knewreleases"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+          button5:
+            buttonclass: 1
+            buttonname: "Zendesk Guide" 
+            buttonids: "kothers"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+    options:
+      update: false
+      ephemeral: true
+
+kevent-bulletin-onchain:
+    items:
+      embed:
+        type: 2
+        title: "🔗 ON-CHAIN EVENTS 🔗"
+        text: " "
+      eb-onchain-buttons-1:
+        type: 3
+        items:
+          nav:
+            buttonclass: 1
+            buttonname: "On-Chain Events"
+            buttonids: "discord-nav"
+            buttontype: "Success"
+            buttondisabled: true
+          comp:
+            buttonclass: 1
+            buttonname: "Completed"
+            buttonids: "kevent-bulletin-onchain-completed-1"
+            buttontype: "Secondary"
+            buttondisabled: false
+          og:
+            buttonclass: 1
+            buttonname: "Ongoing"
+            buttonids: "kevent-bulletin-onchain-ongoing-1"
+            buttontype: "Secondary"
+            buttondisabled: false
+      eb-onchain-buttons-2:
+        type: 3
+        items:
+          nav:
+            buttonclass: 1
+            buttonname: "Navigation"
+            buttonids: "onchain-nav"
+            buttontype: "Success"
+            buttondisabled: true
+          discord:
+            buttonclass: 1
+            buttonname: "Discord Community Events"
+            buttonids: "kevent-bulletin-discord"
+            buttontype: "Secondary"
+            buttondisabled: false
+          twitter:
+            buttonclass: 1
+            buttonname: "Twitter Events"
+            buttonids: "kevent-bulletin-twitter"
+            buttontype: "Secondary"
+            buttondisabled: false
+      buttonrow0:
+        type: 3
+        items:
+          button4:
+            buttonclass: 1
+            buttonname: "Knowledge Base" 
+            buttonids: "kb"  
+            buttontype: "Success" 
+            buttondisabled: true 
+          button1:
+            buttonclass: 1
+            buttonname: "Game Guides" 
+            buttonids: "kgameguide"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+          button2:
+            buttonclass: 1
+            buttonname: "Staking and rewards" 
+            buttonids: "kstakingandrewards"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+          button3:
+            buttonclass: 1
+            buttonname: "New Releases" 
+            buttonids: "knewreleases"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+          button5:
+            buttonclass: 1
+            buttonname: "Zendesk Guide" 
+            buttonids: "kothers"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+    options:
+      update: true
+      ephemeral: true
+
+kevent-bulletin-onchain-completed-1:
+    items:
+      eb-onchain-com-embed:
+        type: 2
+        title: "Completed On-Chain Events and Reward Programs"
+        text: "**UNIM Leaderboard**
+              \nhttps://bit.ly/3y3xYv3
+              \n**➡️ Leaderboard:** https://app.cryptounicorns.fun/leaderboard
+              \n**➡️ Sign Up Period:** Every start of the season.
+              \n*Current season: Season of the Founders*
+              \nMar 02, 2022 to Apr 30, 2022 *[Hammertime: <t:1646150400:D> to <t:1651248000:D>]*
+              \n**➡️ Reward Date:** Every end of season
+              \n**➡️ Reward Details:** https://bit.ly/3MIOm8i
+              \n
+              \n**Founders Reward Program**
+              \nhttps://bit.ly/36H7DY2
+              \n**➡️ Sign Up Period:** Mar 19, 2022 - Apr 1, 2022 *[Hammertime: <t:1647619200:D> to <t:1648742400:D>}*
+              \n**➡️ Reward Date:** Monthly (Starting end of April 2022) until March 31, 2023
+              \n**➡️ Reward Details:**
+              \nhttps://bit.ly/3F2mCZU
+              \nhttps://bit.ly/3tx0ouX
+              \n
+              \n**UNIM Drop for Community Events & March Staking Rewards Drop**
+              \n**Claim at:**
+              \nUNIM: https://claim.cryptounicorns.fun/
+              \nStaking Rewards: https://cryptounicorns.vault.inc/
+              \n**➡️ Reward Date:** Apr 29, 2022 *[Hammertime: <t:1651190400:D>]*
+              \n**➡️ Claiming Period:** Apri 29, 2022 - Jun 1, 2022, 5:00 AM UTC *[Hammertime: <t:1651190400:D> to <t:1654059600>]*
+              \n**➡️ Reward Details:** https://bit.ly/3s0TigU
+              \n
+              \n**Lootbox Rewards**
+              \n**Claim at:** https://claim.cryptounicorns.fun/
+              \n**➡️ Reward Date:** Apr 28, 2022 *[Hammertime: <t:1651075200:D>]*
+              \n**➡️ Claiming Period:** Apri 28, 2022 - May 31, 2022, 6:00 PM UTC *[Hammertime: <t:1651075200:D> to <t:1653933600>]*
+              \n**➡️ Reward Details:** https://bit.ly/3s1GVS3
+              \n
+              \n**Founders Badge**
+              \n**Claim at:** https://claim.cryptounicorns.fun/
+              \n**➡️ Reward Date:** Apr 23, 2022 *[Hammertime: <t:1650643200:D>]*
+              \n**➡️ Claiming Period:** Apri 23, 2022 - TBA UTC *[Hammertime: <t:1650643200:D> to TBA]*
+              \n**➡️ Reward Details:**
+              \nhttps://bit.ly/3s4puQN
+              \nhttps://bit.ly/37VDKnZ
+              \n
+              \n**Distributed Community Event Rewards**
+              \n**➡️ Reward Date:** Mar 25, 2022 *[Hammertime: <t:1648137600:D>]*
+              \n**➡️ Reward Details:** https://bit.ly/3KAmodA"
+      eb-onchain-com-buttons:
+        type: 3
+        items:
+          nav:
+            buttonclass: 1
+            buttonname: "Navigation"
+            buttonids: "onchain-com-nav"
+            buttontype: "Success"
+            buttondisabled: true
+          onchain-back:
+            buttonclass: 1
+            buttonname: "Back"
+            buttonids: "kevent-bulletin-onchain"
+            buttontype: "Secondary"
+            buttondisabled: false
+          onchain-next:
+            buttonclass: 1
+            buttonname: "Next"
+            buttonids: "kevent-bulletin-onchain-completed-2"
+            buttontype: "Secondary"
+            buttondisabled: false
+          og:
+            buttonclass: 1
+            buttonname: "Ongoing"
+            buttonids: "kevent-bulletin-onchain-ongoing-1"
+            buttontype: "Secondary"
+            buttondisabled: false
+      buttonrow0:
+        type: 3
+        items:
+          button4:
+            buttonclass: 1
+            buttonname: "Knowledge Base" 
+            buttonids: "kb"  
+            buttontype: "Success" 
+            buttondisabled: true 
+          button1:
+            buttonclass: 1
+            buttonname: "Game Guides" 
+            buttonids: "kgameguide"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+          button2:
+            buttonclass: 1
+            buttonname: "Staking and rewards" 
+            buttonids: "kstakingandrewards"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+          button3:
+            buttonclass: 1
+            buttonname: "New Releases" 
+            buttonids: "knewreleases"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+          button5:
+            buttonclass: 1
+            buttonname: "Zendesk Guide" 
+            buttonids: "kothers"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+    options:
+      update: true
+      ephemeral: true
+
+kevent-bulletin-onchain-completed-2:
+    items:
+      eb-onchain-com-embed:
+        type: 2
+        title: "Completed On-Chain Events and Reward Programs"
+        text: "**Monthly Staking Leaderboard**
+              \nhttps://bit.ly/3y3xYv3
+              \n**➡️ Leaderboard:** https://cryptounicorns.vault.inc/#/leaderboard
+              \n**➡️ Sign Up Period:** Anytime before the monthly snapshot at the start of every month.
+              \n**➡️ Reward Date:** Monthly
+              \n**➡️ Reward Details:**
+              \nhttps://bit.ly/3y0LW0L
+              \nhttps://bit.ly/3OZukJ1
+
+              \n**Year 1 Leaderboard**
+              \nhttps://bit.ly/3y3xYv3
+              \n**➡️ Leaderboard:** https://cryptounicorns.vault.inc/#/leaderboard
+              \n**➡️ Sign Up Period:** Anytime before the snapshot on 03/01/2023.
+              \n**➡️ Reward Date:** End of Year 1 Leaderboard
+              \n**➡️ Reward Details:**
+              \nhttps://bit.ly/3ky3edD
+              \nhttps://bit.ly/3OZukJ1
+
+              \n**Monthly LP Staking Rewards**
+              \nhttps://bit.ly/3F1FEiS
+              \n**➡️ Leaderboard:** TBA
+              \n**➡️ Sign Up Period:** Anytime before the monthly snapshot
+              \n**➡️ Reward Date:** Monthly
+              \n**➡️ Reward Details:**https://bit.ly/3vX0jAv
+
+              \n**Year-Long LP Leaderboard**
+              \nhttps://bit.ly/3F1FEiS
+              \n**➡️ Leaderboard:** TBA
+              \n**➡️ Sign Up Period:** Anytime before the snapshot
+              \n**➡️ Reward Date:** End of year-long LP Leaderboard
+              \n**➡️ Reward Details:** https://bit.ly/3MLHCH7"
+      eb-onchain-com-buttons:
+        type: 3
+        items:
+          nav:
+            buttonclass: 1
+            buttonname: "Navigation"
+            buttonids: "onchain-com-nav"
+            buttontype: "Success"
+            buttondisabled: true
+          onchain-back:
+            buttonclass: 1
+            buttonname: "Back"
+            buttonids: "kevent-bulletin-onchain-completed-1"
+            buttontype: "Secondary"
+            buttondisabled: false
+          og:
+            buttonclass: 1
+            buttonname: "Ongoing"
+            buttonids: "kevent-bulletin-onchain-ongoing-1"
+            buttontype: "Secondary"
+            buttondisabled: false
+      buttonrow0:
+        type: 3
+        items:
+          button4:
+            buttonclass: 1
+            buttonname: "Knowledge Base" 
+            buttonids: "kb"  
+            buttontype: "Success" 
+            buttondisabled: true 
+          button1:
+            buttonclass: 1
+            buttonname: "Game Guides" 
+            buttonids: "kgameguide"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+          button2:
+            buttonclass: 1
+            buttonname: "Staking and rewards" 
+            buttonids: "kstakingandrewards"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+          button3:
+            buttonclass: 1
+            buttonname: "New Releases" 
+            buttonids: "knewreleases"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+          button5:
+            buttonclass: 1
+            buttonname: "Zendesk Guide" 
+            buttonids: "kothers"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+    options:
+      update: true
+      ephemeral: true
+
+kevent-bulletin-onchain-ongoing-1:
+    items:
+      eb-onchain-og-embed:
+        type: 2
+        title: "Ongoing On-Chain Events and Reward Programs"
+        text: "**Pioneer Land Holder Program**
+              \n**➡️ Sign Up Period:** Lock your lands before May 19, 2022, 00:00 UTC *[Hammertime: <t:1651968000>]*
+              \n
+              \n**➡️ Reward Date:**
+              \n
+              \n*Week 1 - May 15-21*
+              \n- Snapshot Date: May 22th 00:00 UTC *[Hammertime: <t:1653177600>]*
+              \n- Reward Distribution Date: May 26
+              \n- Seeds/Materials Reward Distribution Date: Jun 2
+              \n
+              \n*Week 2 - May 22-28*
+              \n- Snapshot Date: May 29th 00:00 UTC *[Hammertime: <t:1653782400>]*
+              \n- Reward Distribution Date: Jun 2
+              \n- Seeds/Materials Reward Distribution Date: Jun 2
+              \n
+              \n*Week 3 - May 29-Jun 4*
+              \n- Snapshot Date: Jun 5 00:00 UTC *[Hammertime: <t:1654387200>]*
+              \n- Reward Distribution Date: Jun 2
+              \n- Seeds/Materials Reward Distribution Date: Jun 9
+              \n
+              \n*Week 4 - Jun 5-Jun 11*
+              \n- Snapshot Date: Jun 12 00:00 UTC *[Hammertime: <t:1654992000>]*
+              \n- Reward Distribution Date: Jun 16
+              \n- Seeds/Materials Reward Distribution Date: Jun 16
+              \n
+              \n**➡️ Reward Details:** https://bit.ly/3vH8YZ4
+              \n
+              \n**Summer of Love**
+              \n**➡️ Participation Period:** May 2-Jul 31
+              \n
+              \n*Month 1 - Breeding Milestone*
+              \n- Period: May 3-31
+              \n- Reward Date: Jun 2
+              \n
+              \n*Month 2 - Evolution Milestone*
+              \n- Period: Jun 1-30
+              \n- Reward Date: Jul 7
+              \n
+              \n*Month 2 - Hidden Class Milestone*
+              \n- Period: Jul 1-31
+              \n- Reward Date: Aug 4
+              \n
+              \n**➡️ Reward Date:** Aug 4
+              \n**➡️ Reward Details:** https://bit.ly/39mz7ne"
+      eb-onchain-og-buttons:
+        type: 3
+        items:
+          nav:
+            buttonclass: 1
+            buttonname: "Navigation"
+            buttonids: "onchain-com-nav"
+            buttontype: "Success"
+            buttondisabled: true
+          onchain-back:
+            buttonclass: 1
+            buttonname: "Back"
+            buttonids: "kevent-bulletin-onchain"
+            buttontype: "Secondary"
+            buttondisabled: false
+          onchain-next:
+            buttonclass: 1
+            buttonname: "Next"
+            buttonids: "kevent-bulletin-onchain-ongoing-2"
+            buttontype: "Secondary"
+            buttondisabled: false
+          comp:
+            buttonclass: 1
+            buttonname: "Completed"
+            buttonids: "kevent-bulletin-onchain-completed-1"
+            buttontype: "Secondary"
+            buttondisabled: false
+      buttonrow0:
+        type: 3
+        items:
+          button4:
+            buttonclass: 1
+            buttonname: "Knowledge Base" 
+            buttonids: "kb"  
+            buttontype: "Success" 
+            buttondisabled: true 
+          button1:
+            buttonclass: 1
+            buttonname: "Game Guides" 
+            buttonids: "kgameguide"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+          button2:
+            buttonclass: 1
+            buttonname: "Staking and rewards" 
+            buttonids: "kstakingandrewards"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+          button3:
+            buttonclass: 1
+            buttonname: "New Releases" 
+            buttonids: "knewreleases"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+          button5:
+            buttonclass: 1
+            buttonname: "Zendesk Guide" 
+            buttonids: "kothers"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+    options:
+      update: true
+      ephemeral: true
+
+kevent-bulletin-onchain-ongoing-2:
+    items:
+      eb-onchain-og-embed:
+        type: 2
+        title: "Ongoing On-Chain Events and Reward Programs"
+        text: "**Monthly Staking Leaderboard**
+              \nhttps://bit.ly/3y3xYv3
+              \n**➡️ Leaderboard:** https://cryptounicorns.vault.inc/#/leaderboard
+              \n**➡️ Sign Up Period:** Anytime before the monthly snapshot at the start of every month.
+              \n**➡️ Reward Date:** Monthly
+              \n**➡️ Reward Details:**
+              \nhttps://bit.ly/3y0LW0L
+              \nhttps://bit.ly/3OZukJ1
+              \n
+              \n**Year 1 Leaderboard**
+              \nhttps://bit.ly/3y3xYv3
+              \n**➡️ Leaderboard:** https://cryptounicorns.vault.inc/#/leaderboard
+              \n**➡️ Sign Up Period:** Anytime before the snapshot on 03/01/2023.
+              \n**➡️ Reward Date:** End of Year 1 Leaderboard
+              \n**➡️ Reward Details:**
+              \nhttps://bit.ly/3ky3edD
+              \nhttps://bit.ly/3OZukJ1
+              \n
+              \n**Monthly LP Staking Rewards**
+              \nhttps://bit.ly/3F1FEiS
+              \n**➡️ Leaderboard:** TBA
+              \n**➡️ Sign Up Period:** Anytime before the monthly snapshot
+              \n**➡️ Reward Date:** Monthly
+              \n**➡️ Reward Details:**https://bit.ly/3vX0jAv
+              \n
+              \n**Year-Long LP Leaderboard**
+              \nhttps://bit.ly/3F1FEiS
+              \n**➡️ Leaderboard:** TBA
+              \n**➡️ Sign Up Period:** Anytime before the snapshot
+              \n**➡️ Reward Date:** End of year-long LP Leaderboard
+              \n**➡️ Reward Details:** https://bit.ly/3MLHCH7 "
+      eb-onchain-og-buttons:
+        type: 3
+        items:
+          nav:
+            buttonclass: 1
+            buttonname: "Navigation"
+            buttonids: "onchain-com-nav"
+            buttontype: "Success"
+            buttondisabled: true
+          onchain-back:
+            buttonclass: 1
+            buttonname: "Back"
+            buttonids: "kevent-bulletin-onchain-ongoing-1"
+            buttontype: "Secondary"
+            buttondisabled: false
+          comp:
+            buttonclass: 1
+            buttonname: "Completed"
+            buttonids: "kevent-bulletin-onchain-completed-1"
+            buttontype: "Secondary"
+            buttondisabled: false
+      buttonrow0:
+        type: 3
+        items:
+          button4:
+            buttonclass: 1
+            buttonname: "Knowledge Base" 
+            buttonids: "kb"  
+            buttontype: "Success" 
+            buttondisabled: true 
+          button1:
+            buttonclass: 1
+            buttonname: "Game Guides" 
+            buttonids: "kgameguide"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+          button2:
+            buttonclass: 1
+            buttonname: "Staking and rewards" 
+            buttonids: "kstakingandrewards"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+          button3:
+            buttonclass: 1
+            buttonname: "New Releases" 
+            buttonids: "knewreleases"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+          button5:
+            buttonclass: 1
+            buttonname: "Zendesk Guide" 
+            buttonids: "kothers"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+    options:
+      update: true
+      ephemeral: true
+
+kevent-bulletin-discord:
+    items:
+      embed:
+        type: 2
+        title: "🦄 DISCORD COMMUNITY EVENTS 🦄"
+        text: " "
+      eb-discord-buttons-1:
+        type: 3
+        items:
+          nav:
+            buttonclass: 1
+            buttonname: "Discord Community Events"
+            buttonids: "discord-nav"
+            buttontype: "Success"
+            buttondisabled: true
+          comp:
+            buttonclass: 1
+            buttonname: "Completed"
+            buttonids: "kevent-bulletin-discord-completed-1"
+            buttontype: "Secondary"
+            buttondisabled: false
+          og:
+            buttonclass: 1
+            buttonname: "Ongoing"
+            buttonids: "kevent-bulletin-discord-ongoing-1"
+            buttontype: "Secondary"
+            buttondisabled: false
+      eb-discord-buttons-2:
+        type: 3
+        items:
+          nav:
+            buttonclass: 1
+            buttonname: "Navigation"
+            buttonids: "dupe-discord-nav"
+            buttontype: "Success"
+            buttondisabled: true
+          onchain:
+            buttonclass: 1
+            buttonname: "On-Chain Events and Reward Programs"
+            buttonids: "kevent-bulletin-onchain"
+            buttontype: "Secondary"
+            buttondisabled: false
+          twitter:
+            buttonclass: 1
+            buttonname: "Twitter Events"
+            buttonids: "kevent-bulletin-twitter"
+            buttontype: "Secondary"
+            buttondisabled: false
+      buttonrow0:
+        type: 3
+        items:
+          button4:
+            buttonclass: 1
+            buttonname: "Knowledge Base" 
+            buttonids: "kb"  
+            buttontype: "Success" 
+            buttondisabled: true 
+          button1:
+            buttonclass: 1
+            buttonname: "Game Guides" 
+            buttonids: "kgameguide"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+          button2:
+            buttonclass: 1
+            buttonname: "Staking and rewards" 
+            buttonids: "kstakingandrewards"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+          button3:
+            buttonclass: 1
+            buttonname: "New Releases" 
+            buttonids: "knewreleases"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+          button5:
+            buttonclass: 1
+            buttonname: "Zendesk Guide" 
+            buttonids: "kothers"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+    options:
+      update: true
+      ephemeral: true
+
+kevent-bulletin-discord-completed-1:
+    items:
+      eb-discord-com-embed:
+        type: 2
+        title: "Completed Discord Community Events"
+        text: "**Treasure Hunt: Into the Dark Forest**
+              \n**➡️ Sign Up Period:** Weekly
+              \n[<t:1656824400:F> to <t:1659762000:F>]
+              \n**➡️ Reward Date:** Weekly
+              \n**➡️ Reward Details:** https://bit.ly/3JxUDUd
+              \n
+              \n**Stargazers**
+              \n**➡️ Sign Up Period:** Weekly
+              \n**➡️ Reward Date:** Bi-Monthly
+              \n**➡️ Reward Details:** https://bit.ly/3xUSmyg
+              \n
+              \n**Brawl of the Brains**
+              \n**➡️ Sign Up Period:** Everyday at <#965840191707312158>  until Apr 28, 2022 UTC *[Hammertime: <t:1651075200:D>]*
+              \n**➡️ Reward Date:** Daily
+              \n**➡️ Reward Details:** https://bit.ly/3xMyKfU
+              \n
+              \n**Treasure Hunt Revisited**
+              \n**➡️ Sign Up Period:** Apr 19, 2022 UTC *[Hammertime: <t:1650368700:D>]*
+              \n**➡️ Participation Period:** Apr 19 to 26, 2022 UTC *[Hammertime: <t:1650368700:D> - <t:1650973500:D>]*
+              \n**➡️ Reward Date:** Weekly
+              \n**➡️ Reward Details:** https://bit.ly/3L5n7EC
+              \n
+              \n**Hashtag Hustle**
+              \nhttps://bit.ly/3LJ0KoI
+              \n**➡️ Sign Up Period:** Wednesdays to Fridays 4:00 AM UTC, from Apr 06 to 22, 2022 *[Hammertime: <t:1650772800:t>,  from <t:1649217600:D> to <t:1650600000:D>]*
+              \n**➡️ Reward Date:** Fridays 4:00 AM UTC *[Hammertime: <t:1650600000:F>]*
+              \n**➡️ Reward Details:** https://bit.ly/3Kfeirn
+              \n
+              \n**Friendship is Magic**
+              \nhttps://bit.ly/DiscobotNeedsFriends
+              \n**➡️ Sign Up Period:** Apr 9 to 16, 2022, 3:00 PM UTC *[Hammertime: <t:1649516400:f> - <t:1650121200:f>]*
+              \n**➡️ Reward Date:** Apr 17, 2022 3:00 PM UTC *[Hammertime: <t:1650207600:f>]*
+              \n**➡️ Reward Details:** https://bit.ly/3KtMy1K
+              \n
+              \n**Capture the Land**
+              \n**➡️ Sign Up Period:** Wednesdays, from Mar 23, 2022 to Apr 06, 2022, 1:00AM UTC *[Hammertime: <t:1647997200:D> - <t:1649206800:D>, <t:1649206800:t>]*
+              \n**➡️ Participation Period:** Thursdays to Tuesdays, from Mar 24, 2022 to Apr 12, 2022 *[Hammertime: <t:1648083600:D> - <t:1649725200:D>]*
+              \n**➡️ Reward Date:** Weekly
+              \n**➡️ Reward Details:** https://bit.ly/3y4jVpi "
+      eb-discord-com-buttons:
+        type: 3
+        items:
+          nav:
+            buttonclass: 1
+            buttonname: "Navigation"
+            buttonids: "discord-com-nav"
+            buttontype: "Success"
+            buttondisabled: true
+          discord-back:
+            buttonclass: 1
+            buttonname: "Back"
+            buttonids: "kevent-bulletin-discord"
+            buttontype: "Secondary"
+            buttondisabled: false
+          discord-next:
+            buttonclass: 1
+            buttonname: "Next"
+            buttonids: "kevent-bulletin-discord-completed-2"
+            buttontype: "Secondary"
+            buttondisabled: false
+          og:
+            buttonclass: 1
+            buttonname: "Ongoing"
+            buttonids: "kevent-bulletin-discord-ongoing-1"
+            buttontype: "Secondary"
+            buttondisabled: false
+      buttonrow0:
+        type: 3
+        items:
+          button4:
+            buttonclass: 1
+            buttonname: "Knowledge Base" 
+            buttonids: "kb"  
+            buttontype: "Success" 
+            buttondisabled: true 
+          button1:
+            buttonclass: 1
+            buttonname: "Game Guides" 
+            buttonids: "kgameguide"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+          button2:
+            buttonclass: 1
+            buttonname: "Staking and rewards" 
+            buttonids: "kstakingandrewards"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+          button3:
+            buttonclass: 1
+            buttonname: "New Releases" 
+            buttonids: "knewreleases"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+          button5:
+            buttonclass: 1
+            buttonname: "Zendesk Guide" 
+            buttonids: "kothers"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+    options:
+      update: true
+      ephemeral: true
+
+kevent-bulletin-discord-completed-2:
+    items:
+      eb-discord-com-embed:
+        type: 2
+        title: "Completed Discord Community Events"
+        text: "**RBW Launch Celebration Raffle**
+              \n**➡️ Participation Period:** Mar 4, 2022 6:00 PM UTC - Mar 7, 2022, 05:00 AM UTC  *[Hammertime: <t:1646416800> - <t:1646629200>]*
+              \n**➡️ Reward Date:** Mar 7, 2022, 10:00 AM UTC *[Hammertime: <t:1646647200>]*
+              \n**➡️ Reward Details:** https://bit.ly/3y0NrMr
+              \n
+              \n**Treasure Hunt**
+              \nEveryday at <#941209302230777866>  and <#941209781631332412>
+              \n**➡️ Sign Up Period:** Fridays, from Feb 02, 2022 to Mar 11, 2022 UTC *[Hammertime: <t:1644508800:D> - <t:1646928000:D>]*
+              \n**➡️ Participation Period:** Everyday from Feb 02, 2022 to Mar 18, 2022 UTC *[Hammertime: <t:1644508800:D> - <t:1647532800:D>]*
+              \n**➡️ Reward Date:** Weekly
+              \n**➡️ Reward Details:** https://bit.ly/3s3igMG
+              \n
+              \n**UniCupid Heart Egg Raffle**
+              \n**➡️ Sign Up Period:** Feb 03, 2022 3:00 AM UTC *[Hammertime: <t:1643857200>]*
+              \n**➡️ Reward Date:** Feb 05, 2022 UTC *[Hammertime: <t:1644030000:D>]*
+              \n**➡️ Reward Details:** https://bit.ly/3KA7x2O
+              \n
+              \n**Marvelous Egg Hunt Raffle**
+              \n**➡️ Adventure Period:** Jan 19, 2022, 12:00 PM - 9:00 PM UTC *[Hammertime: <t:1642593600:D>, <t:1642593600:t> - <t:1642626000:t>]*
+              \n**➡️ Raffle Sign-up Period:** Jan 19, 2022, 9:00 PM UTC - Jan 21, 2022 2:00 AM UTC *[Hammertime: <t:1642626000> - <t:1642730400>]*
+              \n**➡️ Reward Date:** Jan 21, 2022 05:00 AM UTC *[Hammertime: <t:1642741200>]*
+              \n**➡️ Reward Details:** https://bit.ly/3Kv5htI"
+      eb-discord-com-buttons:
+        type: 3
+        items:
+          nav:
+            buttonclass: 1
+            buttonname: "Navigation"
+            buttonids: "discord-com-nav"
+            buttontype: "Success"
+            buttondisabled: true
+          discord-back:
+            buttonclass: 1
+            buttonname: "Back"
+            buttonids: "kevent-bulletin-discord-completed-1"
+            buttontype: "Secondary"
+            buttondisabled: false
+          og:
+            buttonclass: 1
+            buttonname: "Ongoing"
+            buttonids: "kevent-bulletin-discord-ongoing-1"
+            buttontype: "Secondary"
+            buttondisabled: false
+      buttonrow0:
+        type: 3
+        items:
+          button4:
+            buttonclass: 1
+            buttonname: "Knowledge Base" 
+            buttonids: "kb"  
+            buttontype: "Success" 
+            buttondisabled: true 
+          button1:
+            buttonclass: 1
+            buttonname: "Game Guides" 
+            buttonids: "kgameguide"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+          button2:
+            buttonclass: 1
+            buttonname: "Staking and rewards" 
+            buttonids: "kstakingandrewards"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+          button3:
+            buttonclass: 1
+            buttonname: "New Releases" 
+            buttonids: "knewreleases"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+          button5:
+            buttonclass: 1
+            buttonname: "Zendesk Guide" 
+            buttonids: "kothers"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+    options:
+      update: true
+      ephemeral: true
+
+kevent-bulletin-discord-ongoing-1:
+    items:
+      eb-discord-og-embed:
+        type: 2
+        title: "Ongoing Discord Community Events"
+        text: "**Live Events**
+              \n**➡️ Event Period:** Random (Usually during maintenance)
+              \n**➡️ Reward Date:** Per Event
+              \n**➡️ Reward Details:** https://bit.ly/3xb4jhB"
+      eb-discord-og-buttons:
+        type: 3
+        items:
+          nav:
+            buttonclass: 1
+            buttonname: "Navigation"
+            buttonids: "discord-og-nav"
+            buttontype: "Success"
+            buttondisabled: true
+          discord-back:
+            buttonclass: 1
+            buttonname: "Back"
+            buttonids: "kevent-bulletin-discord-completed-1"
+            buttontype: "Secondary"
+            buttondisabled: false
+          comp:
+            buttonclass: 1
+            buttonname: "Completed"
+            buttonids: "kevent-bulletin-discord-completed-1"
+            buttontype: "Secondary"
+            buttondisabled: false
+      buttonrow0:
+        type: 3
+        items:
+          button4:
+            buttonclass: 1
+            buttonname: "Knowledge Base" 
+            buttonids: "kb"  
+            buttontype: "Success" 
+            buttondisabled: true 
+          button1:
+            buttonclass: 1
+            buttonname: "Game Guides" 
+            buttonids: "kgameguide"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+          button2:
+            buttonclass: 1
+            buttonname: "Staking and rewards" 
+            buttonids: "kstakingandrewards"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+          button3:
+            buttonclass: 1
+            buttonname: "New Releases" 
+            buttonids: "knewreleases"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+          button5:
+            buttonclass: 1
+            buttonname: "Zendesk Guide" 
+            buttonids: "kothers"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+    options:
+      update: true
+      ephemeral: true
+
+kevent-bulletin-twitter:
+    items:
+      embed:
+        type: 2
+        title: "🐦 TWITTER EVENTS 🐦"
+        text: " "
+      eb-twitter-buttons-1:
+        type: 3
+        items:
+          nav:
+            buttonclass: 1
+            buttonname: "Twitter Events"
+            buttonids: "discord-nav"
+            buttontype: "Success"
+            buttondisabled: true
+          comp:
+            buttonclass: 1
+            buttonname: "Completed"
+            buttonids: "kevent-bulletin-twitter-completed-1"
+            buttontype: "Secondary"
+            buttondisabled: false
+          og:
+            buttonclass: 1
+            buttonname: "Ongoing"
+            buttonids: "kevent-bulletin-twitter-ongoing-1"
+            buttontype: "Secondary"
+            buttondisabled: false
+      eb-twitter-buttons-2:
+        type: 3
+        items:
+          nav:
+            buttonclass: 1
+            buttonname: "Navigation"
+            buttonids: "twitter-nav"
+            buttontype: "Success"
+            buttondisabled: true
+          onchain:
+            buttonclass: 1
+            buttonname: "On-Chain Events and Reward Programs"
+            buttonids: "kevent-bulletin-onchain"
+            buttontype: "Secondary"
+            buttondisabled: false
+          twitter:
+            buttonclass: 1
+            buttonname: "Discord Community Events"
+            buttonids: "kevent-bulletin-discord"
+            buttontype: "Secondary"
+            buttondisabled: false
+      buttonrow0:
+        type: 3
+        items:
+          button4:
+            buttonclass: 1
+            buttonname: "Knowledge Base" 
+            buttonids: "kb"  
+            buttontype: "Success" 
+            buttondisabled: true 
+          button1:
+            buttonclass: 1
+            buttonname: "Game Guides" 
+            buttonids: "kgameguide"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+          button2:
+            buttonclass: 1
+            buttonname: "Staking and rewards" 
+            buttonids: "kstakingandrewards"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+          button3:
+            buttonclass: 1
+            buttonname: "New Releases" 
+            buttonids: "knewreleases"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+          button5:
+            buttonclass: 1
+            buttonname: "Zendesk Guide" 
+            buttonids: "kothers"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+    options:
+      update: true
+      ephemeral: true
+
+kevent-bulletin-twitter-completed-1:
+    items:
+      eb-twitter-com-embed:
+        type: 2
+        title: "**The Great Corn Showdown Twitter Event**
+              \n**➡️ Participation Period:**
+              \nWeek 1: <t:1657526400:f> - <t:1657872000:f>
+              \nWeek 2: <t:1658131200:f> - <t:1658476800:f>
+              \nWeek 3: <t:1658736000:f> - <t:1659081600:f>
+              \nWeek 4: <t:1659340800:f> - <t:1659686400:f>
+              \nWeek 5: <t:1659945600:f> - <t:1660291200:f>
+              \n**➡️ Reward Date:** Weekly
+              \n**➡️ Reward Details:** https://bit.ly/3ICRnpT
+              \n
+              \nOperation: Shadow Dawnbreaker**
+              \n**➡️ Event Period:** <t:1656475200:F> to <t:1656824400:F>
+              \n**➡️ Raffle Date:** <t:1656824400:F>
+              \n**➡️ Reward Details:** https://bit.ly/3nznkpo
+              \n
+              \n**Defense Against the Dark Forest**
+              \n**➡️ Event Period:** <t:1655341200:f> - <t:1655773140:f>
+              \n**➡️ Raffle Date:** <t:1655794800:f>
+              \n**➡️ Reward Details:** https://bit.ly/3QTwKtD*
+              \n
+              \n**Grand Launch Event**
+              \nhttps://bit.ly/3I26ZTA
+              \n**➡️ Sign Up Period:** May 3, 2022 - May 9, 2022 *[Hammertime: <t:1651564800:f> - <t:1652036400:f>]*
+              \n**➡️ Reward Date:** One-time
+              \n**➡️ Reward Details:** https://bit.ly/3yvBFcS
+              \n
+              \n**It's the Final Countdown Raffle**
+              \nhttps://bit.ly/3vptf5p
+              \n**➡️ Sign Up Period:** April 23, 2022 - April 26, 2022 *[Hammertime: <t:1650643200:D> - <t:1650902400:D>]*
+              \n**➡️ Reward Date:** One-time
+              \n**➡️ Reward Details:** https://bit.ly/3rV2fZq
+              \n
+              \n**Eastercorn Egg Painting Raffle Event**
+              \nhttps://bit.ly/3rrVI8f
+              \n**➡️ Sign Up Period:** April 17, 2022, 7:00 AM - April 21, 2022, 6:59 AM UTC *[Hammertime: <t:1650178800> - <t:1650524340>]*
+              \n**➡️ UNIM Raffle Date:** April 21, 2022, 7:00 AM UTC *[Hammertime: <t:1650524400>]*
+              \n**➡️ Best Entry Poll Date:** April 22, 2022, 7:00 AM - April 23, 2022 6:59AM UTC *[Hammertime: <t:1650610800> - <t:1650697140>]*
+              \n**➡️ Best Entry Announcement:** April 23, 2022 UTC
+              \n**➡️ Reward Details:** https://bit.ly/3vvonKP
+              \n
+              \n**International Unicorn Day UNIM Raffle**
+              \n**➡️ Event Duration:** Apr 9, 2022, 7:00 AM to Apr 10, 2022, 6:59 AM UTC **24 HOURS ONLY**
+              \n*[Hammertime: <t:1649487600> - <t:1649573940>]*
+              \n**➡️ Reward Date:** One-time
+              \n**➡️ Reward Details:** 20,000k UNIM for each of the 10 raffle winners!"
+      eb-twitter-com-buttons:
+        type: 3
+        items:
+          nav:
+            buttonclass: 1
+            buttonname: "Navigation"
+            buttonids: "twitter-com-nav"
+            buttontype: "Success"
+            buttondisabled: true
+          twitter-back:
+            buttonclass: 1
+            buttonname: "Back"
+            buttonids: "kevent-bulletin-twitter"
+            buttontype: "Secondary"
+            buttondisabled: false
+          twitter-next:
+            buttonclass: 1
+            buttonname: "Next"
+            buttonids: "kevent-bulletin-twitter-completed-2"
+            buttontype: "Secondary"
+            buttondisabled: false
+          og:
+            buttonclass: 1
+            buttonname: "Ongoing"
+            buttonids: "kevent-bulletin-twitter-ongoing-1"
+            buttontype: "Secondary"
+            buttondisabled: false
+      buttonrow0:
+        type: 3
+        items:
+          button4:
+            buttonclass: 1
+            buttonname: "Knowledge Base" 
+            buttonids: "kb"  
+            buttontype: "Success" 
+            buttondisabled: true 
+          button1:
+            buttonclass: 1
+            buttonname: "Game Guides" 
+            buttonids: "kgameguide"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+          button2:
+            buttonclass: 1
+            buttonname: "Staking and rewards" 
+            buttonids: "kstakingandrewards"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+          button3:
+            buttonclass: 1
+            buttonname: "New Releases" 
+            buttonids: "knewreleases"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+          button5:
+            buttonclass: 1
+            buttonname: "Zendesk Guide" 
+            buttonids: "kothers"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+    options:
+      update: true
+      ephemeral: true
+
+kevent-bulletin-twitter-completed-2:
+    items:
+      eb-twitter-com-embed:
+        type: 2
+        title: "Completed Twitter Events"
+        text: "**Content Creator Golden Ticket Event**
+              \nhttps://bit.ly/CUGoldenTicket
+              \n**➡️ Sign Up Period:** March 18, 2022, 11:59 PM - March 27, 2022, 11:59 PM UTC *[Hammertime: <t:1647647940> - <t:1648425540>]*
+              \n**➡️ Reward Date:** One-time
+              \n**➡️ Reward Details:** https://bit.ly/355eFpc
+              \n
+              \n**Ultimate Shadowcorn on Twitter**
+              \nhttps://bit.ly/36oxvIz
+              \n**➡️ Sign Up Period:** March 17, 2022, 9:00 AM - March 21, 2022 9:00 AM UTC *[Hammertime: <t:1647507600> - <t:1647853200>]*
+              \n**➡️ Reward Date:** N/A
+              \n**➡️ Reward Details:** https://bit.ly/3qva72"
+      eb-twitter-com-buttons:
+        type: 3
+        items:
+          nav:
+            buttonclass: 1
+            buttonname: "Navigation"
+            buttonids: "twitter-com-nav"
+            buttontype: "Success"
+            buttondisabled: true
+          twitter-back:
+            buttonclass: 1
+            buttonname: "Back"
+            buttonids: "kevent-bulletin-twitter-completed-1"
+            buttontype: "Secondary"
+            buttondisabled: false
+          og:
+            buttonclass: 1
+            buttonname: "Ongoing"
+            buttonids: "kevent-bulletin-twitter-ongoing-1"
+            buttontype: "Secondary"
+            buttondisabled: false
+      buttonrow0:
+        type: 3
+        items:
+          button4:
+            buttonclass: 1
+            buttonname: "Knowledge Base" 
+            buttonids: "kb"  
+            buttontype: "Success" 
+            buttondisabled: true 
+          button1:
+            buttonclass: 1
+            buttonname: "Game Guides" 
+            buttonids: "kgameguide"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+          button2:
+            buttonclass: 1
+            buttonname: "Staking and rewards" 
+            buttonids: "kstakingandrewards"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+          button3:
+            buttonclass: 1
+            buttonname: "New Releases" 
+            buttonids: "knewreleases"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+          button5:
+            buttonclass: 1
+            buttonname: "Zendesk Guide" 
+            buttonids: "kothers"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+    options:
+      update: true
+      ephemeral: true
+
+kevent-bulletin-twitter-ongoing-1:
+    items:
+      eb-twitter-og-embed:
+        type: 2
+        items:
+          kevent-bulletin-discord-og-1:
+            type: 2
+            title: "Ongoing Twitter Events"
+            text: "There are currently no ongoing events on Twitter. Keep posted on any CU events by checking <#898703393042874368>"
+      eb-twitter-og-buttons:
+        type: 3
+        items:
+          nav:
+            buttonclass: 1
+            buttonname: "Navigation"
+            buttonids: "twitter-com-nav"
+            buttontype: "Success"
+            buttondisabled: true
+          twitter-back:
+            buttonclass: 1
+            buttonname: "Back"
+            buttonids: "kevent-bulletin-twitter"
+            buttontype: "Secondary"
+            buttondisabled: false
+          comp:
+            buttonclass: 1
+            buttonname: "Completed"
+            buttonids: "kevent-bulletin-twitter-completed-1"
+            buttontype: "Secondary"
+            buttondisabled: false
+      buttonrow0:
+        type: 3
+        items:
+          button4:
+            buttonclass: 1
+            buttonname: "Knowledge Base" 
+            buttonids: "kb"  
+            buttontype: "Success" 
+            buttondisabled: true 
+          button1:
+            buttonclass: 1
+            buttonname: "Game Guides" 
+            buttonids: "kgameguide"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+          button2:
+            buttonclass: 1
+            buttonname: "Staking and rewards" 
+            buttonids: "kstakingandrewards"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+          button3:
+            buttonclass: 1
+            buttonname: "New Releases" 
+            buttonids: "knewreleases"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+          button5:
+            buttonclass: 1
+            buttonname: "Zendesk Guide" 
+            buttonids: "kothers"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+    options:
+      update: true
+      ephemeral: true

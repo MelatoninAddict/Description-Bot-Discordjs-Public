@@ -1,0 +1,1807 @@
+kstakingandrewards-rbw:
+  items:
+    embed:
+      type: 2
+      title: "RBW Staking"
+      text: "**RBW Staking Guide** -  Steps on how to stake RBW.
+            \n**Rewards and Benefits** - The goodies you get when you stake RBW.
+            \n**Eligibility** - What you need to stake RBW.
+            \n**Useful Links** - Some readings that can help you with RBW staking"
+    buttonrow1:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "RBW Staking"
+          buttonids: "button1"
+          buttontype: "Success"
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "RBW Staking Guide"
+          buttonids: "kstakingandrewards-rbwsteps"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "Rewards and Benefits"
+          buttonids: "kstakingandrewards-rbwrab"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Eligibility"
+          buttonids: "kstakingandrewards-rbweligibility"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button5:
+          buttonclass: 1
+          buttonname: "Useful Links"
+          buttonids: "kstakingandrewards-rbwuseful"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow2:
+      type: 3
+      items:
+        button2:
+          buttonclass: 1
+          buttonname: "Back"
+          buttonids: "kstakingandrewards"
+          buttontype: "Primary"
+          buttondisabled: false
+        button1:
+          buttonclass: 1
+          buttonname: "Staking and Rewards"
+          buttonids: "button1"
+          buttontype: "Success"
+          buttondisabled: true
+        button3:
+          buttonclass: 1
+          buttonname: "LP Staking"
+          buttonids: "kstakingandrewards-lp"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Claim Rewards"
+          buttonids: "kstakingandrewards-claim"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow4:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Knowledge Base"
+          buttonids: "knowledge"
+          buttontype: "Success"
+          buttondisabled: false
+        button2:
+          buttonclass: 1
+          buttonname: "Game Guides"
+          buttonids: "kgameguide"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "New Releases"
+          buttonids: "knewreleases"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Events"
+          buttonids: "kevent-bulletin"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button5:
+          buttonclass: 1
+          buttonname: "Zendesk Guide"
+          buttonids: "kothers"
+          buttontype: "Secondary"
+          buttondisabled: false
+  options:
+    ephemeral: true
+    update: true
+
+kstakingandrewards-rbwsteps:
+  items:
+    embed:
+      type: 2
+      title: "RBW Staking"
+      text: "1️⃣ Navigate to our Dashboard URL: https://cryptounicorns.vault.inc/
+            \n2️⃣ Connect your Polygon Wallet (Vault supports Metamask and WalletConnect)"
+      image: "https://cdn.discordapp.com/attachments/956313907880927323/1017122810474287205/unknown.png"
+    buttonrow0:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "RBW Staking Guide"
+          buttonids: "button1"
+          buttontype: "Success"
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "Back"
+          buttonids: "kstakingandrewards-rbw"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "Next"
+          buttonids: "kstakingandrewards-rbwsteps1"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow1:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "RBW Staking"
+          buttonids: "button1"
+          buttontype: "Success"
+          buttondisabled: true
+        button3:
+          buttonclass: 1
+          buttonname: "Rewards and Benefits"
+          buttonids: "kstakingandrewards-rbwrab"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Eligibility"
+          buttonids: "kstakingandrewards-rbweligibility"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button5:
+          buttonclass: 1
+          buttonname: "Useful Links"
+          buttonids: "kstakingandrewards-rbwuseful"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow2:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Staking and Rewards"
+          buttonids: "button1"
+          buttontype: "Success"
+          buttondisabled: true
+        button3:
+          buttonclass: 1
+          buttonname: "LP Staking"
+          buttonids: "kstakingandrewards-lp"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Claim Rewards"
+          buttonids: "kstakingandrewards-claim"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow3:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Knowledge Base"
+          buttonids: "knowledge"
+          buttontype: "Success"
+          buttondisabled: false
+        button2:
+          buttonclass: 1
+          buttonname: "Game Guides"
+          buttonids: "kgameguide"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "New Releases"
+          buttonids: "knewreleases"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Events"
+          buttonids: "kevent-bulletin"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button5:
+          buttonclass: 1
+          buttonname: "Zendesk Guide"
+          buttonids: "kothers"
+          buttontype: "Secondary"
+          buttondisabled: false
+  options:
+    ephemeral: true
+    update: true
+
+kstakingandrewards-rbwsteps1:
+  items:
+    pageitem2:
+      type: 2
+      title: "RBW Staking Guide"
+      text: ":three: Tap on Stake under the RBW Core Pool."
+      image: "https://cdn.discordapp.com/attachments/956313907880927323/1017122810713350264/unknown.png"
+    buttonrow:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "RBW Staking Guide"
+          buttonids: "button1"
+          buttontype: "Success"
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "Back"
+          buttonids: "kstakingandrewards-rbwsteps"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "Next"
+          buttonids: "kstakingandrewards-rbwsteps2"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow1:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "RBW Staking"
+          buttonids: "button1"
+          buttontype: "Success"
+          buttondisabled: true
+        button3:
+          buttonclass: 1
+          buttonname: "Rewards and Benefits"
+          buttonids: "kstakingandrewards-rbwrab"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Eligibility"
+          buttonids: "kstakingandrewards-rbweligibility"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button5:
+          buttonclass: 1
+          buttonname: "Useful Links"
+          buttonids: "kstakingandrewards-rbwuseful"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow2:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Staking and Rewards"
+          buttonids: "button1"
+          buttontype: "Success"
+          buttondisabled: true
+        button3:
+          buttonclass: 1
+          buttonname: "LP Staking"
+          buttonids: "kstakingandrewards-lp"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Claim Rewards"
+          buttonids: "kstakingandrewards-claim"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow3:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Knowledge Base"
+          buttonids: "knowledge"
+          buttontype: "Success"
+          buttondisabled: false
+        button2:
+          buttonclass: 1
+          buttonname: "Game Guides"
+          buttonids: "kgameguide"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "New Releases"
+          buttonids: "knewreleases"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Events"
+          buttonids: "kevent-bulletin"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button5:
+          buttonclass: 1
+          buttonname: "Zendesk Guide"
+          buttonids: "kothers"
+          buttontype: "Secondary"
+          buttondisabled: false
+  options:
+    ephemeral: true
+    update: true
+
+kstakingandrewards-rbwsteps2:
+  items:
+    pageitem2:
+      type: 2
+      title: "RBW Staking Guide"
+      text: "4️⃣ Select your preferred time preference (ie., 1-12 months)
+            \n5️⃣ Confirm your transaction"
+      image: "https://cdn.discordapp.com/attachments/956313907880927323/1017122811296366713/unknown.png"
+    buttonrow:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "RBW Staking Guide"
+          buttonids: "button1"
+          buttontype: "Success"
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "Back"
+          buttonids: "kstakingandrewards-rbwsteps1"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow1:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "RBW Staking"
+          buttonids: "button1"
+          buttontype: "Success"
+          buttondisabled: true
+        button3:
+          buttonclass: 1
+          buttonname: "Rewards and Benefits"
+          buttonids: "kstakingandrewards-rbwrab"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Eligibility"
+          buttonids: "kstakingandrewards-rbweligibility"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button5:
+          buttonclass: 1
+          buttonname: "Useful Links"
+          buttonids: "kstakingandrewards-rbwuseful"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow2:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Staking and Rewards"
+          buttonids: "button1"
+          buttontype: "Success"
+          buttondisabled: true
+        button3:
+          buttonclass: 1
+          buttonname: "LP Staking"
+          buttonids: "kstakingandrewards-lp"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Claim Rewards"
+          buttonids: "kstakingandrewards-claim"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow3:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Knowledge Base"
+          buttonids: "knowledge"
+          buttontype: "Success"
+          buttondisabled: false
+        button2:
+          buttonclass: 1
+          buttonname: "Game Guides"
+          buttonids: "kgameguide"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "New Releases"
+          buttonids: "knewreleases"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Events"
+          buttonids: "kevent-bulletin"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button5:
+          buttonclass: 1
+          buttonname: "Zendesk Guide"
+          buttonids: "kothers"
+          buttontype: "Secondary"
+          buttondisabled: false
+  options:
+    ephemeral: true
+    update: true
+
+kstakingandrewards-rbwrab:
+  items:
+    pageitem2:
+      type: 2
+      title: "Why should I stake?"
+      text: "Staking lets you enjoy the following:
+            \n
+            \n▶️ Voting Rights
+            \n▶️ Staking Rewards
+            \n▶️ Founder Rewards Program
+            \n▶️ Leaderboard Rewards
+            \n
+            \nIn general, the longer you stake your RBW, the more sRBW you receive and the more you get to enjoy these perks."
+    buttonrow:
+      type: 3
+      items:
+        button0:
+          buttonclass: 1
+          buttonname: "Reasons to Stake"
+          buttonids: "button1"
+          buttontype: "Success"
+          buttondisabled: true
+        button1:
+          buttonclass: 1
+          buttonname: "Voting Rights"
+          buttonids: "kstakingandrewards-rbwrab-voting"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button2:
+          buttonclass: 1
+          buttonname: "Staking Rewards"
+          buttonids: "kstakingandrewards-rbwrab-staking"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "Founder Rewards Program"
+          buttonids: "kstakingandrewards-rbwrab-founder"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Leaderboard Rewards"
+          buttonids: "kstakingandrewards-rbwrab-leaderboard"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow1:
+      type: 3
+      items:
+        button0:
+          buttonclass: 1
+          buttonname: "Back"
+          buttonids: "kstakingandrewards"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button1:
+          buttonclass: 1
+          buttonname: "RBW Staking"
+          buttonids: "button1"
+          buttontype: "Success"
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "RBW Staking Guide"
+          buttonids: "kstakingandrewards-rbwsteps"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Eligibility"
+          buttonids: "kstakingandrewards-rbweligibility"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button5:
+          buttonclass: 1
+          buttonname: "Useful Links"
+          buttonids: "kstakingandrewards-rbwuseful"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow2:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Staking and Rewards"
+          buttonids: "button1"
+          buttontype: "Success"
+          buttondisabled: true
+        button3:
+          buttonclass: 1
+          buttonname: "LP Staking"
+          buttonids: "kstakingandrewards-lp"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Claim Rewards"
+          buttonids: "kstakingandrewards-claim"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow3:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Knowledge Base"
+          buttonids: "knowledge"
+          buttontype: "Success"
+          buttondisabled: false
+        button2:
+          buttonclass: 1
+          buttonname: "Game Guides"
+          buttonids: "kgameguide"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "New Releases"
+          buttonids: "knewreleases"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Events"
+          buttonids: "kevent-bulletin"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button5:
+          buttonclass: 1
+          buttonname: "Zendesk Guide"
+          buttonids: "kothers"
+          buttontype: "Secondary"
+          buttondisabled: false
+  options:
+    ephemeral: true
+    update: true
+
+kstakingandrewards-rbwrab-voting:
+  items:
+    pageitem2:
+      type: 2
+      title: "Voting Rights"
+      text: "Our staking mechanism is designed to reward long-term participation in governance as Crypto Unicorns gradually transitions into a DAO. When you stake RBW, you will get sRBW. 1 sRBW = 1 vote. sRBW is calculated during staking in accordance with the following table:"
+      image: "https://cdn.discordapp.com/attachments/956313907880927323/1017122811573178368/unknown.png"
+    buttonrow:
+      type: 3
+      items:
+        button0:
+          buttonclass: 1
+          buttonname: "Reasons to Stake"
+          buttonids: "button1"
+          buttontype: "Success"
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "Staking Rewards"
+          buttonids: "kstakingandrewards-rbwrab-staking"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "Founder Rewards Program"
+          buttonids: "kstakingandrewards-rbwrab-founder"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Leaderboard Rewards"
+          buttonids: "kstakingandrewards-rbwrab-leaderboard"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button5:
+          buttonclass: 1
+          buttonname: "Back"
+          buttonids: "kstakingandrewards-rbwrab"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow1:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "RBW Staking"
+          buttonids: "button1"
+          buttontype: "Success"
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "RBW Staking Guide"
+          buttonids: "kstakingandrewards-rbwsteps"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Eligibility"
+          buttonids: "kstakingandrewards-rbweligibility"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button5:
+          buttonclass: 1
+          buttonname: "Useful Links"
+          buttonids: "kstakingandrewards-rbwuseful"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow2:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Staking and Rewards"
+          buttonids: "button1"
+          buttontype: "Success"
+          buttondisabled: true
+        button3:
+          buttonclass: 1
+          buttonname: "LP Staking"
+          buttonids: "kstakingandrewards-lp"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Claim Rewards"
+          buttonids: "kstakingandrewards-claim"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow3:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Knowledge Base"
+          buttonids: "knowledge"
+          buttontype: "Success"
+          buttondisabled: false
+        button2:
+          buttonclass: 1
+          buttonname: "Game Guides"
+          buttonids: "kgameguide"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "New Releases"
+          buttonids: "knewreleases"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Events"
+          buttonids: "kevent-bulletin"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button5:
+          buttonclass: 1
+          buttonname: "Zendesk Guide"
+          buttonids: "kothers"
+          buttontype: "Secondary"
+          buttondisabled: false
+  options:
+    ephemeral: true
+    update: true
+
+kstakingandrewards-rbwrab-staking:
+  items:
+    pageitem2:
+      type: 2
+      title: "Staking Rewards"
+      text: "Staking rewards (in RBW) are distributed to sRBW holders daily. The longer you stake your RBW, the bigger your daily staking rewards will be.
+            \n
+            \n📈 **General Formula** 📈
+            \n> sRBW = RBW x multiplier based on timelock
+            \n> Daily Reward % = sRBW/(total sRBW staked)
+            \n
+            \n🧮 **Sample Calculations** 🧮
+            \n
+            \nA. Staking 100 RBW for 1 month; Assume only 1000 total sRBW (including yours
+            \n> Get sRBW equivalent: 100 x 1.25 (1-month multiplier) = 125 sRBW
+            \n> Get Daily Reward %: (125/1000) * 100 = 12.5
+            \n
+            \nB. Staking 100 RBW for 1 year; Assume only 1000 total sRBW including yours
+            \n> Get sRBW equivalent: 100 x 4 (1 year multiplier) = 400
+            \n> Get Daily Reward %: (400/1000) * 100 = 40
+            \n
+            \n**Daily rewards can be claimed every day, but have a vesting period of 7 days after claiming.**
+            \nThis means any staking rewards will not be received immediately upon claiming, but after 7 days. This vesting period protects the value of RBW from being manipulated by bad actors. RBW rewards can be used in-game, traded, or staked again."
+    buttonrow:
+      type: 3
+      items:
+        button0:
+          buttonclass: 1
+          buttonname: "Reasons to Stake"
+          buttonids: "button1"
+          buttontype: "Success"
+          buttondisabled: true
+        button1:
+          buttonclass: 1
+          buttonname: "Voting Rights"
+          buttonids: "kstakingandrewards-rbwrab-voting"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "Founder Rewards Program"
+          buttonids: "kstakingandrewards-rbwrab-founder"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Leaderboard Rewards"
+          buttonids: "kstakingandrewards-rbwrab-leaderboard"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button5:
+          buttonclass: 1
+          buttonname: "Back"
+          buttonids: "kstakingandrewards-rbwrab"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow1:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "RBW Staking"
+          buttonids: "button1"
+          buttontype: "Success"
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "RBW Staking Guide"
+          buttonids: "kstakingandrewards-rbwsteps"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Eligibility"
+          buttonids: "kstakingandrewards-rbweligibility"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button5:
+          buttonclass: 1
+          buttonname: "Useful Links"
+          buttonids: "kstakingandrewards-rbwuseful"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow2:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Staking and Rewards"
+          buttonids: "button1"
+          buttontype: "Success"
+          buttondisabled: true
+        button3:
+          buttonclass: 1
+          buttonname: "LP Staking"
+          buttonids: "kstakingandrewards-lp"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Claim Rewards"
+          buttonids: "kstakingandrewards-claim"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow3:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Knowledge Base"
+          buttonids: "knowledge"
+          buttontype: "Success"
+          buttondisabled: false
+        button2:
+          buttonclass: 1
+          buttonname: "Game Guides"
+          buttonids: "kgameguide"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "New Releases"
+          buttonids: "knewreleases"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Events"
+          buttonids: "kevent-bulletin"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button5:
+          buttonclass: 1
+          buttonname: "Zendesk Guide"
+          buttonids: "kothers"
+          buttontype: "Secondary"
+          buttondisabled: false
+  options:
+    ephemeral: true
+    update: true
+
+kstakingandrewards-rbwrab-founder:
+  items:
+    pageitem2:
+      type: 2
+      title: "Founder Rewards/VIP Program"
+      text: "✏️ **Eligibility** ✏️
+            \n✅ Must have staked 500 RBW for 12 months
+            \n✅ Must have signed the Kryptosign in <#934504134277742632>
+            \n✅ Must be a verified member of Discord (Baby Unicorns role)
+            \n✅ Must have done all this before March 31, 2022
+            \n✅ Players who successfully enroll will receive rewards monthly + an end-of-year bonus pack.
+            \n✅ Rewards will be given out at the end of each month.
+            \n
+            \n👑 **Rewards** 👑
+            \n✅ 4 Monthly Lootboxes: 1 Common Lootbox, 1 Rare Lootbox, 1 Mythic Lootbox, 1 TBD Lootbox (Type rotates each month)
+            \n✅ End of Year Bonus: 1 Common Keystone, 5 Golden Tickets, 1 Tier 6 Breeding Booster, 1 Tier 6 Evolution Booster
+            \n✅ Miscellaneous: Badge, Shadowcorn Act II Bonus 👀
+            \n
+            \n❗ **Please take note** ❗
+            \n✅ Once the Loyalty/Rewards Program Kryptosign has been signed, the wallet address and Discord handle associated with it cannot be changed.
+            \n✅ We reserve the right to disqualify people proven to have more than one account in the <#934504134277742632>. One wallet per person only.
+            \n
+            \n🔗 Founders Rewards on Medium:
+            \nhttps://medium.com/@lagunagames/founders-reward-program-406a41fc8097"
+    buttonrow:
+      type: 3
+      items:
+        button0:
+          buttonclass: 1
+          buttonname: "Reasons to Stake"
+          buttonids: "button1"
+          buttontype: "Success"
+          buttondisabled: true
+        button1:
+          buttonclass: 1
+          buttonname: "Voting Rights"
+          buttonids: "kstakingandrewards-rbwrab-voting"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button2:
+          buttonclass: 1
+          buttonname: "Staking Rewards"
+          buttonids: "kstakingandrewards-rbwrab-staking"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Leaderboard Rewards"
+          buttonids: "kstakingandrewards-rbwrab-leaderboard"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button5:
+          buttonclass: 1
+          buttonname: "Back"
+          buttonids: "kstakingandrewards-rbwrab"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow1:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "RBW Staking"
+          buttonids: "button1"
+          buttontype: "Success"
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "RBW Staking Guide"
+          buttonids: "kstakingandrewards-rbwsteps"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Eligibility"
+          buttonids: "kstakingandrewards-rbweligibility"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button5:
+          buttonclass: 1
+          buttonname: "Useful Links"
+          buttonids: "kstakingandrewards-rbwuseful"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow2:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Staking and Rewards"
+          buttonids: "button1"
+          buttontype: "Success"
+          buttondisabled: true
+        button3:
+          buttonclass: 1
+          buttonname: "LP Staking"
+          buttonids: "kstakingandrewards-lp"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Claim Rewards"
+          buttonids: "kstakingandrewards-claim"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow3:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Knowledge Base"
+          buttonids: "knowledge"
+          buttontype: "Success"
+          buttondisabled: false
+        button2:
+          buttonclass: 1
+          buttonname: "Game Guides"
+          buttonids: "kgameguide"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "New Releases"
+          buttonids: "knewreleases"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Events"
+          buttonids: "kevent-bulletin"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button5:
+          buttonclass: 1
+          buttonname: "Zendesk Guide"
+          buttonids: "kothers"
+          buttontype: "Secondary"
+          buttondisabled: false
+  options:
+    ephemeral: true
+    update: true
+
+kstakingandrewards-rbwrab-leaderboard:
+  items:
+    pageitem2:
+      type: 2
+      title: "Leaderboard Rewards"
+      text: "The RBW staking leaderboard can be found here:
+            \n🔗 https://cryptounicorns.vault.inc/#/leaderboard
+            \n
+            \nThe leaderboard is a ranking system that awards additional points to based on the following formula:
+            \n
+            \n> 🧮 **sRBW token amount * days that it HAS been staked so far = Current Points**
+            \n
+            \nFor example, if you stake 1000 RBW for 12 months, you would receive 4000 sRBW \\* 1 day = 4,000 points every day. On day 4, you would have 16,000 points.
+            \n
+            \nTo determine the full amount of points you would get from staked RBW (in this example, the full amount you would get after 12 months of staking):
+            \n
+            \n> 🧮 **sRBW token amount * days it WILL be staked = Total Points over 12 months**
+            \n
+            \nSo at the end of the year, you would have 4000 sRWB * 360 days = 1,440,000 points from the 1000 RBW that you staked.
+            \n
+            \nThere are currently 3 leaderboard events, with snapshots taken at different times.
+            \n
+            \n1️⃣ RBW Token Launch Leaderboard Event
+            \n2️⃣ Monthly RBW Leaderboard Event
+            \n3️⃣ Year 1 RBW Leaderboard Event"
+    buttonrow2:
+      type: 3
+      items:
+        lr:
+          buttonclass: 1
+          buttonname: "Leaderboard Rewards"
+          buttonids: "lr"
+          buttontype: "Success"
+          buttondisabled: true
+        button1:
+          buttonclass: 1
+          buttonname: "RBW Token Launch Leaderboard Event"
+          buttonids: "kstakingandrewards-rbwrab-leaderboard-launch"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button2:
+          buttonclass: 1
+          buttonname: "Monthly RBW Leaderboard Event"
+          buttonids: "kstakingandrewards-rbwrab-leaderboard-monthly"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "Year 1 RBW Leaderboard Event"
+          buttonids: "kstakingandrewards-rbwrab-leaderboard-year1"
+          buttontype: "Secondary"
+          buttondisabled: true
+    buttonrow:
+      type: 3
+      items:
+        button0:
+          buttonclass: 1
+          buttonname: "Reasons to Stake"
+          buttonids: "button1"
+          buttontype: "Success"
+          buttondisabled: true
+        button1:
+          buttonclass: 1
+          buttonname: "Voting Rights"
+          buttonids: "kstakingandrewards-rbwrab-voting"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button2:
+          buttonclass: 1
+          buttonname: "Staking Rewards"
+          buttonids: "kstakingandrewards-rbwrab-staking"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "Founder Rewards Program"
+          buttonids: "kstakingandrewards-rbwrab-founder"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Back"
+          buttonids: "kstakingandrewards-rbwrab"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow1:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "RBW Staking"
+          buttonids: "button1"
+          buttontype: "Success"
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "RBW Staking Guide"
+          buttonids: "kstakingandrewards-rbwsteps"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Eligibility"
+          buttonids: "kstakingandrewards-rbweligibility"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button5:
+          buttonclass: 1
+          buttonname: "Useful Links"
+          buttonids: "kstakingandrewards-rbwuseful"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow3:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Staking and Rewards"
+          buttonids: "button1"
+          buttontype: "Success"
+          buttondisabled: true
+        button3:
+          buttonclass: 1
+          buttonname: "LP Staking"
+          buttonids: "kstakingandrewards-lp"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Claim Rewards"
+          buttonids: "kstakingandrewards-claim"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow5:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Knowledge Base"
+          buttonids: "knowledge"
+          buttontype: "Success"
+          buttondisabled: false
+        button2:
+          buttonclass: 1
+          buttonname: "Game Guides"
+          buttonids: "kgameguide"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "New Releases"
+          buttonids: "knewreleases"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Events"
+          buttonids: "kevent-bulletin"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button5:
+          buttonclass: 1
+          buttonname: "Zendesk Guide"
+          buttonids: "kothers"
+          buttontype: "Secondary"
+          buttondisabled: false
+  options:
+    ephemeral: true
+    update: true
+
+kstakingandrewards-rbwrab-leaderboard-launch:
+  items:
+    pageitem2:
+      type: 2
+      title: "RBW Token Launch Leaderboard Event"
+      text: "**Snapshots are taken on 03/01/2022, 03/02/2022, 03/03/2022.**
+            \n**COMPLETED.**
+            \nAirdrop after game launch.
+            \n
+            \nThe RBW Token Launch Leaderboard Event applies to the top 1000 who staked during the RBW launch. Snapshots were taken on all three days of the launch. The rewards are as follows:"
+      image: "https://cdn.discordapp.com/attachments/956313907880927323/1017122811803873410/unknown.png"
+    buttonrow2:
+      type: 3
+      items:
+        lr:
+          buttonclass: 1
+          buttonname: "Leaderboard Rewards"
+          buttonids: "lr"
+          buttontype: "Success"
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "Monthly RBW Leaderboard Event"
+          buttonids: "kstakingandrewards-rbwrab-leaderboard-monthly"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "Year 1 RBW Leaderboard Event"
+          buttonids: "kstakingandrewards-rbwrab-leaderboard-year1"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Back"
+          buttonids: "kstakingandrewards-rbwrab-leaderboard"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow:
+      type: 3
+      items:
+        button0:
+          buttonclass: 1
+          buttonname: "Reasons to Stake"
+          buttonids: "button1"
+          buttontype: "Success"
+          buttondisabled: true
+        button1:
+          buttonclass: 1
+          buttonname: "Voting Rights"
+          buttonids: "kstakingandrewards-rbwrab-voting"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button2:
+          buttonclass: 1
+          buttonname: "Staking Rewards"
+          buttonids: "kstakingandrewards-rbwrab-staking"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "Founder Rewards Program"
+          buttonids: "kstakingandrewards-rbwrab-founder"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow1:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "RBW Staking"
+          buttonids: "button1"
+          buttontype: "Success"
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "RBW Staking Guide"
+          buttonids: "kstakingandrewards-rbwsteps"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Eligibility"
+          buttonids: "kstakingandrewards-rbweligibility"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button5:
+          buttonclass: 1
+          buttonname: "Useful Links"
+          buttonids: "kstakingandrewards-rbwuseful"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow4:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Staking and Rewards"
+          buttonids: "button1"
+          buttontype: "Success"
+          buttondisabled: true
+        button3:
+          buttonclass: 1
+          buttonname: "LP Staking"
+          buttonids: "kstakingandrewards-lp"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Claim Rewards"
+          buttonids: "kstakingandrewards-claim"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow3:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Knowledge Base"
+          buttonids: "knowledge"
+          buttontype: "Success"
+          buttondisabled: false
+        button2:
+          buttonclass: 1
+          buttonname: "Game Guides"
+          buttonids: "kgameguide"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "New Releases"
+          buttonids: "knewreleases"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Events"
+          buttonids: "kevent-bulletin"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button5:
+          buttonclass: 1
+          buttonname: "Zendesk Guide"
+          buttonids: "kothers"
+          buttontype: "Secondary"
+          buttondisabled: false
+  options:
+    ephemeral: true
+    update: true
+
+kstakingandrewards-rbwrab-leaderboard-monthly:
+  items:
+    pageitem2:
+      type: 2
+      title: "Monthly RBW Leaderboard Event"
+      text: "Snapshots are taken at the start of every month, ending on 02/01/2023. Players will receive a UNIM/RBW amount relating to the rank they held at the time of these snapshots. Note that the leaderboard will not reset monthly.
+            \n
+            The Monthly RBW Leaderboard Event applies to the top 1000 who staked RBW at least 1 day before the snapshot date. The rewards are as follows:"
+      image: "https://cdn.discordapp.com/attachments/956313907880927323/1017122812185559110/unknown.png"
+    buttonrow2:
+      type: 3
+      items:
+        lr:
+          buttonclass: 1
+          buttonname: "Leaderboard Rewards"
+          buttonids: "lr"
+          buttontype: "Success"
+          buttondisabled: true
+        button1:
+          buttonclass: 1
+          buttonname: "RBW Token Launch Leaderboard Event"
+          buttonids: "kstakingandrewards-rbwrab-leaderboard-launch"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "Year 1 RBW Leaderboard Event"
+          buttonids: "kstakingandrewards-rbwrab-leaderboard-year1"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Back"
+          buttonids: "kstakingandrewards-rbwrab-leaderboard"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow:
+      type: 3
+      items:
+        button0:
+          buttonclass: 1
+          buttonname: "Reasons to Stake"
+          buttonids: "button1"
+          buttontype: "Success"
+          buttondisabled: true
+        button1:
+          buttonclass: 1
+          buttonname: "Voting Rights"
+          buttonids: "kstakingandrewards-rbwrab-voting"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button2:
+          buttonclass: 1
+          buttonname: "Staking Rewards"
+          buttonids: "kstakingandrewards-rbwrab-staking"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "Founder Rewards Program"
+          buttonids: "kstakingandrewards-rbwrab-founder"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow1:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "RBW Staking"
+          buttonids: "button1"
+          buttontype: "Success"
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "RBW Staking Guide"
+          buttonids: "kstakingandrewards-rbwsteps"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Eligibility"
+          buttonids: "kstakingandrewards-rbweligibility"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button5:
+          buttonclass: 1
+          buttonname: "Useful Links"
+          buttonids: "kstakingandrewards-rbwuseful"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow4:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Staking and Rewards"
+          buttonids: "button1"
+          buttontype: "Success"
+          buttondisabled: true
+        button3:
+          buttonclass: 1
+          buttonname: "LP Staking"
+          buttonids: "kstakingandrewards-lp"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Claim Rewards"
+          buttonids: "kstakingandrewards-claim"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow3:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Knowledge Base"
+          buttonids: "knowledge"
+          buttontype: "Success"
+          buttondisabled: false
+        button2:
+          buttonclass: 1
+          buttonname: "Game Guides"
+          buttonids: "kgameguide"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "New Releases"
+          buttonids: "knewreleases"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Events"
+          buttonids: "kevent-bulletin"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button5:
+          buttonclass: 1
+          buttonname: "Zendesk Guide"
+          buttonids: "kothers"
+          buttontype: "Secondary"
+          buttondisabled: false
+  options:
+    ephemeral: true
+    update: true
+
+kstakingandrewards-rbwrab-leaderboard-year1:
+  items:
+    pageitem2:
+      type: 2
+      title: "Year 1 RBW Leaderboard Event"
+      text: "The Monthly RBW Leaderboard snapshot on 03/01/2023, marking the end of Year 1 and having more rewards than the regular Monthly RBW Leaderboard. Airdrop date TBA.
+            \n
+            \nThe Year 1 RBW Leaderboard Event applies to the top 10,000 who staked RBW at least 1 day before the snapshot date. The rewards are as follows:"
+      image: "https://cdn.discordapp.com/attachments/956313907880927323/1017122812521095219/unknown.png"
+    buttonrow2:
+      type: 3
+      items:
+        lr:
+          buttonclass: 1
+          buttonname: "Leaderboard Rewards"
+          buttonids: "lr"
+          buttontype: "Success"
+          buttondisabled: true
+        button1:
+          buttonclass: 1
+          buttonname: "RBW Token Launch Leaderboard Event"
+          buttonids: "kstakingandrewards-rbwrab-leaderboard-launch"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button2:
+          buttonclass: 1
+          buttonname: "Monthly RBW Leaderboard Event"
+          buttonids: "kstakingandrewards-rbwrab-leaderboard-monthly"
+          buttontype: "Secondary"
+        button4:
+          buttonclass: 1
+          buttonname: "Back"
+          buttonids: "kstakingandrewards-rbwrab-leaderboard"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow:
+      type: 3
+      items:
+        button0:
+          buttonclass: 1
+          buttonname: "Reasons to Stake"
+          buttonids: "button1"
+          buttontype: "Success"
+          buttondisabled: true
+        button1:
+          buttonclass: 1
+          buttonname: "Voting Rights"
+          buttonids: "kstakingandrewards-rbwrab-voting"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button2:
+          buttonclass: 1
+          buttonname: "Staking Rewards"
+          buttonids: "kstakingandrewards-rbwrab-staking"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "Founder Rewards Program"
+          buttonids: "kstakingandrewards-rbwrab-founder"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow1:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "RBW Staking"
+          buttonids: "button1"
+          buttontype: "Success"
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "RBW Staking Guide"
+          buttonids: "kstakingandrewards-rbwsteps"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Eligibility"
+          buttonids: "kstakingandrewards-rbweligibility"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button5:
+          buttonclass: 1
+          buttonname: "Useful Links"
+          buttonids: "kstakingandrewards-rbwuseful"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow4:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Staking and Rewards"
+          buttonids: "button1"
+          buttontype: "Success"
+          buttondisabled: true
+        button3:
+          buttonclass: 1
+          buttonname: "LP Staking"
+          buttonids: "kstakingandrewards-lp"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Claim Rewards"
+          buttonids: "kstakingandrewards-claim"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow3:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Knowledge Base"
+          buttonids: "knowledge"
+          buttontype: "Success"
+          buttondisabled: false
+        button2:
+          buttonclass: 1
+          buttonname: "Game Guides"
+          buttonids: "kgameguide"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "New Releases"
+          buttonids: "knewreleases"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Events"
+          buttonids: "kevent-bulletin"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button5:
+          buttonclass: 1
+          buttonname: "Zendesk Guide"
+          buttonids: "kothers"
+          buttontype: "Secondary"
+          buttondisabled: false
+  options:
+    ephemeral: true
+    update: true
+
+kstakingandrewards-rbweligibility:
+  items:
+    pageitem2:
+      type: 2
+      title: "Am I eligible to stake?"
+      text: "The only requirement for staking is a Polygon wallet with RBW and MATIC. You do not need to own Unicorns or Land to stake RBW, although the utility of RBW is increased by being able to use it in-game which is only accessible via Unicorns and/or Land.
+            \n
+            \n🔗 Official RBW Liquidity Pool:
+            \nhttps://polygon.balancer.fi/#/pool/0x2f08387a725c357102cc09b0424d5494dedd52f500020000000000000000036e
+            \n
+            \n🔗Crypto Unicorns on OpenSea:
+            \nhttps://opensea.io/collection/crypto-unicorns-market
+            \n
+            \n🔗Crypto Unicorns Land on OpenSea:
+            \nhttps://opensea.io/collection/crypto-unicorns-land-market"
+    buttonrow1:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "RBW Staking"
+          buttonids: "button1"
+          buttontype: "Success"
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "RBW Staking Guide"
+          buttonids: "kstakingandrewards-rbwsteps"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "Rewards and Benefits"
+          buttonids: "kstakingandrewards-rbwrab"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Useful Links"
+          buttonids: "kstakingandrewards-rbwuseful"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button5:
+          buttonclass: 1
+          buttonname: "Back"
+          buttonids: "kstakingandrewards-rbw"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow2:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Staking and Rewards"
+          buttonids: "button1"
+          buttontype: "Success"
+          buttondisabled: true
+        button3:
+          buttonclass: 1
+          buttonname: "LP Staking"
+          buttonids: "kstakingandrewards-lp"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Claim Rewards"
+          buttonids: "kstakingandrewards-claim"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow3:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Knowledge Base"
+          buttonids: "knowledge"
+          buttontype: "Success"
+          buttondisabled: false
+        button2:
+          buttonclass: 1
+          buttonname: "Game Guides"
+          buttonids: "kgameguide"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "New Releases"
+          buttonids: "knewreleases"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Events"
+          buttonids: "kevent-bulletin"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button5:
+          buttonclass: 1
+          buttonname: "Zendesk Guide"
+          buttonids: "kothers"
+          buttontype: "Secondary"
+          buttondisabled: false
+  options:
+    ephemeral: true
+    update: true
+
+kstakingandrewards-rbwuseful:
+  items:
+    pageitem2:
+      type: 2
+      title: "For more information, here's some useful links!"
+      text: "**sRBW to RBW Conversion Samples + Public Leaderboard**
+            \n🔗 https://bit.ly/3u6nMyD
+            \n
+            \n**Other Staking Leaderboards + Founder Rewards Program**
+            \n🔗 https://bit.ly/3sFqH1z"
+    buttonrow1:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "RBW Staking"
+          buttonids: "button1"
+          buttontype: "Success"
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "RBW Staking Guide"
+          buttonids: "kstakingandrewards-rbwsteps"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "Rewards and Benefits"
+          buttonids: "kstakingandrewards-rbwrab"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Eligibility"
+          buttonids: "kstakingandrewards-rbweligibility"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button5:
+          buttonclass: 1
+          buttonname: "Back"
+          buttonids: "kstakingandrewards-rbw"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow2:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Staking and Rewards"
+          buttonids: "button1"
+          buttontype: "Success"
+          buttondisabled: true
+        button3:
+          buttonclass: 1
+          buttonname: "LP Staking"
+          buttonids: "kstakingandrewards-lp"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Claim Rewards"
+          buttonids: "kstakingandrewards-claim"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow3:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Knowledge Base"
+          buttonids: "knowledge"
+          buttontype: "Success"
+          buttondisabled: false
+        button2:
+          buttonclass: 1
+          buttonname: "Game Guides"
+          buttonids: "kgameguide"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "New Releases"
+          buttonids: "knewreleases"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Events"
+          buttonids: "kevent-bulletin"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button5:
+          buttonclass: 1
+          buttonname: "Zendesk Guide"
+          buttonids: "kothers"
+          buttontype: "Secondary"
+          buttondisabled: false
+  options:
+    ephemeral: true
+    update: true

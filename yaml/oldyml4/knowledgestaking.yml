@@ -1,0 +1,73 @@
+kstakingandrewards:
+  items:
+    embedrow:
+      type: 2
+      title: "Staking and Rewards"
+      text: "Learn more about staking and how to claim rewards here!
+            \n
+            \n**RBW Staking** - How to stake RBW
+            \n**LP Staking** - How to stake in the RBW/wETH liquidity pool
+            \n**Claim Rewards** - How to claim rewards from claim.cryptounicorns.fun"
+    buttonrow:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Staking and Rewards"
+          buttonids: "button1"
+          buttontype: "Success"
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "RBW Staking"
+          buttonids: "kstakingandrewards-rbw"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "LP Staking"
+          buttonids: "kstakingandrewards-lp"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Claim Rewards"
+          buttonids: "kstakingandrewards-claim"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow0:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Knowledge Base"
+          buttonids: "knowledge"
+          buttontype: "Success"
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "Game Guides"
+          buttonids: "kgameguide"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "New Releases"
+          buttonids: "knewreleases"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Events"
+          buttonids: "kevent-bulletin"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button5:
+          buttonclass: 1
+          buttonname: "Zendesk Guide"
+          buttonids: "kothers"
+          buttontype: "Secondary"
+          buttondisabled: false
+  options:
+    ephemeral: true
+    update: false 

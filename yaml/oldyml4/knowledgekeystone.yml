@@ -1,0 +1,759 @@
+kkeystoneguide:
+    items:
+      embedrow:
+        type: 2
+        title: "Keystone Guide"
+        text: "Keystones are ERC-1155 Tokens used to allow Players to purchase additional Lands from the Land Vending Machine. Keystone Tokens are craftable from class materials.
+                    \n
+                    \nClick on \"How to Craft\" button to learn how to craft keystones, and on \"How to Stash Out\" button to learn how to stash out keystones."
+      buttonrow2:
+        type: 3
+        items:
+          button1:
+            buttonclass: 1
+            buttonname: "Keystone Guides"
+            buttonids: "kkeystoneguide"
+            buttontype: "Success"
+            buttondisabled: true
+          button2:
+            buttonclass: 1
+            buttonname: "How to Craft"
+            buttonids: "kkeystoneguide1"
+            buttontype: "Secondary"
+            buttondisabled: false
+          button3:
+            buttonclass: 1
+            buttonname: "How to Stash Out"
+            buttonids: "kkeystoneguide2"
+            buttontype: "Secondary"
+            buttondisabled: false
+    options:
+      ephemeral: true
+      update: true
+
+kkeystoneguide1:
+    items:
+      embedrow:
+        type: 2
+        title: "How to Craft a Keystone"
+        text: "1️⃣ Head over to Workshop Building in-game.
+              \n 2️⃣ The Workshop Recipe selection will pop up. Click on \"Choose Recipe\".
+              \n 3️⃣ A tabbed list of available crafting categories will be presented. Click on \"Keystones\" tab.
+              \n 4️⃣ Recipes for different Keystones will now be shown. Choose a Keystone recipe you want to Craft."
+        image: "https://cdn.discordapp.com/attachments/980696706628857856/1013073374953607249/unknown.png"
+      buttonrow0:
+        type: 3
+        items:
+          nav:
+            buttonclass: 1
+            buttonname: "Navigation"
+            buttonids: "nav"
+            buttontype: "Success"
+            buttondisabled: true
+          button2:
+            buttonclass: 1
+            buttonname: "Back"
+            buttonids: "kkeystoneguide"
+            buttontype: "Primary"
+            buttondisabled: false
+          button1:
+            buttonclass: 1
+            buttonname: "Next"
+            buttonids: "kkeystoneguide12"
+            buttontype: "Primary"
+            buttondisabled: false
+          button3:
+            buttonclass: 1
+            buttonname: "How to Stash Out"
+            buttonids: "kkeystoneguide2"
+            buttontype: "Secondary"
+            buttondisabled: false
+      buttonrow1:
+        type: 3
+        items:
+          button1:
+            buttonclass: 1
+            buttonname: "Game Guides"
+            buttonids: "genguides"
+            buttontype: "Success"
+            buttondisabled: true
+          button2:
+            buttonclass: 1
+            buttonname: "Notion Guide"
+            buttonids: "knotionguide"
+            buttontype: "Secondary"
+            buttondisabled: false
+          button3:
+            buttonclass: 1
+            buttonname: "Zendesk Knowledge Base"
+            buttonids: "kzendeskknowledgebase"
+            buttontype: "Secondary"
+            buttondisabled: false
+          button4:
+            buttonclass: 1
+            buttonname: "Lootbox Guide"
+            buttonids: "klootboxguide"
+            buttontype: "Secondary"
+            buttondisabled: false
+          button6:
+            buttonclass: 1
+            buttonname: "Shadowcorn Hatching"
+            buttonids: "kshadowcornhatching"
+            buttontype: "Secondary"
+            buttondisabled: false
+      buttonrow3:
+        type: 3
+        items:
+          button1:
+            buttonclass: 1
+            buttonname: "Knowledge Base"
+            buttonids: "kb"
+            buttontype: "Success"
+            buttondisabled: true
+          button2:
+            buttonclass: 1
+            buttonname: "Staking and rewards"
+            buttonids: "kstakingandrewards"
+            buttontype: "Secondary"
+            buttondisabled: false
+          button3:
+            buttonclass: 1
+            buttonname: "New Releases"
+            buttonids: "knewreleases"
+            buttontype: "Secondary"
+            buttondisabled: false
+          button4:
+            buttonclass: 1
+            buttonname: "Events"
+            buttonids: "kevent-bulletin"
+            buttontype: "Secondary"
+            buttondisabled: false
+          button5:
+            buttonclass: 1
+            buttonname: "Zendesk Guide"
+            buttonids: "kothers"
+            buttontype: "Secondary"
+            buttondisabled: false
+    options:
+      ephemeral: true
+      update: true
+
+kkeystoneguide12:
+  items:
+    embedrow:
+      type: 2
+      title: "How to Craft a Keystone"
+      text: "5️⃣ Check if you have enough materials for the Keystone that you are Crafting. If you have sufficient materials, click \"Craft.\"
+                  \n6️⃣ Wait for crafting to finish.
+                  \n7️⃣ Once finished, the crafted item can be collected from the Workshop. (Same as any other craftable items)"
+    buttonrow0:
+      type: 3
+      items:
+        nav:
+          buttonclass: 1
+          buttonname: "Navigation"
+          buttonids: "nav"
+          buttontype: "Success"
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "Back"
+          buttonids: "kkeystoneguide1"
+          buttontype: "Primary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "How to Stash Out"
+          buttonids: "kkeystoneguide2"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow1:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Game Guides"
+          buttonids: "genguides"
+          buttontype: "Success"
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "Notion Guide"
+          buttonids: "knotionguide"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "Zendesk Knowledge Base"
+          buttonids: "kzendeskknowledgebase"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Lootbox Guide"
+          buttonids: "klootboxguide"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button6:
+          buttonclass: 1
+          buttonname: "Shadowcorn Hatching"
+          buttonids: "kshadowcornhatching"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow3:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Knowledge Base"
+          buttonids: "kb"
+          buttontype: "Success"
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "Staking and rewards"
+          buttonids: "kstakingandrewards"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "New Releases"
+          buttonids: "knewreleases"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Events"
+          buttonids: "kevent-bulletin"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button5:
+          buttonclass: 1
+          buttonname: "Zendesk Guide"
+          buttonids: "kothers"
+          buttontype: "Secondary"
+          buttondisabled: false
+  options:
+    ephemeral: true
+    update: true
+
+kkeystoneguide2:
+    items:
+      embedrow:
+        type: 2
+        title: "How to stash out Keystones"
+        text: "To purchase Land from the Land Vending Machine, Keystones must be stashed out.\n
+                    \n
+              :exclamation: **Important: Once a Keystone is stashed out, it cannot return in-game anymore.**\n
+                    \n
+                    \n1️⃣ In-game, go to \"Inventory.\"
+                    \n2️⃣ Click on the \"Keystones\" tab."
+        image: "https://cdn.discordapp.com/attachments/980696706628857856/1013073375599538349/unknown.png"
+      buttonrow0:
+        type: 3
+        items:
+          nav:
+            buttonclass: 1
+            buttonname: "Navigation"
+            buttonids: "nav"
+            buttontype: "Success"
+            buttondisabled: true
+          button2:
+            buttonclass: 1
+            buttonname: "Back"
+            buttonids: "kkeystoneguide"
+            buttontype: "Primary"
+            buttondisabled: false
+          button3:
+            buttonclass: 1
+            buttonname: "Next"
+            buttonids: "kkeystoneguide22"
+            buttontype: "Primary"
+            buttondisabled: false
+          button4:
+            buttonclass: 1
+            buttonname: "How to Craft"
+            buttonids: "kkeystoneguide1"
+            buttontype: "Secondary"
+            buttondisabled: false
+      buttonrow1:
+        type: 3
+        items:
+          button1:
+            buttonclass: 1
+            buttonname: "Game Guides"
+            buttonids: "genguides"
+            buttontype: "Success"
+            buttondisabled: true
+          button2:
+            buttonclass: 1
+            buttonname: "Notion Guide"
+            buttonids: "knotionguide"
+            buttontype: "Secondary"
+            buttondisabled: false
+          button3:
+            buttonclass: 1
+            buttonname: "Zendesk Knowledge Base"
+            buttonids: "kzendeskknowledgebase"
+            buttontype: "Secondary"
+            buttondisabled: false
+          button4:
+            buttonclass: 1
+            buttonname: "Lootbox Guide"
+            buttonids: "klootboxguide"
+            buttontype: "Secondary"
+            buttondisabled: false
+          button6:
+            buttonclass: 1
+            buttonname: "Shadowcorn Hatching"
+            buttonids: "kshadowcornhatching"
+            buttontype: "Secondary"
+            buttondisabled: false
+      buttonrow3:
+        type: 3
+        items:
+          button1:
+            buttonclass: 1
+            buttonname: "Knowledge Base"
+            buttonids: "kb"
+            buttontype: "Success"
+            buttondisabled: true
+          button2:
+            buttonclass: 1
+            buttonname: "Staking and rewards"
+            buttonids: "kstakingandrewards"
+            buttontype: "Secondary"
+            buttondisabled: false
+          button3:
+            buttonclass: 1
+            buttonname: "New Releases"
+            buttonids: "knewreleases"
+            buttontype: "Secondary"
+            buttondisabled: false
+          button4:
+            buttonclass: 1
+            buttonname: "Events"
+            buttonids: "kevent-bulletin"
+            buttontype: "Secondary"
+            buttondisabled: false
+          button5:
+            buttonclass: 1
+            buttonname: "Zendesk Guide"
+            buttonids: "kothers"
+            buttontype: "Secondary"
+            buttondisabled: false
+    options:
+      ephemeral: true
+      update: true
+
+kkeystoneguide22:
+  items:
+    embedrow:
+      type: 2
+      title: "How to stash out Keystones"
+      text: "3️⃣ Two tabs will appear at the top of the inventory: \"Locked\" and \"Unlocked\". Go to the \"Locked\" tab to show the list of Keystones that are locked into the game."
+      image: "https://cdn.discordapp.com/attachments/980696706628857856/1013073376119636049/unknown.png"
+    buttonrow0:
+      type: 3
+      items:
+        nav:
+          buttonclass: 1
+          buttonname: "Navigation"
+          buttonids: "nav"
+          buttontype: "Success"
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "Back"
+          buttonids: "kkeystoneguide2"
+          buttontype: "Primary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "Next"
+          buttonids: "kkeystoneguide23"
+          buttontype: "Primary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "How to Craft"
+          buttonids: "kkeystoneguide1"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow1:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Game Guides"
+          buttonids: "genguides"
+          buttontype: "Success"
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "Notion Guide"
+          buttonids: "knotionguide"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "Zendesk Knowledge Base"
+          buttonids: "kzendeskknowledgebase"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Lootbox Guide"
+          buttonids: "klootboxguide"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button6:
+          buttonclass: 1
+          buttonname: "Shadowcorn Hatching"
+          buttonids: "kshadowcornhatching"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow3:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Knowledge Base"
+          buttonids: "kb"
+          buttontype: "Success"
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "Staking and rewards"
+          buttonids: "kstakingandrewards"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "New Releases"
+          buttonids: "knewreleases"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Events"
+          buttonids: "kevent-bulletin"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button5:
+          buttonclass: 1
+          buttonname: "Zendesk Guide"
+          buttonids: "kothers"
+          buttontype: "Secondary"
+          buttondisabled: false
+  options:
+    ephemeral: true
+    update: true
+
+kkeystoneguide23:
+  items:
+    embedrow:
+      type: 2
+      title: "How to stash out Keystones"
+      text: "4️⃣ Click on \"Unlock\" on a stack of Keystones to stash out."
+      image: "https://cdn.discordapp.com/attachments/980696706628857856/1013073376752967690/unknown.png"
+    buttonrow0:
+      type: 3
+      items:
+        nav:
+          buttonclass: 1
+          buttonname: "Navigation"
+          buttonids: "nav"
+          buttontype: "Success"
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "Back"
+          buttonids: "kkeystoneguide22"
+          buttontype: "Primary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "Next"
+          buttonids: "kkeystoneguide24"
+          buttontype: "Primary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "How to Craft"
+          buttonids: "kkeystoneguide1"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow1:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Game Guides"
+          buttonids: "genguides"
+          buttontype: "Success"
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "Notion Guide"
+          buttonids: "knotionguide"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "Zendesk Knowledge Base"
+          buttonids: "kzendeskknowledgebase"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Lootbox Guide"
+          buttonids: "klootboxguide"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button6:
+          buttonclass: 1
+          buttonname: "Shadowcorn Hatching"
+          buttonids: "kshadowcornhatching"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow3:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Knowledge Base"
+          buttonids: "kb"
+          buttontype: "Success"
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "Staking and rewards"
+          buttonids: "kstakingandrewards"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "New Releases"
+          buttonids: "knewreleases"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Events"
+          buttonids: "kevent-bulletin"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button5:
+          buttonclass: 1
+          buttonname: "Zendesk Guide"
+          buttonids: "kothers"
+          buttontype: "Secondary"
+          buttondisabled: false
+  options:
+    ephemeral: true
+    update: true
+
+kkeystoneguide24:
+  items:
+    embedrow:
+      type: 2
+      title: "How to stash out Keystones"
+      text: "5️⃣ Upon clicking \"Unlock\" a keystone pop-up warning dialog will appear.
+                  \n
+                  \n6️⃣ Wait to successfully process."
+      image: "https://cdn.discordapp.com/attachments/980696706628857856/1013073377449234472/unknown.png"
+    buttonrow0:
+      type: 3
+      items:
+        nav:
+          buttonclass: 1
+          buttonname: "Navigation"
+          buttonids: "nav"
+          buttontype: "Success"
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "Back"
+          buttonids: "kkeystoneguide23"
+          buttontype: "Primary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "Next"
+          buttonids: "kkeystoneguide25"
+          buttontype: "Primary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "How to Craft"
+          buttonids: "kkeystoneguide1"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow1:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Game Guides"
+          buttonids: "genguides"
+          buttontype: "Success"
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "Notion Guide"
+          buttonids: "knotionguide"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "Zendesk Knowledge Base"
+          buttonids: "kzendeskknowledgebase"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Lootbox Guide"
+          buttonids: "klootboxguide"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button6:
+          buttonclass: 1
+          buttonname: "Shadowcorn Hatching"
+          buttonids: "kshadowcornhatching"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow3:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Knowledge Base"
+          buttonids: "kb"
+          buttontype: "Success"
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "Staking and rewards"
+          buttonids: "kstakingandrewards"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "New Releases"
+          buttonids: "knewreleases"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Events"
+          buttonids: "kevent-bulletin"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button5:
+          buttonclass: 1
+          buttonname: "Zendesk Guide"
+          buttonids: "kothers"
+          buttontype: "Secondary"
+          buttondisabled: false
+  options:
+    ephemeral: true
+    update: true
+
+kkeystoneguide25:
+  items:
+    embedrow:
+      type: 2
+      title: "How to stash out Keystones"
+      text: "7️⃣ Once successfully Unlocked, you will see this prompt."
+      image: "https://cdn.discordapp.com/attachments/980696706628857856/1013073378141282374/unknown.png"
+    buttonrow0:
+      type: 3
+      items:
+        nav:
+          buttonclass: 1
+          buttonname: "Navigation"
+          buttonids: "nav"
+          buttontype: "Success"
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "Back"
+          buttonids: "kkeystoneguide24"
+          buttontype: "Primary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "How to Craft"
+          buttonids: "kkeystoneguide1"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow1:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Game Guides"
+          buttonids: "genguides"
+          buttontype: "Success"
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "Notion Guide"
+          buttonids: "knotionguide"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "Zendesk Knowledge Base"
+          buttonids: "kzendeskknowledgebase"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Lootbox Guide"
+          buttonids: "klootboxguide"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button6:
+          buttonclass: 1
+          buttonname: "Shadowcorn Hatching"
+          buttonids: "kshadowcornhatching"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow3:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Knowledge Base"
+          buttonids: "kb"
+          buttontype: "Success"
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "Staking and rewards"
+          buttonids: "kstakingandrewards"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "New Releases"
+          buttonids: "knewreleases"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Events"
+          buttonids: "kevent-bulletin"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button5:
+          buttonclass: 1
+          buttonname: "Zendesk Guide"
+          buttonids: "kothers"
+          buttontype: "Secondary"
+          buttondisabled: false
+  options:
+    ephemeral: true
+    update: true

@@ -1,0 +1,126 @@
+kstakingandrewards: 
+  items:
+    embedrow:
+      type: 2
+      title: "Staking and Rewards"
+      text: "Learn more about staking and how to claim rewairds here!
+      **RBW Staking** - How to stake RBW
+      **LP Staking** - How to stake in the RBW/wETH liquidity pool
+      **Claim Rewards** - How to claim rewards from claim.cryptounicorns.fun"
+    buttonrow:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "RBW Staking" 
+          buttonids: "button1"  
+          buttontype: "Success" 
+          buttondisabled: true 
+        button2:
+          buttonclass: 1
+          buttonname: "Steps" 
+          buttonids: "kstakingandrewards-rbwsteps"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button3:
+          buttonclass: 1
+          buttonname: "Rewards and Benefits" 
+          buttonids: "kstakingandrewards-rbwrab"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button4:
+          buttonclass: 1
+          buttonname: "Eligibility" 
+          buttonids: "kstakingandrewards-rbweligibility"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button5:
+          buttonclass: 1
+          buttonname: "Useful Links" 
+          buttonids: "kstakingandrewards-rbwuseful"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+    buttonrow2:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "LP Staking" 
+          buttonids: "buttono1"  
+          buttontype: "Success" 
+          buttondisabled: true 
+        button2:
+          buttonclass: 1
+          buttonname: "Steps" 
+          buttonids: "kstakingandrewards-lpsteps"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button3:
+          buttonclass: 1
+          buttonname: "RBWLP to sRBWLP Conversion" 
+          buttonids: "kstakingandrewards-lpconversion"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button4:
+          buttonclass: 1
+          buttonname: "LP Staking Rewards" 
+          buttonids: "kstakingandrewards-lprewards"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+    buttonrow3:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Claiming Rewards" 
+          buttonids: "buttono2"  
+          buttontype: "Success" 
+          buttondisabled: true 
+        button2:
+          buttonclass: 1
+          buttonname: "How to Claim Rewards" 
+          buttonids: "kstakingandrewards-claiming"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button3:
+          buttonclass: 1
+          buttonname: "Loyalty/Rewards Program RBW Airdrop" 
+          buttonids: "kstakingandrewards-loyaltyrewards"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+    buttonrow0:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Knowledge Base" 
+          buttonids: "knowledge"  
+          buttontype: "Success" 
+          buttondisabled: false 
+        button2:
+          buttonclass: 1
+          buttonname: "Game Guides" 
+          buttonids: "kgameguide"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button3:
+          buttonclass: 1
+          buttonname: "New Releases" 
+          buttonids: "knewreleases"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button4:
+          buttonclass: 1
+          buttonname: "Events" 
+          buttonids: "kevent-bulletin"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button5:
+          buttonclass: 1
+          buttonname: "Zendesk Guide" 
+          buttonids: "kothers"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+  options:
+    ephemeral: true 
+    update: false 

@@ -1,0 +1,50 @@
+get-your-role:
+  items:
+    pageitem1:
+      type: 2
+      title: "Receive Community Roles!"
+      text: "Get a role by clicking the buttons below. You may remove a role by clicking on the button again. If you're not receiving any role, try clicking again until you receive a role.
+            \n<@&928170115948744715> - The role to get if you want to be pinged for tweets on Crypto Unicorn's official Twitter.
+            \n<@&969641420111609937> - The role to get if you want to be pinged for maintenance updates, known issues, and patch notes.
+            \n<@&973988701229187122> - The role to get if you want to be pinged for governance updates.
+            \n<@&1011472615392694283> - The role to get if you want to be pinged for 2nd party updates."
+    pageitem2:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Community Roles"
+          buttonids: "communityroles"
+          buttontype: "Success"
+          buttondisabled: true
+        button2:
+          buttonclass: 2
+          buttonname: "Scholarly Unicorn"
+          buttonids: "role-928170115948744715"
+          buttonemoji: "🎓"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button3:
+          buttonclass: 2
+          buttonname: "Gamer Unicorn"
+          buttonids: "role-969641420111609937"
+          buttonemoji: "🎮"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 2
+          buttonname: "Decentralized Unicorn"
+          buttonids: "role-973988701229187122"
+          buttonemoji: "📜"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button5:
+          buttonclass: 2
+          buttonname: "Alpha Unicorn"
+          buttonids: "role-1011472615392694283"
+          buttonemoji: "🕹"
+          buttontype: "Secondary"
+          buttondisabled: false
+  options:
+    update: false
+    ephemeral: true  

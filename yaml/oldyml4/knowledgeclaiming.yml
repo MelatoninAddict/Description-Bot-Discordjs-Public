@@ -1,0 +1,868 @@
+kstakingandrewards-claim:
+  items:
+    embed:
+      type: 2
+      title: "Claiming Rewards"
+      text: "**How to Claim Rewards** -  Steps on how to claim your rewards on claim.cryptounicorns.fun
+            \n**Loyalty/Rewards Program RBW Airdrop** - Details on the Loyalty/Rewards Program RBW Airdrop."
+    buttonrow1:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Claiming Rewards"
+          buttonids: "buttono2"
+          buttontype: "Success"
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "How to Claim Rewards"
+          buttonids: "kstakingandrewards-claiming"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "Loyalty/Rewards Program RBW Airdrop"
+          buttonids: "kstakingandrewards-loyaltyrewards"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Back"
+          buttonids: "kstakingandrewards"
+          buttontype: "Primary"
+          buttondisabled: false
+    buttonrow2:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Staking and Rewards"
+          buttonids: "button1"
+          buttontype: "Success"
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "RBW Staking"
+          buttonids: "kstakingandrewards-rbw"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "LP Staking"
+          buttonids: "kstakingandrewards-lp"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow3:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Knowledge Base"
+          buttonids: "knowledge"
+          buttontype: "Success"
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "Game Guides"
+          buttonids: "kgameguide"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "New Releases"
+          buttonids: "knewreleases"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Events"
+          buttonids: "kevent-bulletin"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button5:
+          buttonclass: 1
+          buttonname: "Zendesk Guide"
+          buttonids: "kothers"
+          buttontype: "Secondary"
+          buttondisabled: false
+  options:
+    ephemeral: true
+    update: true
+
+kstakingandrewards-claiming:
+  items:
+    pageitem2:
+      type: 2
+      title: "Claiming Your Rewards"
+      text: "Rewards are usually not automatically dropped into your wallet; instead, you must manually claim them. **Most unclaimed rewards are returned to the treasury after a certain period of time. This deadline will be communicated via Discord and other socials.** Here is how to claim your rewards:
+          \n
+          \n1️⃣ **Clear your browser cache first. The keyboard shortcut to open the browser cache window is Ctrl + Shift + Delete.** Not clearing your browser cache can cause errors in the claiming process.
+          \n2️⃣ Next, head over to the claiming website: https://claim.cryptounicorns.fun/
+          \n3️⃣ If you haven't yet, connect your wallet by clicking the purple \"Connect Your Wallet to View Items\" button in the center."
+      image: "https://cdn.discordapp.com/attachments/980696706628857856/1013075299346436166/unknown.png"
+    buttonrow:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Claiming Rewards"
+          buttonids: "buttono2"
+          buttontype: "Success"
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "Back"
+          buttonids: "kstakingandrewards-claiming"
+          buttontype: "Primary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "Next"
+          buttonids: "kstakingandrewards-claiming13"
+          buttontype: "Primary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Loyalty/Rewards Program RBW Airdrop"
+          buttonids: "kstakingandrewards-loyaltyrewards"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow2:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Staking and Rewards"
+          buttonids: "button1"
+          buttontype: "Success"
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "RBW Staking"
+          buttonids: "kstakingandrewards-rbw"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "LP Staking"
+          buttonids: "kstakingandrewards-lp"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow3:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Knowledge Base"
+          buttonids: "knowledge"
+          buttontype: "Success"
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "Game Guides"
+          buttonids: "kgameguide"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "New Releases"
+          buttonids: "knewreleases"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Events"
+          buttonids: "kevent-bulletin"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button5:
+          buttonclass: 1
+          buttonname: "Zendesk Guide"
+          buttonids: "kothers"
+          buttontype: "Secondary"
+          buttondisabled: false
+  options:
+    ephemeral: true
+    update: true
+
+kstakingandrewards-claiming13:
+  items:
+    pageitem2:
+      type: 2
+      title: "Claiming Your Rewards"
+      text: "4️⃣ After connecting your wallet, you will be able to view all claimable rewards. Click the reward you want to claim."
+      image: "https://cdn.discordapp.com/attachments/980696706628857856/1013075299828760766/unknown.png"
+    buttonrow:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Claiming Rewards"
+          buttonids: "buttono2"
+          buttontype: "Success"
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "Back"
+          buttonids: "kstakingandrewards-claiming12"
+          buttontype: "Primary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "Next"
+          buttonids: "kstakingandrewards-claiming14"
+          buttontype: "Primary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Loyalty/Rewards Program RBW Airdrop"
+          buttonids: "kstakingandrewards-loyaltyrewards"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow2:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Staking and Rewards"
+          buttonids: "button1"
+          buttontype: "Success"
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "RBW Staking"
+          buttonids: "kstakingandrewards-rbw"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "LP Staking"
+          buttonids: "kstakingandrewards-lp"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow3:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Knowledge Base"
+          buttonids: "knowledge"
+          buttontype: "Success"
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "Game Guides"
+          buttonids: "kgameguide"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "New Releases"
+          buttonids: "knewreleases"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Events"
+          buttonids: "kevent-bulletin"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button5:
+          buttonclass: 1
+          buttonname: "Zendesk Guide"
+          buttonids: "kothers"
+          buttontype: "Secondary"
+          buttondisabled: false
+  options:
+    ephemeral: true
+    update: true
+
+kstakingandrewards-claiming14:
+  items:
+    pageitem2:
+      type: 2
+      title: "Claiming Your Rewards"
+      text: "5️⃣ A window will pop up, containing the item you want to claim, with a short message from the team! :smiling_face_with_3_hearts: Click the \"Claim\" button and confirm the transaction on your wallet."
+      image: "https://cdn.discordapp.com/attachments/980696706628857856/1013075300248203394/unknown.png"
+    buttonrow:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Claiming Rewards"
+          buttonids: "buttono2"
+          buttontype: "Success"
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "Back"
+          buttonids: "kstakingandrewards-claiming13"
+          buttontype: "Primary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "Next"
+          buttonids: "kstakingandrewards-claiming15"
+          buttontype: "Primary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Loyalty/Rewards Program RBW Airdrop"
+          buttonids: "kstakingandrewards-loyaltyrewards"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow2:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Staking and Rewards"
+          buttonids: "button1"
+          buttontype: "Success"
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "RBW Staking"
+          buttonids: "kstakingandrewards-rbw"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "LP Staking"
+          buttonids: "kstakingandrewards-lp"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow3:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Knowledge Base"
+          buttonids: "knowledge"
+          buttontype: "Success"
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "Game Guides"
+          buttonids: "kgameguide"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "New Releases"
+          buttonids: "knewreleases"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Events"
+          buttonids: "kevent-bulletin"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button5:
+          buttonclass: 1
+          buttonname: "Zendesk Guide"
+          buttonids: "kothers"
+          buttontype: "Secondary"
+          buttondisabled: false
+  options:
+    ephemeral: true
+    update: true
+
+kstakingandrewards-claiming15:
+  items:
+    pageitem2:
+      type: 2
+      title: "Claiming Your Rewards"
+      text: " :six: Once the transaction goes through, you will receive a message that the reward has been successfully claimed! We hope you enjoy the surprise :tada:
+            \n
+            \n:seven: After closing the window, you will notice that claimed rewards are greyed out and have \"CLAIMED\" stamped across them. This is to prevent any confusion when claiming items."
+      image: "https://cdn.discordapp.com/attachments/980696706628857856/1013075300755718214/unknown.png"
+    buttonrow:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Claiming Rewards"
+          buttonids: "buttono2"
+          buttontype: "Success"
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "Back"
+          buttonids: "kstakingandrewards-claiming14"
+          buttontype: "Primary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "Loyalty/Rewards Program RBW Airdrop"
+          buttonids: "kstakingandrewards-loyaltyrewards"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow2:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Staking and Rewards"
+          buttonids: "button1"
+          buttontype: "Success"
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "RBW Staking"
+          buttonids: "kstakingandrewards-rbw"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "LP Staking"
+          buttonids: "kstakingandrewards-lp"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow3:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Knowledge Base"
+          buttonids: "knowledge"
+          buttontype: "Success"
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "Game Guides"
+          buttonids: "kgameguide"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "New Releases"
+          buttonids: "knewreleases"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Events"
+          buttonids: "kevent-bulletin"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button5:
+          buttonclass: 1
+          buttonname: "Zendesk Guide"
+          buttonids: "kothers"
+          buttontype: "Secondary"
+          buttondisabled: false
+  options:
+    ephemeral: true
+    update: true
+
+kstakingandrewards-loyaltyrewards:
+  items:
+    pageitem2:
+      type: 2
+      title: "Loyalty/Rewards Program RBW Airdrop"
+      text: "Information on Loyalty/Rewards Program RBW Airdrop is found here."
+    buttonrow:
+      type: 3
+      items:
+        nav:
+          buttonclass: 1
+          buttonname: "LP RBW Airdrop"
+          buttonids: "nav"
+          buttontype: "Success"
+          buttondisabled: true
+        button1:
+          buttonclass: 1
+          buttonname: "NFT Retention"
+          buttonids: "kstakingandrewards-loyaltyrewards-nft"
+          buttontype: "Primary"
+          buttondisabled: false
+        button2:
+          buttonclass: 1
+          buttonname: "Tier Placement for Unicorn or Land Holders"
+          buttonids: "kstakingandrewards-loyaltyrewards-tier"
+          buttontype: "Primary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "NFT Retention (Shadowcorn Holders)"
+          buttonids: "kstakingandrewards-loyaltyrewards-retention"
+          buttontype: "Primary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "How to Claim Rewards"
+          buttonids: "kstakingandrewards-claiming"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow2:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Staking and Rewards"
+          buttonids: "button1"
+          buttontype: "Success"
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "RBW Staking"
+          buttonids: "kstakingandrewards-rbw"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "LP Staking"
+          buttonids: "kstakingandrewards-lp"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow3:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Knowledge Base"
+          buttonids: "knowledge"
+          buttontype: "Success"
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "Game Guides"
+          buttonids: "kgameguide"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "New Releases"
+          buttonids: "knewreleases"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Events"
+          buttonids: "kevent-bulletin"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button5:
+          buttonclass: 1
+          buttonname: "Zendesk Guide"
+          buttonids: "kothers"
+          buttontype: "Secondary"
+          buttondisabled: false
+  options:
+    ephemeral: true
+    update: true
+
+kstakingandrewards-loyaltyrewards-nft:
+  items:
+    pageitem2:
+      type: 2
+      title: "NFT Retention"
+      text: "For Long-term Unicorn & Land Holders
+            \n
+            \nA snapshot was taken at March 4, 2022 00:00 UTC that calculated how long each wallet had held each Unicorn and Land. Players were rewarded the following points for each full-day that the wallet held a Unicorn or Land NFT.
+            \n
+            \n**Point Values
+            \n▶️ Unicorn = 1
+            \n▶️ Common Land = 1
+            \n▶️ Rare Land = 1.25
+            \n▶️ Mythic Land = 1.75
+            \n
+            \nAfter much feedback from the community members that owned land, we've decided to award more points for land due to there being a lower amount of possible “retention” days and to provide extra retention value for land holders since they were unable to participate in the Dark Forest.
+            \n
+            \n🧮 **Sample Calculation**🧮
+            \n
+            \n🅰️ **UNICORN #1102 was owned by Wallet 1 for 30 days and Wallet 2 for 5 days.**
+            \n- Wallet 1 received 30 points for the time they owned UNICORN #1102
+            \n- Wallet 2 received 5 points for the time they owned UNICORN #1102.
+            \n
+            \n🅱️ **Wallet 1 owned a Mythic Land for 25 days and a UNICORN for 45 days.**
+            \n-Wallet 1 will receive 43.75 points for holding the Mythic Land and 45 points for holding the UNICORN.
+            \n-Wallet 1 will have a total retention point amount of 88.75"
+    buttonrow:
+      type: 3
+      items:
+        nav:
+          buttonclass: 1
+          buttonname: "LP RBW Airdrop"
+          buttonids: "nav"
+          buttontype: "Success"
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "Tier Placement for Unicorn or Land Holders"
+          buttonids: "kstakingandrewards-loyaltyrewards-tier"
+          buttontype: "Primary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "NFT Retention (Shadowcorn Holders)"
+          buttonids: "kstakingandrewards-loyaltyrewards-retention"
+          buttontype: "Primary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "How to Claim Rewards"
+          buttonids: "kstakingandrewards-claiming"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow2:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Staking and Rewards"
+          buttonids: "button1"
+          buttontype: "Success"
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "RBW Staking"
+          buttonids: "kstakingandrewards-rbw"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "LP Staking"
+          buttonids: "kstakingandrewards-lp"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow3:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Knowledge Base"
+          buttonids: "knowledge"
+          buttontype: "Success"
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "Game Guides"
+          buttonids: "kgameguide"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "New Releases"
+          buttonids: "knewreleases"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Events"
+          buttonids: "kevent-bulletin"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button5:
+          buttonclass: 1
+          buttonname: "Zendesk Guide"
+          buttonids: "kothers"
+          buttontype: "Secondary"
+          buttondisabled: false
+  options:
+    ephemeral: true
+    update: true
+
+kstakingandrewards-loyaltyrewards-tier:
+  items:
+    pageitem2:
+      type: 2
+      title: "Tier Placement for Unicorn or Land Holders"
+      text: "After calculating the total amount of retention points per wallet, we created 21 tiers and assigned an RBW value for each tier.
+            \n
+            \nEach wallet, with over 1 day retention for either Unicorns or Land, received a tier based on how they ranked against their peers. This means that if a wallet held a UNICORN or LAND for at least 1 day, they will receive 100 RBW. Any wallet holding less than 1 day was excluded.
+            \n
+            \nPlease note that there is no solid min-max per tier as the ranks are based on the total number of retention points. If other players have more retention points than you, then you will rank lower in comparison."
+      image: "https://cdn.discordapp.com/attachments/980696706628857856/1013075441030012958/unknown.png"
+    buttonrow:
+      type: 3
+      items:
+        nav:
+          buttonclass: 1
+          buttonname: "LP RBW Airdrop"
+          buttonids: "nav"
+          buttontype: "Success"
+          buttondisabled: true
+        button1:
+          buttonclass: 1
+          buttonname: "NFT Retention"
+          buttonids: "kstakingandrewards-loyaltyrewards-nft"
+          buttontype: "Primary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "NFT Retention (Shadowcorn Holders)"
+          buttonids: "kstakingandrewards-loyaltyrewards-retention"
+          buttontype: "Primary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "How to Claim Rewards"
+          buttonids: "kstakingandrewards-claiming"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow2:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Staking and Rewards"
+          buttonids: "button1"
+          buttontype: "Success"
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "RBW Staking"
+          buttonids: "kstakingandrewards-rbw"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "LP Staking"
+          buttonids: "kstakingandrewards-lp"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow3:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Knowledge Base"
+          buttonids: "knowledge"
+          buttontype: "Success"
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "Game Guides"
+          buttonids: "kgameguide"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "New Releases"
+          buttonids: "knewreleases"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Events"
+          buttonids: "kevent-bulletin"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button5:
+          buttonclass: 1
+          buttonname: "Zendesk Guide"
+          buttonids: "kothers"
+          buttontype: "Secondary"
+          buttondisabled: false
+  options:
+    ephemeral: true
+    update: true
+
+kstakingandrewards-loyaltyrewards-retention:
+  items:
+    pageitem2:
+      type: 2
+      title: "NFT Retention (Shadowcorn Holders)"
+      text: "Shadowcorn holders
+            \n
+            \n A snapshot was taken at March 4, 2022 00:00 UTC that provided the wallets that currently held a Shadowcorn/s. Players that held a Shadowcorn/s were rewarded the following RBW amounts per SHADOWCORN held.
+            \n
+            \nPoint Values
+            \n▶️ Common Shadowcorn = 250 RBW
+            \n▶️ Rare Shadowcorn = 500 RBW
+            \n▶️ Mythic Shadowcorn = 2,000 RBW
+            \n
+            \nDue to there being a low amount of possible retention days, our team decided to award a flat RBW amount per Shadowcorn held at 3/4/2022 00:00 UTC.
+            \n
+            \n🧮 **Sample Calculations** 🧮
+            \n
+            \n🅰️ **Wallet 1 held 1 Common Shadowcorn & 1 Rare Shadowcorn at 3/4/2022.**
+            \n- Wallet 1 received 250 RBW for holding 1 common shadowcorn and 500 RBW for holding 1 rare shadowcorn"
+    buttonrow:
+      type: 3
+      items:
+        nav:
+          buttonclass: 1
+          buttonname: "LP RBW Airdrop"
+          buttonids: "nav"
+          buttontype: "Success"
+          buttondisabled: true
+        button1:
+          buttonclass: 1
+          buttonname: "NFT Retention"
+          buttonids: "kstakingandrewards-loyaltyrewards-nft"
+          buttontype: "Primary"
+          buttondisabled: false
+        button2:
+          buttonclass: 1
+          buttonname: "Tier Placement for Unicorn or Land Holders"
+          buttonids: "kstakingandrewards-loyaltyrewards-tier"
+          buttontype: "Primary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "How to Claim Rewards"
+          buttonids: "kstakingandrewards-claiming"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow2:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Staking and Rewards"
+          buttonids: "button1"
+          buttontype: "Success"
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "RBW Staking"
+          buttonids: "kstakingandrewards-rbw"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "LP Staking"
+          buttonids: "kstakingandrewards-lp"
+          buttontype: "Secondary"
+          buttondisabled: false
+    buttonrow3:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Knowledge Base"
+          buttonids: "knowledge"
+          buttontype: "Success"
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "Game Guides"
+          buttonids: "kgameguide"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "New Releases"
+          buttonids: "knewreleases"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button4:
+          buttonclass: 1
+          buttonname: "Events"
+          buttonids: "kevent-bulletin"
+          buttontype: "Secondary"
+          buttondisabled: false
+        button5:
+          buttonclass: 1
+          buttonname: "Zendesk Guide"
+          buttonids: "kothers"
+          buttontype: "Secondary"
+          buttondisabled: false
+  options:
+    ephemeral: true
+    update: true

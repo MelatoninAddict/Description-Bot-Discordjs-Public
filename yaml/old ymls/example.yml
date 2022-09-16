@@ -1,0 +1,24 @@
+pagenamee:
+  items:
+    pageitem:
+      type: 2
+      title: "This is the greatest show"
+      text: "- Greatest Showman maybe"
+    pageitem2:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Name of Button 1"
+          buttonids: "page2" #page it leads to
+          buttontype: "Primary"
+          buttondisabled: false
+        button2:
+          buttonclass: 1
+          buttonname: "Name of Button 2"
+          buttonids: "page3" #must be unique cant be page2
+          buttontype: "Primary"
+          buttondisabled: false
+  options:
+    update: false
+    ephemeral: true

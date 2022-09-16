@@ -1,0 +1,1177 @@
+kstakingandrewards-lp:
+  items:
+    embed:
+      type: 2
+      title: "LP Staking"
+      text: "**LP Staking Guide** -  Steps on how to stake in the RBW/wETH liquidity pool.
+            \n**RBWLP to sRBWLP Conversion** - Conversion rate for RBWLP/sRBWLP.
+            \n**LP Staking Rewards** - Rewards for LP Staking."
+    buttonrow2:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "LP Staking" 
+          buttonids: "buttono1"  
+          buttontype: "Success" 
+          buttondisabled: true 
+        button2:
+          buttonclass: 1
+          buttonname: "LP Staking Guide" 
+          buttonids: "kstakingandrewards-lpsteps"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button3:
+          buttonclass: 1
+          buttonname: "RBWLP to sRBWLP Conversion" 
+          buttonids: "kstakingandrewards-lpconversion"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button4:
+          buttonclass: 1
+          buttonname: "LP Staking Rewards" 
+          buttonids: "kstakingandrewards-lprewards"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button2:
+          buttonclass: 1
+          buttonname: "Back" 
+          buttonids: "kstakingandrewards"  
+          buttontype: "Primary" 
+          buttondisabled: false 
+    buttonrow1:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Staking and Rewards" 
+          buttonids: "button1"  
+          buttontype: "Success" 
+          buttondisabled: true 
+        button2:
+          buttonclass: 1
+          buttonname: "RBW Staking" 
+          buttonids: "kstakingandrewards-rbw"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button4:
+          buttonclass: 1
+          buttonname: "Claim Rewards" 
+          buttonids: "kstakingandrewards-claim"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+    buttonrow4:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Knowledge Base" 
+          buttonids: "knowledge"  
+          buttontype: "Success" 
+          buttondisabled: false 
+        button2:
+          buttonclass: 1
+          buttonname: "Game Guides" 
+          buttonids: "kgameguide"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button3:
+          buttonclass: 1
+          buttonname: "New Releases" 
+          buttonids: "knewreleases"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button4:
+          buttonclass: 1
+          buttonname: "Events" 
+          buttonids: "kevent-bulletin"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button5:
+          buttonclass: 1
+          buttonname: "Zendesk Guide" 
+          buttonids: "kothers"  
+          buttontype: "Secondary" 
+          buttondisabled: false  
+  options:
+    ephemeral: true
+    update: true
+
+kstakingandrewards-lpsteps:
+  items:
+    pageitem2:
+      type: 2
+      title: "Staking in the RBW/wETH Liquidity Pool Guide"
+      text: "There are two main steps to staking in the Liquidity Pool (LP). First, you need to obtain RBWLP tokens through Balancer by investing in the pool. After that, you may stake these RBWLP tokens in the Vault staking website to gain RBW rewards.
+            \n
+            \nPart I contains steps on how to obtain RBWLP Tokens through Balancer
+            \n
+            \nPart II contains how to stake RBWLP Tokens on Vault"
+    buttonrow:
+      type: 3
+      items:
+        nav:
+          buttonclass: 1
+          buttonname: "LP Staking Guide"
+          buttonids: "nav"
+          buttontype: "Success"
+          buttondisabled: true
+        button1:
+          buttonclass: 1
+          buttonname: "Part I" 
+          buttonids: "kstakingandrewards-lpsteps1"  
+          buttontype: "Primary" 
+          buttondisabled: false 
+        button2:
+          buttonclass: 1
+          buttonname: "Part II" 
+          buttonids: "kstakingandrewards-lpsteps2"  
+          buttontype: "Primary" 
+          buttondisabled: false 
+        button3:
+          buttonclass: 1
+          buttonname: "RBWLP to sRBWLP Conversion" 
+          buttonids: "kstakingandrewards-lpconversion"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button4:
+          buttonclass: 1
+          buttonname: "LP Staking Rewards" 
+          buttonids: "kstakingandrewards-lprewards"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+    buttonrow1:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Staking and Rewards" 
+          buttonids: "button1"  
+          buttontype: "Success" 
+          buttondisabled: true 
+        button2:
+          buttonclass: 1
+          buttonname: "RBW Staking" 
+          buttonids: "kstakingandrewards-rbw"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button4:
+          buttonclass: 1
+          buttonname: "Claim Rewards" 
+          buttonids: "kstakingandrewards-claim"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+    buttonrow4:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Knowledge Base" 
+          buttonids: "knowledge"  
+          buttontype: "Success" 
+          buttondisabled: false 
+        button2:
+          buttonclass: 1
+          buttonname: "Game Guides" 
+          buttonids: "kgameguide"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button3:
+          buttonclass: 1
+          buttonname: "New Releases" 
+          buttonids: "knewreleases"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button4:
+          buttonclass: 1
+          buttonname: "Events" 
+          buttonids: "kevent-bulletin"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button5:
+          buttonclass: 1
+          buttonname: "Zendesk Guide" 
+          buttonids: "kothers"  
+          buttontype: "Secondary" 
+          buttondisabled: false  
+  options:
+    ephemeral: true
+    update: true
+
+kstakingandrewards-lpsteps1:
+  items:
+    pageitem2:
+      type: 2
+      title: "Obtaining RBWLP Tokens through Balancer"
+      text: "1️⃣ Go to the Balancer website:🔗 https://bit.ly/3y0kyA5
+        \n2️⃣ Connect your wallet. Make sure that you are connected to the Polygon network.
+        \n3️⃣ Click the Invest button."
+      image: "https://cdn.discordapp.com/attachments/980696706628857856/1013074694871728178/unknown.png"
+    buttonrow:
+      type: 3
+      items:
+        nav:
+          buttonclass: 1
+          buttonname: "LP Staking Guide"
+          buttonids: "nav"
+          buttontype: "Success"
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "Back" 
+          buttonids: "kstakingandrewards-lpsteps"  
+          buttontype: "Primary" 
+          buttondisabled: false 
+        button1:
+          buttonclass: 1
+          buttonname: "Next" 
+          buttonids: "kstakingandrewards-lpsteps12"  
+          buttontype: "Primary" 
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "RBWLP to sRBWLP Conversion" 
+          buttonids: "kstakingandrewards-lpconversion"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button4:
+          buttonclass: 1
+          buttonname: "LP Staking Rewards" 
+          buttonids: "kstakingandrewards-lprewards"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+    buttonrow1:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Staking and Rewards" 
+          buttonids: "button1"  
+          buttontype: "Success" 
+          buttondisabled: true 
+        button2:
+          buttonclass: 1
+          buttonname: "RBW Staking" 
+          buttonids: "kstakingandrewards-rbw"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button4:
+          buttonclass: 1
+          buttonname: "Claim Rewards" 
+          buttonids: "kstakingandrewards-claim"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+    buttonrow4:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Knowledge Base" 
+          buttonids: "knowledge"  
+          buttontype: "Success" 
+          buttondisabled: false 
+        button2:
+          buttonclass: 1
+          buttonname: "Game Guides" 
+          buttonids: "kgameguide"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button3:
+          buttonclass: 1
+          buttonname: "New Releases" 
+          buttonids: "knewreleases"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button4:
+          buttonclass: 1
+          buttonname: "Events" 
+          buttonids: "kevent-bulletin"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button5:
+          buttonclass: 1
+          buttonname: "Zendesk Guide" 
+          buttonids: "kothers"  
+          buttontype: "Secondary" 
+          buttondisabled: false  
+  options:
+    ephemeral: true
+    update: true
+
+kstakingandrewards-lpsteps12:
+  items:
+    pageitem2:
+      type: 2
+      title: "Obtaining RBWLP Tokens through Balancer"
+      text: "4️⃣ Insert the intended wETH & RBW amounts and click Preview."
+      image: "https://cdn.discordapp.com/attachments/980696706628857856/1013074695479885854/unknown.png"
+    buttonrow:
+      type: 3
+      items:
+        nav:
+          buttonclass: 1
+          buttonname: "LP Staking Guide"
+          buttonids: "nav"
+          buttontype: "Success"
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "Back" 
+          buttonids: "kstakingandrewards-lpsteps1"  
+          buttontype: "Primary" 
+          buttondisabled: false 
+        button1:
+          buttonclass: 1
+          buttonname: "Next" 
+          buttonids: "kstakingandrewards-lpsteps13"  
+          buttontype: "Primary" 
+          buttondisabled: false 
+        button3:
+          buttonclass: 1
+          buttonname: "RBWLP to sRBWLP Conversion" 
+          buttonids: "kstakingandrewards-lpconversion"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button4:
+          buttonclass: 1
+          buttonname: "LP Staking Rewards" 
+          buttonids: "kstakingandrewards-lprewards"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+    buttonrow1:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Staking and Rewards" 
+          buttonids: "button1"  
+          buttontype: "Success" 
+          buttondisabled: true 
+        button2:
+          buttonclass: 1
+          buttonname: "RBW Staking" 
+          buttonids: "kstakingandrewards-rbw"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button4:
+          buttonclass: 1
+          buttonname: "Claim Rewards" 
+          buttonids: "kstakingandrewards-claim"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+    buttonrow4:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Knowledge Base" 
+          buttonids: "knowledge"  
+          buttontype: "Success" 
+          buttondisabled: false 
+        button2:
+          buttonclass: 1
+          buttonname: "Game Guides" 
+          buttonids: "kgameguide"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button3:
+          buttonclass: 1
+          buttonname: "New Releases" 
+          buttonids: "knewreleases"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button4:
+          buttonclass: 1
+          buttonname: "Events" 
+          buttonids: "kevent-bulletin"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button5:
+          buttonclass: 1
+          buttonname: "Zendesk Guide" 
+          buttonids: "kothers"  
+          buttontype: "Secondary" 
+          buttondisabled: false  
+  options:
+    ephemeral: true
+    update: true
+
+kstakingandrewards-lpsteps13:
+  items:
+    pageitem2:
+      type: 2
+      title: "Obtaining RBWLP Tokens through Balancer"
+      text: "5️⃣ Once you have reviewed the RBW - wETH amounts, click the Invest button.
+          \n 6️⃣ Once you have invested the desired RBW & wETH, the amount of 50RBW - 50ETH LP tokens (RBWLP) you received will be visible via trading on Balancer and the Vault website."
+      image: "https://cdn.discordapp.com/attachments/980696706628857856/1013074696184541314/unknown.png"
+    buttonrow:
+      type: 3
+      items:
+        nav:
+          buttonclass: 1
+          buttonname: "LP Staking Guide"
+          buttonids: "nav"
+          buttontype: "Success"
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "Back" 
+          buttonids: "kstakingandrewards-lpsteps12"  
+          buttontype: "Primary" 
+          buttondisabled: false 
+        button3:
+          buttonclass: 1
+          buttonname: "RBWLP to sRBWLP Conversion" 
+          buttonids: "kstakingandrewards-lpconversion"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button4:
+          buttonclass: 1
+          buttonname: "LP Staking Rewards" 
+          buttonids: "kstakingandrewards-lprewards"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+    buttonrow1:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Staking and Rewards" 
+          buttonids: "button1"  
+          buttontype: "Success" 
+          buttondisabled: true 
+        button2:
+          buttonclass: 1
+          buttonname: "RBW Staking" 
+          buttonids: "kstakingandrewards-rbw"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button4:
+          buttonclass: 1
+          buttonname: "Claim Rewards" 
+          buttonids: "kstakingandrewards-claim"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+    buttonrow4:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Knowledge Base" 
+          buttonids: "knowledge"  
+          buttontype: "Success" 
+          buttondisabled: false 
+        button2:
+          buttonclass: 1
+          buttonname: "Game Guides" 
+          buttonids: "kgameguide"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button3:
+          buttonclass: 1
+          buttonname: "New Releases" 
+          buttonids: "knewreleases"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button4:
+          buttonclass: 1
+          buttonname: "Events" 
+          buttonids: "kevent-bulletin"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button5:
+          buttonclass: 1
+          buttonname: "Zendesk Guide" 
+          buttonids: "kothers"  
+          buttontype: "Secondary" 
+          buttondisabled: false  
+  options:
+    ephemeral: true
+    update: true
+
+kstakingandrewards-lpsteps2:
+  items:
+    pageitem2:
+      type: 2
+      title: "Staking RBWLP Tokens on Vault"
+      text: "1️⃣ Go to the Vault website: 🔗 https://cryptounicorns.vault.inc/#/
+          \n2️⃣ Connect your wallet, and make sure the wallet is on Polygon.
+          \n3️⃣ Click on the Stake button located next to RBWLP"
+      image: "https://cdn.discordapp.com/attachments/980696706628857856/1013074696683667486/unknown.png"
+    buttonrow:
+      type: 3
+      items:
+        nav:
+          buttonclass: 1
+          buttonname: "LP Staking Guide"
+          buttonids: "nav"
+          buttontype: "Success"
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "Back" 
+          buttonids: "kstakingandrewards-lpsteps"  
+          buttontype: "Primary" 
+          buttondisabled: false 
+        button1:
+          buttonclass: 1
+          buttonname: "Next" 
+          buttonids: "kstakingandrewards-lpsteps22"  
+          buttontype: "Primary" 
+          buttondisabled: false 
+        button3:
+          buttonclass: 1
+          buttonname: "RBWLP to sRBWLP Conversion" 
+          buttonids: "kstakingandrewards-lpconversion"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button4:
+          buttonclass: 1
+          buttonname: "LP Staking Rewards" 
+          buttonids: "kstakingandrewards-lprewards"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+    buttonrow1:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Staking and Rewards" 
+          buttonids: "button1"  
+          buttontype: "Success" 
+          buttondisabled: true 
+        button2:
+          buttonclass: 1
+          buttonname: "RBW Staking" 
+          buttonids: "kstakingandrewards-rbw"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button4:
+          buttonclass: 1
+          buttonname: "Claim Rewards" 
+          buttonids: "kstakingandrewards-claim"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+    buttonrow4:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Knowledge Base" 
+          buttonids: "knowledge"  
+          buttontype: "Success" 
+          buttondisabled: false 
+        button2:
+          buttonclass: 1
+          buttonname: "Game Guides" 
+          buttonids: "kgameguide"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button3:
+          buttonclass: 1
+          buttonname: "New Releases" 
+          buttonids: "knewreleases"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button4:
+          buttonclass: 1
+          buttonname: "Events" 
+          buttonids: "kevent-bulletin"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button5:
+          buttonclass: 1
+          buttonname: "Zendesk Guide" 
+          buttonids: "kothers"  
+          buttontype: "Secondary" 
+          buttondisabled: false  
+
+  options:
+    ephemeral: true
+    update: true
+
+kstakingandrewards-lpsteps22:
+  items:
+    pageitem2:
+      type: 2
+      title: "Staking RBWLP Tokens on Vault"
+      text: "4️⃣ Choose the intended duration on the slider.
+          \n5️⃣ Type in the RBWLP that you intend to stake, or click on the MAX button to stake all your RBWLP.
+          \n6️⃣ Click on Approve, and then click on Stake."
+      image: "https://cdn.discordapp.com/attachments/980696706628857856/1013074697191161916/unknown.png"
+    buttonrow:
+      type: 3
+      items:
+        nav:
+          buttonclass: 1
+          buttonname: "LP Staking Guide"
+          buttonids: "nav"
+          buttontype: "Success"
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "Back" 
+          buttonids: "kstakingandrewards-lpsteps"  
+          buttontype: "Primary" 
+          buttondisabled: false
+        button3:
+          buttonclass: 1
+          buttonname: "RBWLP to sRBWLP Conversion" 
+          buttonids: "kstakingandrewards-lpconversion"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button4:
+          buttonclass: 1
+          buttonname: "LP Staking Rewards" 
+          buttonids: "kstakingandrewards-lprewards"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+    buttonrow1:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Staking and Rewards" 
+          buttonids: "button1"  
+          buttontype: "Success" 
+          buttondisabled: true 
+        button2:
+          buttonclass: 1
+          buttonname: "RBW Staking" 
+          buttonids: "kstakingandrewards-rbw"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button4:
+          buttonclass: 1
+          buttonname: "Claim Rewards" 
+          buttonids: "kstakingandrewards-claim"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+    buttonrow4:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Knowledge Base" 
+          buttonids: "knowledge"  
+          buttontype: "Success" 
+          buttondisabled: false 
+        button2:
+          buttonclass: 1
+          buttonname: "Game Guides" 
+          buttonids: "kgameguide"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button3:
+          buttonclass: 1
+          buttonname: "New Releases" 
+          buttonids: "knewreleases"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button4:
+          buttonclass: 1
+          buttonname: "Events" 
+          buttonids: "kevent-bulletin"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button5:
+          buttonclass: 1
+          buttonname: "Zendesk Guide" 
+          buttonids: "kothers"  
+          buttontype: "Secondary" 
+          buttondisabled: false  
+  options:
+    ephemeral: true
+    update: true
+
+kstakingandrewards-lpconversion:
+  items:
+    pageitem2:
+      type: 2
+      title: "RBWLP to sRBWLP Conversion"
+      text: "The longer you choose to stake the LP tokens, the more sRBWLP tokens you will receive which will increase your share of the daily RBW rewards.
+            \n
+            \nWe will be using the same converts for RBWLP as we are using for RBW."
+      image: "https://cdn.discordapp.com/attachments/980696706628857856/1013074754758004806/unknown.png"
+    buttonrow2:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "LP Staking" 
+          buttonids: "buttono1"  
+          buttontype: "Success" 
+          buttondisabled: true 
+        button2:
+          buttonclass: 1
+          buttonname: "LP Staking Guide" 
+          buttonids: "kstakingandrewards-lpsteps"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button4:
+          buttonclass: 1
+          buttonname: "LP Staking Rewards" 
+          buttonids: "kstakingandrewards-lprewards"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+    buttonrow1:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Staking and Rewards" 
+          buttonids: "button1"  
+          buttontype: "Success" 
+          buttondisabled: true 
+        button2:
+          buttonclass: 1
+          buttonname: "RBW Staking" 
+          buttonids: "kstakingandrewards-rbw"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button4:
+          buttonclass: 1
+          buttonname: "Claim Rewards" 
+          buttonids: "kstakingandrewards-claim"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+    buttonrow4:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Knowledge Base" 
+          buttonids: "knowledge"  
+          buttontype: "Success" 
+          buttondisabled: false 
+        button2:
+          buttonclass: 1
+          buttonname: "Game Guides" 
+          buttonids: "kgameguide"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button3:
+          buttonclass: 1
+          buttonname: "New Releases" 
+          buttonids: "knewreleases"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button4:
+          buttonclass: 1
+          buttonname: "Events" 
+          buttonids: "kevent-bulletin"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button5:
+          buttonclass: 1
+          buttonname: "Zendesk Guide" 
+          buttonids: "kothers"  
+          buttontype: "Secondary" 
+          buttondisabled: false  
+  options:
+    ephemeral: true
+    update: true
+
+kstakingandrewards-lprewards:
+  items:
+    pageitem2:
+      type: 2
+      title: "LP Staking Rewards"
+      text: "We will release an LP Leaderboard that will reward players points daily for the amount of sRBWLP that they have.While this leaderboard will be separate from the RBW Staking Leaderboard, we will be using the same formula:
+          \n
+          \n``Points = sRBWLP Amount * Days that the deposit HAS been staked.``"
+    buttonrow:
+      type: 3
+      items:
+        button0:
+          buttonclass: 1
+          buttonname: "LP Staking Rewards" 
+          buttonids: "button1"  
+          buttontype: "Success" 
+          buttondisabled: true 
+        button1:
+          buttonclass: 1
+          buttonname: "Daily Rewards" 
+          buttonids: "kstakingandrewards-lprewards-daily"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button2:
+          buttonclass: 1
+          buttonname: "Monthly Rewards" 
+          buttonids: "kstakingandrewards-lprewards-monthly"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button3:
+          buttonclass: 1
+          buttonname: "Season Rewards" 
+          buttonids: "kstakingandrewards-lprewards-season"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button5:
+          buttonclass: 1
+          buttonname: "Back" 
+          buttonids: "kstakingandrewards"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+    buttonrow2:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "LP Staking + Staking and Rewards" 
+          buttonids: "buttono1"  
+          buttontype: "Success" 
+          buttondisabled: true 
+        button2:
+          buttonclass: 1
+          buttonname: "LP Staking Guide" 
+          buttonids: "kstakingandrewards-lpsteps"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button3:
+          buttonclass: 1
+          buttonname: "RBWLP to sRBWLP Conversion" 
+          buttonids: "kstakingandrewards-lpconversion"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button2:
+          buttonclass: 1
+          buttonname: "RBW Staking" 
+          buttonids: "kstakingandrewards-rbw"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button4:
+          buttonclass: 1
+          buttonname: "Claim Rewards" 
+          buttonids: "kstakingandrewards-claim"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+    buttonrow4:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Knowledge Base" 
+          buttonids: "knowledge"  
+          buttontype: "Success" 
+          buttondisabled: false 
+        button2:
+          buttonclass: 1
+          buttonname: "Game Guides" 
+          buttonids: "kgameguide"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button3:
+          buttonclass: 1
+          buttonname: "New Releases" 
+          buttonids: "knewreleases"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button4:
+          buttonclass: 1
+          buttonname: "Events" 
+          buttonids: "kevent-bulletin"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button5:
+          buttonclass: 1
+          buttonname: "Zendesk Guide" 
+          buttonids: "kothers"  
+          buttontype: "Secondary" 
+          buttondisabled: false  
+  options:
+    ephemeral: true
+    update: true
+
+kstakingandrewards-lprewards-daily:
+  items:
+    pageitem2:
+      type: 2
+      title: "Daily Rewards"
+      text: "Like with RBW Staking, all daily rewards must be claimed. It will then undergo a 7-day vesting period before you can receive it in your wallet."
+    buttonrow:
+      type: 3
+      items:
+        nav:
+          buttonclass: 1
+          buttonname: "LP Staking Rewards + LP Staking"
+          buttonids: "nav"
+          buttontype: "Success"
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "Monthly Rewards" 
+          buttonids: "kstakingandrewards-lprewards-monthly"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button3:
+          buttonclass: 1
+          buttonname: "Season Rewards" 
+          buttonids: "kstakingandrewards-lprewards-season"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button4:
+          buttonclass: 1
+          buttonname: "LP Staking Guide" 
+          buttonids: "kstakingandrewards-lpsteps"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button5:
+          buttonclass: 1
+          buttonname: "RBWLP to sRBWLP Conversion" 
+          buttonids: "kstakingandrewards-lpconversion"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+    buttonrow1:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Staking and Rewards" 
+          buttonids: "button1"  
+          buttontype: "Success" 
+          buttondisabled: true 
+        button2:
+          buttonclass: 1
+          buttonname: "RBW Staking" 
+          buttonids: "kstakingandrewards-rbw"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button4:
+          buttonclass: 1
+          buttonname: "Claim Rewards" 
+          buttonids: "kstakingandrewards-claim"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+    buttonrow4:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Knowledge Base" 
+          buttonids: "knowledge"  
+          buttontype: "Success" 
+          buttondisabled: false 
+        button2:
+          buttonclass: 1
+          buttonname: "Game Guides" 
+          buttonids: "kgameguide"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button3:
+          buttonclass: 1
+          buttonname: "New Releases" 
+          buttonids: "knewreleases"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button4:
+          buttonclass: 1
+          buttonname: "Events" 
+          buttonids: "kevent-bulletin"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button5:
+          buttonclass: 1
+          buttonname: "Zendesk Guide" 
+          buttonids: "kothers"  
+          buttontype: "Secondary" 
+          buttondisabled: false  
+  options:
+    ephemeral: true
+    update: true
+
+kstakingandrewards-lprewards-monthly:
+  items:
+    pageitem2:
+      type: 2
+      title: "Monthly Rewards"
+      text: "We will be distributing monthly UNIM & RBW rewards to players that are in the required position at the end of each month."
+      image: "https://cdn.discordapp.com/attachments/980696706628857856/1013074801008586842/unknown.png"
+    buttonrow:
+      type: 3
+      items:
+        nav:
+          buttonclass: 1
+          buttonname: "LP Staking Rewards + LP Staking"
+          buttonids: "nav"
+          buttontype: "Success"
+          buttondisabled: true
+        button1:
+          buttonclass: 1
+          buttonname: "Daily Rewards" 
+          buttonids: "kstakingandrewards-lprewards-daily"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button3:
+          buttonclass: 1
+          buttonname: "Season Rewards" 
+          buttonids: "kstakingandrewards-lprewards-season"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button2:
+          buttonclass: 1
+          buttonname: "LP Staking Guide" 
+          buttonids: "kstakingandrewards-lpsteps"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button4:
+          buttonclass: 1
+          buttonname: "RBWLP to sRBWLP Conversion" 
+          buttonids: "kstakingandrewards-lpconversion"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+    buttonrow1:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Staking and Rewards" 
+          buttonids: "button1"  
+          buttontype: "Success" 
+          buttondisabled: true 
+        button2:
+          buttonclass: 1
+          buttonname: "RBW Staking" 
+          buttonids: "kstakingandrewards-rbw"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button4:
+          buttonclass: 1
+          buttonname: "Claim Rewards" 
+          buttonids: "kstakingandrewards-claim"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+    buttonrow4:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Knowledge Base" 
+          buttonids: "knowledge"  
+          buttontype: "Success" 
+          buttondisabled: false 
+        button2:
+          buttonclass: 1
+          buttonname: "Game Guides" 
+          buttonids: "kgameguide"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button3:
+          buttonclass: 1
+          buttonname: "New Releases" 
+          buttonids: "knewreleases"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button4:
+          buttonclass: 1
+          buttonname: "Events" 
+          buttonids: "kevent-bulletin"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button5:
+          buttonclass: 1
+          buttonname: "Zendesk Guide" 
+          buttonids: "kothers"  
+          buttontype: "Secondary" 
+          buttondisabled: false  
+  options:
+    ephemeral: true
+    update: true
+
+kstakingandrewards-lprewards-season:
+  items:
+    pageitem2:
+      type: 2
+      title: "Season Rewards"
+      text: "At the end of the year-long LP Leaderboard, we will be distributing the following rewards to users that hold the current positions:"
+      image: "https://cdn.discordapp.com/attachments/980696706628857856/1013074855819759698/unknown.png"
+    buttonrow1:
+      type: 3
+      items:
+        nav:
+          buttonclass: 1
+          buttonname: "LP Staking Rewards + LP Staking"
+          buttonids: "nav"
+          buttontype: "Success"
+          buttondisabled: true
+        button1:
+          buttonclass: 1
+          buttonname: "Daily Rewards" 
+          buttonids: "kstakingandrewards-lprewards-daily"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button2:
+          buttonclass: 1
+          buttonname: "Monthly Rewards" 
+          buttonids: "kstakingandrewards-lprewards-monthly"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button2:
+          buttonclass: 1
+          buttonname: "LP Staking Guide" 
+          buttonids: "kstakingandrewards-lpsteps"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button3:
+          buttonclass: 1
+          buttonname: "RBWLP to sRBWLP Conversion" 
+          buttonids: "kstakingandrewards-lpconversion"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+    buttonrow1:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Staking and Rewards" 
+          buttonids: "button1"  
+          buttontype: "Success" 
+          buttondisabled: true 
+        button2:
+          buttonclass: 1
+          buttonname: "RBW Staking" 
+          buttonids: "kstakingandrewards-rbw"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button4:
+          buttonclass: 1
+          buttonname: "Claim Rewards" 
+          buttonids: "kstakingandrewards-claim"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+    buttonrow4:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Knowledge Base" 
+          buttonids: "knowledge"  
+          buttontype: "Success" 
+          buttondisabled: false 
+        button2:
+          buttonclass: 1
+          buttonname: "Game Guides" 
+          buttonids: "kgameguide"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button3:
+          buttonclass: 1
+          buttonname: "New Releases" 
+          buttonids: "knewreleases"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button4:
+          buttonclass: 1
+          buttonname: "Events" 
+          buttonids: "kevent-bulletin"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button5:
+          buttonclass: 1
+          buttonname: "Zendesk Guide" 
+          buttonids: "kothers"  
+          buttontype: "Secondary" 
+          buttondisabled: false  
+  options:
+    ephemeral: true
+    update: true

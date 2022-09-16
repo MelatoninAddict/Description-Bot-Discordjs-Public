@@ -1,0 +1,160 @@
+
+
+template1:
+  items:
+    pageitem:
+      #for type image
+      type: 1
+      image-file: "popcat.gif"
+    pageitem2:
+      #embed type processing
+      type: 2
+      title: "Template Title"
+      text: "Template Text"
+    pageitem3:
+      type: 3
+      items:
+
+#Regular Style Buttons
+
+        button1:
+          buttonclass: 1
+          buttonname: "Primary"
+          buttonids: "primarytemplate"  #following page id or function name
+            #this might be substituted for the 'page' name if ever
+          buttontype: "Primary"
+          buttondisabled: false
+
+
+## Button with emoji
+        button2:
+          buttonclass: 2
+          buttonname: "Secondary"
+          buttonids: "secondarytemplate" #following page id or function name
+          buttonemoji: "1009635377428058162" #emoji id
+            #this might be substituted for the 'page' name if ever
+          buttontype: "Secondary"
+          buttondisabled: false
+
+## Link type buttons
+        button3:
+          buttonclass: 3
+          buttonname: "Link Button"
+          buttonurl: 'https://discord.js.org' #.setURL()
+            #this might be substituted for the 'page' name if ever
+          buttontype: "Link"
+          buttondisabled: false
+    pageitem4:
+      type: 3
+      items:
+
+#Regular Style Buttons
+
+        button1:
+          buttonclass: 1
+          buttonname: "Disabled Primary"
+          buttonids: "subbutton3"
+            #this might be substituted for the 'page' name if ever
+          buttontype: "Primary"
+          buttondisabled: true
+
+
+## Button with emoji
+        button2:
+          buttonclass: 2
+          buttonname: "Disabled Secondary"
+          buttonids: "subbutton4"
+          buttonemoji: "1009635377428058162" #emoji id
+            #this might be substituted for the 'page' name if ever
+          buttontype: "Primary"
+          buttondisabled: true
+
+## Link type buttons
+        button3:
+          buttonclass: 3
+          buttonname: "Disabled Link"
+          buttonurl: 'https://discord.js.org' #.setURL()
+            #this might be substituted for the 'page' name if ever
+          buttontype: "Link"
+          buttondisabled: true
+  options:
+    ephemeral: true
+    #Setting update to true will update original button
+    update: false
+    origin: "none"
+    #set update to false on MAIN YAML options
+
+
+primarytemplate:
+  items:
+    pageitem:
+      #for type image
+      type: 1
+      image-file: "popcat.gif"
+    pageitem2:
+      #embed type processing
+      type: 2
+      title: "Primary Template 1"
+      text: "This is where Primary button leads to"
+
+  options:
+    ephemeral: true
+    #Setting update to true will update original button
+    update: false
+    origin: "template1"
+    #set update to false on MAIN YAML options
+
+
+secondarytemplate:
+  items:
+    pageitem:
+      #for type image
+      type: 1
+      image-file: "popcat.gif"
+    pageitem2:
+      #embed type processing
+      type: 2
+      title: "Secondary Template 1"
+      text: "This is where Secondary button leads to."
+    pageitem3:
+      type: 3
+      items:
+
+#Regular Style Buttons
+
+        regularbutton:
+          buttonclass: 1
+          buttonname: "Primary"
+          buttonids: "primarytemplate"  #following page id or function name
+            #this might be substituted for the 'page' name if ever
+          buttontype: "Primary"
+          buttondisabled: false
+
+
+## Button with emoji
+        emojibutton:
+          buttonclass: 2
+          buttonname: "Secondary"
+          buttonids: "secondarytemplate"
+          buttonemoji: "1009635377428058162" #emoji id
+          buttontype: "Secondary"
+          buttondisabled: false
+
+## Link type buttons
+        linkbutton:
+          buttonclass: 3
+          buttonname: "Link Button"
+          buttonurl: 'https://discord.js.org'
+          buttontype: "Link"
+          buttondisabled: false
+    pageitem4:
+      type: 4
+      title: "Secondary Template 1"
+      text: "This is where Secondary button leads to"
+
+  options:
+    ephemeral: true
+    #Setting update to true will update original button
+    update: false
+    origin: "primarytemplate"
+    #set update to false on MAIN YAML options

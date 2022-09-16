@@ -1,0 +1,677 @@
+knewreleases:
+    items:
+      embed:
+        type: 2
+        title: "New Release: Land Vending Machine"
+        text: "**How to purchase a Land on the Land Vending Machine with my Keystone?**\n
+            Congrats! You finally crafted and stashed out your Keystone, it’s time to buy some Land on the Land Vending Machine.
+            \n
+            \n:exclamation: **The Land Vending Machine is on https://vending.cryptounicorns.fun/. When you try to purchase a Land, you must have the correct Keystones in order to successfully purchase the Land.**
+            \n
+            \nFollow these steps for purchasing on Land Vending Machine:
+            \n
+            \n:exclamation: **The Land Vending Machine transactions will have a slippage of 5%.**
+            \n1️⃣Open the game.
+            \n2️⃣Click the Settings icon :gear: on the upper right corner of the game."
+        image: "https://cdn.discordapp.com/attachments/980696706628857856/1013075642306269215/unknown.png"
+      buttons:
+        type: 3
+        items:
+          about:
+            buttonclass: 1
+            buttonname: "Land Vending Machine"
+            buttonids: "welcome-bot-gameinfo-about"
+            buttontype: "Success"
+            buttondisabled: true
+          next:
+            buttonclass: 1
+            buttonname: "Next"
+            buttonids: "knewreleases-landvendingsteps12"
+            buttontype: "Secondary"
+            buttondisabled: false
+      buttonrow0:
+        type: 3
+        items:
+          button1:
+            buttonclass: 1
+            buttonname: "Knowledge Base" 
+            buttonids: "knowledge"  
+            buttontype: "Success" 
+            buttondisabled: false 
+          button2:
+            buttonclass: 1
+            buttonname: "Game Guides" 
+            buttonids: "kgameguide"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+          button3:
+            buttonclass: 1
+            buttonname: "Staking and rewards" 
+            buttonids: "kstakingandrewards"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+          button4:
+            buttonclass: 1
+            buttonname: "Events" 
+            buttonids: "kevent-bulletin"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+          button5:
+            buttonclass: 1
+            buttonname: "Zendesk Guide" 
+            buttonids: "kothers"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+    options:
+      update: true
+      ephemeral: true
+
+knewreleases-landvendingsteps12:
+    items:
+      embed:
+        type: 2
+        title: "How to purchase a Land on the Land Vending Machine with my Keystone?"
+        text: "3️⃣Click on the “Purchase” button, beneath the “Stash Out” button.
+            \n4️⃣Upon clicking the “Purchase” button, you will be redirected over to the Land Vending Machine webpage.
+            \n:exclamation: **Note that the price is determined by a progressive pricing curve. The base price will be the price we sold the lands in the Pre-Sales. Check this for the original price: https://medium.com/@lagunagames/phase-2-land-sale-details-a153e174b6d6**"
+        image: "https://cdn.discordapp.com/attachments/980696706628857856/1013075642755055636/unknown.png"
+      buttons:
+        type: 3
+        items:
+          about:
+            buttonclass: 1
+            buttonname: "Land Vending Machine"
+            buttonids: "welcome-bot-gameinfo-about"
+            buttontype: "Success"
+            buttondisabled: true
+          back:
+            buttonclass: 1
+            buttonname: "Back"
+            buttonids: "knewreleases"
+            buttontype: "Secondary"
+            buttondisabled: false
+          next:
+            buttonclass: 1
+            buttonname: "Next"
+            buttonids: "knewreleases-landvendingsteps13"
+            buttontype: "Secondary"
+            buttondisabled: false
+      buttonrow0:
+        type: 3
+        items:
+          button1:
+            buttonclass: 1
+            buttonname: "Knowledge Base" 
+            buttonids: "knowledge"  
+            buttontype: "Success" 
+            buttondisabled: false 
+          button2:
+            buttonclass: 1
+            buttonname: "Game Guides" 
+            buttonids: "kgameguide"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+          button3:
+            buttonclass: 1
+            buttonname: "Staking and rewards" 
+            buttonids: "kstakingandrewards"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+          button4:
+            buttonclass: 1
+            buttonname: "Events" 
+            buttonids: "kevent-bulletin"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+          button5:
+            buttonclass: 1
+            buttonname: "Zendesk Guide" 
+            buttonids: "kothers"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+    options:
+      update: true
+      ephemeral: true
+
+knewreleases-landvendingsteps13:
+    items:
+      embed:
+        type: 2
+        title: "How to purchase a Land on the Land Vending Machine with my Keystone?"
+        text: "5️⃣Choose the Land that you want to buy, then click the \“Vend Land\” button."
+        image: "https://cdn.discordapp.com/attachments/980696706628857856/1013075643195461672/unknown.png"
+      buttons:
+        type: 3
+        items:
+          about:
+            buttonclass: 1
+            buttonname: "Land Vending Machine"
+            buttonids: "welcome-bot-gameinfo-about"
+            buttontype: "Success"
+            buttondisabled: true
+          back:
+            buttonclass: 1
+            buttonname: "Back"
+            buttonids: "knewreleases-landvendingsteps12"
+            buttontype: "Secondary"
+            buttondisabled: false
+          next:
+            buttonclass: 1
+            buttonname: "Next"
+            buttonids: "knewreleases-landvendingsteps14"
+            buttontype: "Secondary"
+            buttondisabled: false
+      buttonrow0:
+        type: 3
+        items:
+          button1:
+            buttonclass: 1
+            buttonname: "Knowledge Base" 
+            buttonids: "knowledge"  
+            buttontype: "Success" 
+            buttondisabled: false 
+          button2:
+            buttonclass: 1
+            buttonname: "Game Guides" 
+            buttonids: "kgameguide"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+          button3:
+            buttonclass: 1
+            buttonname: "Staking and rewards" 
+            buttonids: "kstakingandrewards"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+          button4:
+            buttonclass: 1
+            buttonname: "Events" 
+            buttonids: "kevent-bulletin"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+          button5:
+            buttonclass: 1
+            buttonname: "Zendesk Guide" 
+            buttonids: "kothers"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+    options:
+      update: true
+      ephemeral: true
+
+knewreleases-landvendingsteps14:
+    items:
+      embed:
+        type: 2
+        title: "How to purchase a Land on the Land Vending Machine with my Keystone?"
+        text: "6️⃣Upon clicking \“Vend Land\”, a blockchain transaction prompt will pop up. Sign the wallet transaction and wait for confirmation. The \“Vend Land\” button will be greyed out and the text will change to \“Vending…\”
+              \n7️⃣When the transaction is complete, the Land moves to your Inventory under the Land tab.
+              \n**Note: You still need to lock the Land in to be able to use it in-game.**"
+        image: "https://cdn.discordapp.com/attachments/980696706628857856/1013075643635875881/unknown.png"
+      buttons:
+        type: 3
+        items:
+          about:
+            buttonclass: 1
+            buttonname: "Land Vending Machine"
+            buttonids: "welcome-bot-gameinfo-about"
+            buttontype: "Success"
+            buttondisabled: true
+          back:
+            buttonclass: 1
+            buttonname: "Back"
+            buttonids: "knewreleases-landvendingsteps13"
+            buttontype: "Secondary"
+            buttondisabled: false
+      buttonrow0:
+        type: 3
+        items:
+          button1:
+            buttonclass: 1
+            buttonname: "Knowledge Base" 
+            buttonids: "knowledge"  
+            buttontype: "Success" 
+            buttondisabled: false 
+          button2:
+            buttonclass: 1
+            buttonname: "Game Guides" 
+            buttonids: "kgameguide"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+          button3:
+            buttonclass: 1
+            buttonname: "Staking and rewards" 
+            buttonids: "kstakingandrewards"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+          button4:
+            buttonclass: 1
+            buttonname: "Events" 
+            buttonids: "kevent-bulletin"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+          button5:
+            buttonclass: 1
+            buttonname: "Zendesk Guide" 
+            buttonids: "kothers"  
+            buttontype: "Secondary" 
+            buttondisabled: false 
+    options:
+      update: true
+      ephemeral: true
+
+kothers:
+    items:
+      embed:
+        type: 2
+        title: "Zendesk Guide"
+        text: "All concerns that go beyond basic troubleshooting and require sensitive data such as wallet addresses, etc. are handled through the Laguna Games Zendesk. You may access it here:
+              \n:link: https://lagunagames.zendesk.com/hc/en-us
+              \n
+              \n**How to Use Zendesk**
+              \nYou can search for basic guides within Zendesk. If you need specific help with an issue or error, you can also create a ticket so we can look into it for you.\n
+              \n
+              \n**How to search for step-by-step guides**
+              \n:one: Type a few relevant keywords into the search bar on the main site.
+              \ntwo: Pick the relevant article from the search results.
+              \n:three: If you don’t see the article you are looking for, try a different combination of words that is still relevant to the topic. If you’re still not able to see something that can help you, please reach out to us on #mod-support so we can help you out.
+              \n
+              \n:exclamation: **Your feedback helps! Let us know what articles you’re looking for so we know which ones to create.**"
+      buttons:
+        type: 3
+        items:
+          about:
+            buttonclass: 1
+            buttonname: "Zendesk Guide"
+            buttonids: "placeholder"
+            buttontype: "Success"
+            buttondisabled: true
+          lg:
+            buttonclass: 1
+            buttonname: "Ticket Guide"
+            buttonids: "kothers-ticketguide"
+            buttontype: "Secondary"
+            buttondisabled: false
+          lg2:
+            buttonclass: 1
+            buttonname: "Token ID"
+            buttonids: "kothers-tokenid"
+            buttontype: "Secondary"
+            buttondisabled: false
+          lg3:
+            buttonclass: 1
+            buttonname: "Console logs and Reproduction"
+            buttonids: "kothers-consolereproduction"
+            buttontype: "Secondary"
+            buttondisabled: false
+          lg4:
+            buttonclass: 1
+            buttonname: "Discord ID"
+            buttonids: "kothers-discordid"
+            buttontype: "Secondary"
+            buttondisabled: false
+    buttonrow0:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Knowledge Base" 
+          buttonids: "knowledge"  
+          buttontype: "Success" 
+          buttondisabled: false 
+        button2:
+          buttonclass: 1
+          buttonname: "Game Guides" 
+          buttonids: "kgameguide"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button3:
+          buttonclass: 1
+          buttonname: "Staking and rewards" 
+          buttonids: "kstakingandrewards"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button4:
+          buttonclass: 1
+          buttonname: "New Releases" 
+          buttonids: "knewreleases"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button5:
+          buttonclass: 1
+          buttonname: "Events" 
+          buttonids: "kevent-bulletin"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+    options:
+      update: false
+      ephemeral: true
+
+kothers-ticketguide:
+    items:
+      embed1:
+        type: 2
+        title: "Ticket Guide"
+        text: "**When Should You NOT Make a Ticket?**
+              \n:x: If it’s a #known-issue and the announcement tells you to not make a ticket about it
+              \n:x: If it does not involve any sensitive information such as your wallet address, token IDs, etc.
+              \n:x: If it’s a general question that can be solved by asking in #general or #mod-support
+              \n:x: If it’s not in #known-issue (ask an admin on #mod-support first so we can get your tickets to the right dev!)
+              \n
+              \n**When Should You Make a Ticket?**
+              \n:white_check_mark: If you are reporting someone who is listing locked CU assets for sale on OpenSea
+              \n:white_check_mark: If it’s a #known-issue and the announcement tells you to make a ticket about it
+              \n:white_check_mark: If a dev, admin, or mod tells you to make a ticket for it
+              \n:white_check_mark: If specific directions ask you to make a ticket about it
+              \n:white_check_mark: For ban, blacklist, and rewards appeals
+              \n:white_check_mark: For the bug bounty program
+              \n
+              \n**How to Create a Ticket**
+              \n:one: Go to https://lagunagames.zendesk.com/hc/en-us
+              \n:two: Click Submit a request on the upper right of the Zendesk page.
+              \n:three: Fill up all the information requested and submit.
+              \n:incoming_envelope: Remember to check your email for updates! If you can't find it in your inbox, it might be in your spam/junk folder."
+      buttons:
+        type: 3
+        items:
+          about:
+            buttonclass: 1
+            buttonname: "Zendesk Guide"
+            buttonids: "placeholder"
+            buttontype: "Success"
+            buttondisabled: true
+          lg2:
+            buttonclass: 1
+            buttonname: "Token ID"
+            buttonids: "kothers-tokenid"
+            buttontype: "Secondary"
+            buttondisabled: false
+          lg3:
+            buttonclass: 1
+            buttonname: "Console logs and Reproduction"
+            buttonids: "kothers-consolereproduction"
+            buttontype: "Secondary"
+            buttondisabled: false
+          lg4:
+            buttonclass: 1
+            buttonname: "Discord ID"
+            buttonids: "kothers-discordid"
+            buttontype: "Secondary"
+            buttondisabled: false
+    buttonrow0:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Knowledge Base" 
+          buttonids: "knowledge"  
+          buttontype: "Success" 
+          buttondisabled: false 
+        button2:
+          buttonclass: 1
+          buttonname: "Game Guides" 
+          buttonids: "kgameguide"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button3:
+          buttonclass: 1
+          buttonname: "Staking and rewards" 
+          buttonids: "kstakingandrewards"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button4:
+          buttonclass: 1
+          buttonname: "New Releases" 
+          buttonids: "knewreleases"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button5:
+          buttonclass: 1
+          buttonname: "Events" 
+          buttonids: "kevent-bulletin"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+    options:
+      update: true
+      ephemeral: true
+
+kothers-tokenid:
+    items:
+      embed1:
+        type: 2
+        title: "How To Get the Token ID"
+        text: "**Token ID from Polygonscan**
+              \n:one: Navigate to the relevant transaction.
+              \n:two: Under the overview tab, check \"Transaction Action\".
+              \n:three: To the right of \"Transaction Action\", you'll see 1 of Token ID [number] The number in the brackets is the Token ID.
+              \n
+              \n**Token ID from OpenSea**
+              \n:one: Navigate to the page of the NFT.
+              \n:two: On the left side, click the \"Details\" tab.
+              \n:three: Under the Details tab, you'll find the Token ID."
+      buttons:
+        type: 3
+        items:
+          about:
+            buttonclass: 1
+            buttonname: "Zendesk Guide"
+            buttonids: "placeholder"
+            buttontype: "Success"
+            buttondisabled: true
+          lg:
+            buttonclass: 1
+            buttonname: "Ticket Guide"
+            buttonids: "kothers-ticketguide"
+            buttontype: "Secondary"
+            buttondisabled: false
+          lg3:
+            buttonclass: 1
+            buttonname: "Console logs and Reproduction"
+            buttonids: "kothers-consolereproduction"
+            buttontype: "Secondary"
+            buttondisabled: false
+          lg4:
+            buttonclass: 1
+            buttonname: "Discord ID"
+            buttonids: "kothers-discordid"
+            buttontype: "Secondary"
+            buttondisabled: false
+    buttonrow0:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Knowledge Base" 
+          buttonids: "knowledge"  
+          buttontype: "Success" 
+          buttondisabled: false 
+        button2:
+          buttonclass: 1
+          buttonname: "Game Guides" 
+          buttonids: "kgameguide"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button3:
+          buttonclass: 1
+          buttonname: "Staking and rewards" 
+          buttonids: "kstakingandrewards"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button4:
+          buttonclass: 1
+          buttonname: "New Releases" 
+          buttonids: "knewreleases"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button5:
+          buttonclass: 1
+          buttonname: "Events" 
+          buttonids: "kevent-bulletin"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+    options:
+      update: true
+      ephemeral: true
+
+kothers-consolereproduction:
+    items:
+      embed1:
+        type: 2
+        title: "How to Find the Information We Need"
+        text: "**How to Open Console Logs**
+              \n
+              \n:one: For Windows, press F12 while you're on the page. For Mac, press and hold the Fn key first to see the F1-F12 keys.
+              \n:two: On the top right, click the Console tab.
+              \n:three: Take a screenshot of your console and send it to us.
+              \n
+              \n**What are Reproduction Steps?**
+              \n
+              \nWhen we ask for reproduction steps, we mean for you to make a step-by-step guide/narration on the specific things that you did to produce an error. This helps the dev team reproduce the error on our end and work on a fix for the issue."
+      buttons:
+        type: 3
+        items:
+          about:
+            buttonclass: 1
+            buttonname: "Zendesk Guide"
+            buttonids: "placeholder"
+            buttontype: "Success"
+            buttondisabled: true
+          lg:
+            buttonclass: 1
+            buttonname: "Ticket Guide"
+            buttonids: "kothers-ticketguide"
+            buttontype: "Secondary"
+            buttondisabled: false
+          lg2:
+            buttonclass: 1
+            buttonname: "Token ID"
+            buttonids: "kothers-tokenid"
+            buttontype: "Secondary"
+            buttondisabled: false
+          lg4:
+            buttonclass: 1
+            buttonname: "Discord ID"
+            buttonids: "kothers-discordid"
+            buttontype: "Secondary"
+            buttondisabled: false
+    buttonrow0:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Knowledge Base" 
+          buttonids: "knowledge"  
+          buttontype: "Success" 
+          buttondisabled: false 
+        button2:
+          buttonclass: 1
+          buttonname: "Game Guides" 
+          buttonids: "kgameguide"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button3:
+          buttonclass: 1
+          buttonname: "Staking and rewards" 
+          buttonids: "kstakingandrewards"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button4:
+          buttonclass: 1
+          buttonname: "New Releases" 
+          buttonids: "knewreleases"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button5:
+          buttonclass: 1
+          buttonname: "Events" 
+          buttonids: "kevent-bulletin"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+    options:
+      update: true
+      ephemeral: true
+
+kothers-discordid:
+    items:
+      embed1:
+        type: 2
+        title: "How to Get Your Discord ID"
+        text: "**Desktop App/Web**
+              \n
+              \n:one: On the bottom left of the Discord app, you’ll spot your username. Click the :gear: gear icon to the right of your username.
+              \n:two: On the left side, you’ll see Advanced. Make sure that Developer Mode is toggled to on.
+              \n:three: Press Esc to go back to the main screen.
+              \n:four: Right-click on your username in any conversation.
+              \n:five: Click Copy ID. You should now have your Discord ID on your clipboard.
+              \n
+              \n
+              \n**Mobile App**
+              \n
+              \n:one: Tap your profile icon on the bottom navigation bar.
+              \n:two: Scroll down to APP SETTINGS and tap Behavior
+              \n:three: Under CHAT BEHAVIOR, make sure Developer Mode is toggled to on.
+              \n:four: Press the :arrow_left: back button to return to the main screen.
+              \n:five: On any conversation, long-press on your profile icon and swipe up.
+              \n:six: Under DEVELOPER MODE, press Copy ID. You should now have your Discord ID on your clipboard."
+      buttons:
+        type: 3
+        items:
+          about:
+            buttonclass: 1
+            buttonname: "Zendesk Guide"
+            buttonids: "placeholder"
+            buttontype: "Success"
+            buttondisabled: true
+          lg:
+            buttonclass: 1
+            buttonname: "Ticket Guide"
+            buttonids: "kothers-ticketguide"
+            buttontype: "Secondary"
+            buttondisabled: false
+          lg2:
+            buttonclass: 1
+            buttonname: "Token ID"
+            buttonids: "kothers-tokenid"
+            buttontype: "Secondary"
+            buttondisabled: false
+          lg3:
+            buttonclass: 1
+            buttonname: "Console logs and Reproduction"
+            buttonids: "kothers-consolereproduction"
+            buttontype: "Secondary"
+            buttondisabled: false
+    buttonrow0:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Knowledge Base" 
+          buttonids: "knowledge"  
+          buttontype: "Success" 
+          buttondisabled: false 
+        button2:
+          buttonclass: 1
+          buttonname: "Game Guides" 
+          buttonids: "kgameguide"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button3:
+          buttonclass: 1
+          buttonname: "Staking and rewards" 
+          buttonids: "kstakingandrewards"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button4:
+          buttonclass: 1
+          buttonname: "New Releases" 
+          buttonids: "knewreleases"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button5:
+          buttonclass: 1
+          buttonname: "Events" 
+          buttonids: "kevent-bulletin"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+    options:
+      update: true
+      ephemeral: true

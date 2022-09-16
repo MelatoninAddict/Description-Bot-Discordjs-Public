@@ -1,0 +1,188 @@
+kshadowcornhatching1:
+  items:
+    embedrow:
+      type: 2
+      title: "How to Hatch A Shadowcorn Egg?"
+      text: ":exclamation: Note that hatching for Shadowcorn Eggs will occur on darkforest.cryptounicorns.fun\n
+            \n
+            1️⃣ Go to https://darkforest.cryptounicorns.fun/.\n
+
+            2️⃣ Connect your wallet by clicking on the **Connect Your Wallet** button at the top right corner of the page."
+      image: "https://cdn.discordapp.com/attachments/980696706628857856/1013073856262578237/unknown.png"
+    buttonrow:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Next" #Name of the button
+          buttonids: "kshadowcornhatching12"  #'page' name/id to redirect to
+          buttontype: "Primary" #button Color type
+          buttondisabled: false #If button is disabled or not
+        button2:
+          buttonclass: 1
+          buttonname: "Back" #Name of the button
+          buttonids: "kgameguide"  #'page' name/id to redirect to
+          buttontype: "Primary" #button Color type
+          buttondisabled: false #If button is disabled or not
+  options:
+    ephemeral: true #leave at true for now
+    update: true # set to true for third level menu
+
+kshadowcornhatching12:
+  items:
+    embedrow:
+      type: 2
+      title: "   "
+      text: "3️⃣ Click on the Shadowcorn Hatching button on the webpage.\n
+            \n
+            4️⃣ Hatching occurs at the ‘Summoning Altar.’\n
+            \n
+            5️⃣ Click on your desired egg, then a pop-up will appear."
+      image: "https://cdn.discordapp.com/attachments/980696706628857856/1013073856707166259/unknown.png"
+    buttonrow:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Next" #Name of the button
+          buttonids: "kshadowcornhatching13"  #'page' name/id to redirect to
+          buttontype: "Primary" #button Color type
+          buttondisabled: false #If button is disabled or not
+        button2:
+          buttonclass: 1
+          buttonname: "Back" #Name of the button
+          buttonids: "kgameguide"  #'page' name/id to redirect to
+          buttontype: "Primary" #button Color type
+          buttondisabled: false #If button is disabled or not
+  options:
+    ephemeral: true #leave at true for now
+    update: true # set to true for third level menu
+
+
+kshadowcornhatching13:
+  items:
+    embedrow:
+      type: 2
+      title: "   "
+      text: "6️⃣ On the pop-up page, click the “Hatch Egg” button to hatch the egg."
+      image: "https://cdn.discordapp.com/attachments/980696706628857856/1013073857436991488/unknown.png"
+    buttonrow:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Next" #Name of the button
+          buttonids: "kshadowcornhatching14"  #'page' name/id to redirect to
+          buttontype: "Primary" #button Color type
+          buttondisabled: false #If button is disabled or not
+        button2:
+          buttonclass: 1
+          buttonname: "Back" #Name of the button
+          buttonids: "kgameguide"  #'page' name/id to redirect to
+          buttontype: "Primary" #button Color type
+          buttondisabled: false #If button is disabled or not
+  options:
+    ephemeral: true #leave at true for now
+    update: true # set to true for third level menu
+
+kshadowcornhatching14:
+  items:
+    embedrow:
+      type: 2
+      title: "   "
+      text: "7️⃣ There will be an animation to indicate that the Shadowcorn Egg is ‘hatching.’"
+      image: "https://cdn.discordapp.com/attachments/980696706628857856/1013073857856413786/unknown.png"
+    buttonrow:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Next" #Name of the button
+          buttonids: "kshadowcornhatching15"  #'page' name/id to redirect to
+          buttontype: "Primary" #button Color type
+          buttondisabled: false #If button is disabled or not
+        button2:
+          buttonclass: 1
+          buttonname: "Back" #Name of the button
+          buttonids: "kgameguide"  #'page' name/id to redirect to
+          buttontype: "Primary" #button Color type
+          buttondisabled: false #If button is disabled or not
+  options:
+    ephemeral: true #leave at true for now
+    update: true # set to true for third level menu
+
+kshadowcornhatching15:
+  items:
+    embedrow:
+      type: 2
+      title: "   "
+      text: "8️⃣ After the hatching process, the egg animation will change into an animation of a Shadowcorn, and its Traits will roll out on the right side."
+      image: "https://cdn.discordapp.com/attachments/980696706628857856/1013073858951139418/unknown.png"
+    buttonrow:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Back" #Name of the button
+          buttonids: "kgameguide"  #'page' name/id to redirect to
+          buttontype: "Primary" #button Color type
+          buttondisabled: false #If button is disabled or not
+  options:
+    ephemeral: true #leave at true for now
+    update: true # set to true for third level menu
+
+kshadowcornhatching2:
+    items:
+      embedrow:
+        type: 2
+        title: "Shadowcorn FAQs"
+        text: "**How much is the Hatching cost for a Shadowcorn Egg?**\n
+              To successfully hatch a Shadowcorn Egg you will need the following in your wallet:\n
+              :UNIM: 10,000 UNIM\n
+              :RBW: 100 RBW\n
+              \n
+              **What are the class types of Shadowcorns?**\n
+              Here are the five Shadowcorn classes that will dominate the Dark Forest:\n
+              ➡️ Fire\n
+              ➡️ Slime\n
+              ➡️ Volt\n
+              ➡️ Soul\n
+              ➡️ Nebula\n
+              \n
+              **Do Shadowcorns classes have a rarity?**
+              Yes, Shadowcorn classes have 3 tiers of rarity!\n
+              ➡️ Common\n
+              ➡️ Rare\n
+              ➡️ Mythic\n
+              \n
+              Each Class has an equal amount of Shadowcorns across rarities:\n
+              ➡️ 400 Common Shadowcorns per Class\n
+              ➡️ 190 Rare Shadowcorns per Class\n
+              ➡️ 10 Mythic Shadowcorns per Class\n
+              \n
+              **Do Shadowcorns have Stats?**\n
+              Shadowcorn has Traits that work like Unicorns’ Stats, except there aren’t the equivalent of Parts/Genes.\n
+              \n
+              Here are the 5 Shadowcorn Traits:\n
+              ➡️ Might\n
+              ➡️ Wickedness\n
+              ➡️ Tenacity\n
+              ➡️ Cunning\n
+              ➡️ Arcana\n
+              \n
+              **Can I breed my Shadowcorns?**\n
+              No, Shadowcorns cannot be bred.\n
+              \n
+              :question: Learn more about Shadowcorns here: https://medium.com/@lagunagames/shadowcorns-roadmap-reveal-640250afea04"
+      buttonrow:
+        type: 3
+        items:
+          button1:
+            buttonclass: 1
+            buttonname: "Back" #Name of the button
+            buttonids: "kgameguide"  #'page' name/id to redirect to
+            buttontype: "Primary" #button Color type
+            buttondisabled: false #If button is disabled or not
+    options:
+      ephemeral: true #leave at true for now
+      update: true # set to true for third level menu

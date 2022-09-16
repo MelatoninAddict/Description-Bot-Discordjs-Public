@@ -1,0 +1,642 @@
+kgameguide: 
+  items:
+    embedrow:
+      type: 2
+      title: "Game Guides"
+      text: "**Notion Guide** - A perfect guide for Uni Fam that just settled in the Unicorn Multiverse.
+      \n
+      \n**Zendesk Guide** - Have a specific question in mind? Find your answers here!
+      \n
+      \n**Lootbox Guide** - Step-by-step guide on lootboxes.
+      \n
+      \n**Keystone Guide** - Step-by-step guide on keystones.
+      \n
+      \n**Shadowcorn Hatching** - Step-by-step guide on hatching Shadowcorns."
+    buttonrow0:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Game Guides" 
+          buttonids: "genguides"  
+          buttontype: "Success" 
+          buttondisabled: true 
+        button2:
+          buttonclass: 1
+          buttonname: "Notion Guide" 
+          buttonids: "knotionguide"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button3:
+          buttonclass: 1
+          buttonname: "Zendesk Knowledge Base" 
+          buttonids: "kzendeskknowledgebase"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button4:
+          buttonclass: 1
+          buttonname: "Lootbox Guide" 
+          buttonids: "klootboxguide"  
+          buttontype: "Secondary" 
+          buttondisabled: false
+        button5:
+          buttonclass: 1
+          buttonname: "Keystone Guides" 
+          buttonids: "kkeystoneguide"  
+          buttontype: "Secondary" 
+          buttondisabled: true 
+    buttonrow2:
+      type: 3
+      items:
+        button6:
+          buttonclass: 1
+          buttonname: "Shadowcorn Hatching" 
+          buttonids: "kshadowcornhatching"  
+          buttontype: "Secondary" 
+          buttondisabled: true 
+    buttonrow3:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Knowledge Base" 
+          buttonids: "kb"  
+          buttontype: "Success" 
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "Staking and rewards" 
+          buttonids: "kstakingandrewards"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button3:
+          buttonclass: 1
+          buttonname: "New Releases" 
+          buttonids: "knewreleases"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button4:
+          buttonclass: 1
+          buttonname: "Events" 
+          buttonids: "kevent-bulletin"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button5:
+          buttonclass: 1
+          buttonname: "Zendesk Guide" 
+          buttonids: "kothers"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+  options:
+    ephemeral: true 
+    update: false 
+
+knotionguide: 
+  items:
+    embedrow:
+      type: 2
+      title: "Notion Guide"
+      text: "Starting out at the game? Check out our Notion guide at https://bit.ly/3A2xPrb and you'll find a trove of info that will help you out as you establish yourself in the Unicorn multiverse."
+    buttonrow0:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Game Guides" 
+          buttonids: "genguides"  
+          buttontype: "Success" 
+          buttondisabled: true 
+        button3:
+          buttonclass: 1
+          buttonname: "Zendesk Knowledge Base" 
+          buttonids: "kzendeskknowledgebase"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button4:
+          buttonclass: 1
+          buttonname: "Lootbox Guide" 
+          buttonids: "klootboxguide"  
+          buttontype: "Secondary" 
+          buttondisabled: false
+        button5:
+          buttonclass: 1
+          buttonname: "Keystone Guides" 
+          buttonids: "kkeystoneguide"  
+          buttontype: "Secondary" 
+          buttondisabled: true 
+        button6:
+          buttonclass: 1
+          buttonname: "Shadowcorn Hatching" 
+          buttonids: "kshadowcornhatching"  
+          buttontype: "Secondary" 
+          buttondisabled: true 
+    buttonrow3:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Knowledge Base" 
+          buttonids: "kb"  
+          buttontype: "Success" 
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "Staking and rewards" 
+          buttonids: "kstakingandrewards"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button3:
+          buttonclass: 1
+          buttonname: "New Releases" 
+          buttonids: "knewreleases"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button4:
+          buttonclass: 1
+          buttonname: "Events" 
+          buttonids: "kevent-bulletin"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button5:
+          buttonclass: 1
+          buttonname: "Zendesk Guide" 
+          buttonids: "kothers"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+  options:
+    ephemeral: true 
+    update: true 
+
+kzendeskknowledgebase:
+  items:
+    embedrow:
+      type: 2
+      title: "Zendesk Knowledge Base"
+      text: "Have a question? Head over to our Zendesk at https://bit.ly/3MPsB77 and you might find the answers you're looking for."
+    buttonrow0:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Game Guides" 
+          buttonids: "genguides"  
+          buttontype: "Success" 
+          buttondisabled: true 
+        button2:
+          buttonclass: 1
+          buttonname: "Notion Guide" 
+          buttonids: "knotionguide"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button4:
+          buttonclass: 1
+          buttonname: "Lootbox Guide" 
+          buttonids: "klootboxguide"  
+          buttontype: "Secondary" 
+          buttondisabled: false
+        button5:
+          buttonclass: 1
+          buttonname: "Keystone Guides" 
+          buttonids: "kkeystoneguide"  
+          buttontype: "Secondary" 
+          buttondisabled: true 
+        button6:
+          buttonclass: 1
+          buttonname: "Shadowcorn Hatching" 
+          buttonids: "kshadowcornhatching"  
+          buttontype: "Secondary" 
+          buttondisabled: true 
+    buttonrow3:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Knowledge Base" 
+          buttonids: "kb"  
+          buttontype: "Success" 
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "Staking and rewards" 
+          buttonids: "kstakingandrewards"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button3:
+          buttonclass: 1
+          buttonname: "New Releases" 
+          buttonids: "knewreleases"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button4:
+          buttonclass: 1
+          buttonname: "Events" 
+          buttonids: "kevent-bulletin"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button5:
+          buttonclass: 1
+          buttonname: "Zendesk Guide" 
+          buttonids: "kothers"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+  options:
+    ephemeral: true 
+    update: true 
+
+klootboxguide:
+  items:
+    embedrow:
+      type: 2
+      title: "Lootbox Guide"
+      text: "How do I claim a lootbox?
+            \n
+            \nLootboxes are NFTs that, when opened in-game, grant users starter items such as berries, seeds, crafting materials, and possibly even UNIM and RBW. This item is tradeable and comes in three different rarities.
+            \n
+            \n
+            \n:question: Want to know more about Lootboxes? Check out this Medium article about Lootboxes here:
+            \n
+            \n:link: https://medium.com/@lagunagames/lootboxes-179a864a8f8e
+            \n
+            \n
+            \n:exclamation: Important: Before you can open a Lootbox, you must first claim it. Keep in mind that once a Lootbox is “claimed,” it is permanently in-game and cannot be sent back to the Wallet.
+            \n
+            \nClick on the *Steps* button below to go through the lootbox guide."
+    buttonrow0:
+      type: 3
+      items:
+        nav:
+          buttonclass: 1
+          buttonname: "Navigation"
+          buttonids: "nav"
+          buttontype: "Success"
+          buttondisabled: true
+        button1:
+          buttonclass: 1
+          buttonname: "Steps" 
+          buttonids: "klootboxguide1"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button2:
+          buttonclass: 1
+          buttonname: "Back" 
+          buttonids: "kgameguide"  
+          buttontype: "Success" 
+          buttondisabled: false
+    buttonrow1:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Game Guides" 
+          buttonids: "genguides"  
+          buttontype: "Success" 
+          buttondisabled: true 
+        button2:
+          buttonclass: 1
+          buttonname: "Notion Guide" 
+          buttonids: "knotionguide"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button3:
+          buttonclass: 1
+          buttonname: "Zendesk Knowledge Base" 
+          buttonids: "kzendeskknowledgebase"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button5:
+          buttonclass: 1
+          buttonname: "Keystone Guides" 
+          buttonids: "kkeystoneguide"  
+          buttontype: "Secondary" 
+          buttondisabled: true 
+        button6:
+          buttonclass: 1
+          buttonname: "Shadowcorn Hatching" 
+          buttonids: "kshadowcornhatching"  
+          buttontype: "Secondary" 
+          buttondisabled: true 
+    buttonrow3:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Knowledge Base" 
+          buttonids: "kb"  
+          buttontype: "Success" 
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "Staking and rewards" 
+          buttonids: "kstakingandrewards"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button3:
+          buttonclass: 1
+          buttonname: "New Releases" 
+          buttonids: "knewreleases"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button4:
+          buttonclass: 1
+          buttonname: "Events" 
+          buttonids: "kevent-bulletin"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button5:
+          buttonclass: 1
+          buttonname: "Zendesk Guide" 
+          buttonids: "kothers"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+  options:
+    ephemeral: true 
+    update: true 
+
+klootboxguide1:
+  items:
+    embedrow:
+      type: 2
+      title: "  "
+      text: "1️⃣ Go into your player inventory. Next to the land tab, there will be a Lootbox Tab.\n
+            2️⃣ Click the Tab and you’ll see all the Lootboxes you have in your wallet."
+      image: "https://cdn.discordapp.com/attachments/980696706628857856/1013072585476538418/unknown.png"
+    buttonrow0:
+      type: 3
+      items:
+        nav:
+          buttonclass: 1
+          buttonname: "Navigation"
+          buttonids: "nav"
+          buttontype: "Success"
+          buttondisabled: true
+        button1:
+          buttonclass: 1
+          buttonname: "Next" 
+          buttonids: "klootboxguide2"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+    buttonrow1:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Game Guides" 
+          buttonids: "genguides"  
+          buttontype: "Success" 
+          buttondisabled: true 
+        button2:
+          buttonclass: 1
+          buttonname: "Notion Guide" 
+          buttonids: "knotionguide"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button3:
+          buttonclass: 1
+          buttonname: "Zendesk Knowledge Base" 
+          buttonids: "kzendeskknowledgebase"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button5:
+          buttonclass: 1
+          buttonname: "Keystone Guides" 
+          buttonids: "kkeystoneguide"  
+          buttontype: "Secondary" 
+          buttondisabled: true 
+        button6:
+          buttonclass: 1
+          buttonname: "Shadowcorn Hatching" 
+          buttonids: "kshadowcornhatching"  
+          buttontype: "Secondary" 
+          buttondisabled: true 
+    buttonrow3:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Knowledge Base" 
+          buttonids: "kb"  
+          buttontype: "Success" 
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "Staking and rewards" 
+          buttonids: "kstakingandrewards"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button3:
+          buttonclass: 1
+          buttonname: "New Releases" 
+          buttonids: "knewreleases"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button4:
+          buttonclass: 1
+          buttonname: "Events" 
+          buttonids: "kevent-bulletin"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button5:
+          buttonclass: 1
+          buttonname: "Zendesk Guide" 
+          buttonids: "kothers"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+  options:
+    ephemeral: true 
+    update: true 
+
+klootboxguide2:
+  items:
+    embedrow:
+      type: 2
+      title: "Lootbox Guide"
+      text: "3️⃣ Clicking on Claim will bring up a blockchain transaction prompt. Once the transaction is finished, the Lootbox will disappear from the Claim Tab and appear in the Open Tab.\n
+            \n
+            ⏺ Lootboxes that are of the same type will stack. You can only claim one Lootbox of the same type at a time.\n
+            ⏺ Lootboxes that are of different types can be claimed simultaneously\n
+            \n
+            :exclamation: NOTE: Once a Lootbox is “claimed,” it is permanently in-game and cannot be sent back to the Wallet. So be careful before deciding to claim a Lootbox or not."
+      image: "https://cdn.discordapp.com/attachments/980696706628857856/1013072586042777600/unknown.png"
+    buttonrow0:
+      type: 3
+      items:
+        nav:
+          buttonclass: 1
+          buttonname: "Navigation"
+          buttonids: "nav"
+          buttontype: "Success"
+          buttondisabled: true
+        button1:
+          buttonclass: 1
+          buttonname: "Next" 
+          buttonids: "klootboxguide3"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button2:
+          buttonclass: 1
+          buttonname: "Back" 
+          buttonids: "klootboxguide1"  
+          buttontype: "Success" 
+          buttondisabled: false 
+    buttonrow1:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Game Guides" 
+          buttonids: "genguides"  
+          buttontype: "Success" 
+          buttondisabled: true 
+        button2:
+          buttonclass: 1
+          buttonname: "Notion Guide" 
+          buttonids: "knotionguide"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button3:
+          buttonclass: 1
+          buttonname: "Zendesk Knowledge Base" 
+          buttonids: "kzendeskknowledgebase"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button5:
+          buttonclass: 1
+          buttonname: "Keystone Guides" 
+          buttonids: "kkeystoneguide"  
+          buttontype: "Secondary" 
+          buttondisabled: true 
+        button6:
+          buttonclass: 1
+          buttonname: "Shadowcorn Hatching" 
+          buttonids: "kshadowcornhatching"  
+          buttontype: "Secondary" 
+          buttondisabled: true 
+    buttonrow3:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Knowledge Base" 
+          buttonids: "kb"  
+          buttontype: "Success" 
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "Staking and rewards" 
+          buttonids: "kstakingandrewards"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button3:
+          buttonclass: 1
+          buttonname: "New Releases" 
+          buttonids: "knewreleases"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button4:
+          buttonclass: 1
+          buttonname: "Events" 
+          buttonids: "kevent-bulletin"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button5:
+          buttonclass: 1
+          buttonname: "Zendesk Guide" 
+          buttonids: "kothers"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+  options:
+    ephemeral: true 
+    update: true 
+
+klootboxguide3:
+  items:
+    embedrow:
+      type: 2
+      title: "Lootbox Guide"
+      text: "4️⃣ To open a claimed Lootbox, click on the Open tab to the left of the Claim tab.\n
+            5️⃣ You will get a **Lootbox Opened!** Pop-up showing the contents of your Lootbox. The Lootbox is deleted from the Inventory at this point, and the contents will be stored in your inventory. Enjoy your rewards!"
+      image: "https://cdn.discordapp.com/attachments/980696706628857856/1013072586529325197/unknown.png"
+    buttonrow0:
+      type: 3
+      items:
+        nav:
+          buttonclass: 1
+          buttonname: "Navigation"
+          buttonids: "nav"
+          buttontype: "Success"
+          buttondisabled: true
+        button1:
+          buttonclass: 1
+          buttonname: "Back" 
+          buttonids: "klootboxguide2"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+    buttonrow1:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Game Guides" 
+          buttonids: "genguides"  
+          buttontype: "Success" 
+          buttondisabled: true 
+        button2:
+          buttonclass: 1
+          buttonname: "Notion Guide" 
+          buttonids: "knotionguide"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button3:
+          buttonclass: 1
+          buttonname: "Zendesk Knowledge Base" 
+          buttonids: "kzendeskknowledgebase"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button5:
+          buttonclass: 1
+          buttonname: "Keystone Guides" 
+          buttonids: "kkeystoneguide"  
+          buttontype: "Secondary" 
+          buttondisabled: true 
+        button6:
+          buttonclass: 1
+          buttonname: "Shadowcorn Hatching" 
+          buttonids: "kshadowcornhatching"  
+          buttontype: "Secondary" 
+          buttondisabled: true 
+    buttonrow3:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Knowledge Base" 
+          buttonids: "kb"  
+          buttontype: "Success" 
+          buttondisabled: true
+        button2:
+          buttonclass: 1
+          buttonname: "Staking and rewards" 
+          buttonids: "kstakingandrewards"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button3:
+          buttonclass: 1
+          buttonname: "New Releases" 
+          buttonids: "knewreleases"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button4:
+          buttonclass: 1
+          buttonname: "Events" 
+          buttonids: "kevent-bulletin"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+        button5:
+          buttonclass: 1
+          buttonname: "Zendesk Guide" 
+          buttonids: "kothers"  
+          buttontype: "Secondary" 
+          buttondisabled: false 
+  options:
+    ephemeral: true 
+    update: true 

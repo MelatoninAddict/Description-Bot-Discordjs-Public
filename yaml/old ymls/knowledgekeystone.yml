@@ -1,0 +1,252 @@
+
+kkeystoneguide1:
+    items:
+      embedrow:
+        type: 2
+        title: "How do I craft a Keystone?"
+        text: "Keystones are ERC-1155 Tokens used to allow Players to purchase additional Lands from the Land Vending Machine. Keystone Tokens are craftable from class materials. Here’s how you can craft one:
+
+              \nClick on the \"Steps\" button below to go through the crafting keystones guide."
+      buttonrow:
+        type: 3
+        items:
+          button2:
+            buttonclass: 1
+            buttonname: "Steps" #Name of the button
+            buttonids: "kkeystoneguide12"  #'page' name/id to redirect to
+            buttontype: "Primary" #button Color type
+            buttondisabled: false #If button is disabled or not
+          button1:
+            buttonclass: 1
+            buttonname: "Back" #Name of the button
+            buttonids: "kgameguide"  #'page' name/id to redirect to
+            buttontype: "Primary" #button Color type
+            buttondisabled: false #If button is disabled or not
+    options:
+      ephemeral: true #leave at true for now
+      update: true # set to true for third level menu
+
+
+kkeystoneguide12:
+  items:
+    embedrow:
+      type: 2
+      title: "   "
+      text: "1️⃣ Head over to Workshop Building in-game.
+
+            2️⃣ The Workshop Recipe selection will pop up. Click on ‘Choose Recipe.’
+
+            3️⃣ A tabbed list of available crafting categories will be presented. Click on ‘Keystones’ tab.
+
+            4️⃣ Recipes for different Keystones will now be shown. Choose a Keystone recipe you want to Craft.
+            "
+    buttonrow:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Next" #Name of the button
+          buttonids: "klootboxguide3"  #'page' name/id to redirect to
+          buttontype: "Primary" #button Color type
+          buttondisabled: false #If button is disabled or not
+        button2:
+          buttonclass: 1
+          buttonname: "Back" #Name of the button
+          buttonids: "kgameguide"  #'page' name/id to redirect to
+          buttontype: "Primary" #button Color type
+          buttondisabled: false #If button is disabled or not
+  options:
+    ephemeral: true #leave at true for now
+    update: true # set to true for third level menu
+
+kkeystoneguide13:
+  items:
+    embedrow:
+      type: 2
+      title: "  "
+      text: "5️⃣ Check if you have enough materials for the Keystone that you are Crafting. If you have sufficient materials, click ‘Craft.’
+
+            6️⃣ Wait for crafting to finish.
+
+            7️⃣ Once finished, the crafted item can be collected from the Workshop. (Same as any other craftable items)"
+      image: "https://cdn.discordapp.com/attachments/980696706628857856/1013073374953607249/unknown.png"
+    buttonrow:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Back" #Name of the button
+          buttonids: "kgameguide"  #'page' name/id to redirect to
+          buttontype: "Primary" #button Color type
+          buttondisabled: false #If button is disabled or not
+  options:
+    ephemeral: true #leave at true for now
+    update: true # set to true for third level menu
+
+
+
+
+kkeystoneguide2:
+    items:
+      embedrow:
+        type: 2
+        title: "How do I stash out Keystones?"
+        text: "To purchase Land from the Land Vending Machine, Keystones must be stashed out.\n
+              \n
+              :exclamation: Important: Once a Keystone is stashed out, it cannot return in-game anymore.\n
+              \n
+              Click on the \"Steps\" button below to go through the stashing out keystones guide."
+      buttonrow:
+        type: 3
+        items:
+          button2:
+            buttonclass: 1
+            buttonname: "Steps" #Name of the button
+            buttonids: "kkeystoneguide22"  #'page' name/id to redirect to
+            buttontype: "Primary" #button Color type
+            buttondisabled: false #If button is disabled or not
+          button1:
+            buttonclass: 1
+            buttonname: "Back" #Name of the button
+            buttonids: "kgameguide"  #'page' name/id to redirect to
+            buttontype: "Primary" #button Color type
+            buttondisabled: false #If button is disabled or not
+    options:
+      ephemeral: true #leave at true for now
+      update: true # set to true for third level menu
+
+
+kkeystoneguide22:
+  items:
+    pageitem:
+      #for type image
+      type: 1
+      image-file: "keystone2.jpg"
+    embedrow:
+      type: 2
+      title: "   "
+      text: "1️⃣ In-game, go to ‘Inventory.\n’
+            \n
+            2️⃣ Click on the “Keystones“ tab.
+            "
+      image: "https://cdn.discordapp.com/attachments/980696706628857856/1013073375599538349/unknown.png"
+    buttonrow:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Next" #Name of the button
+          buttonids: "kkeystoneguide23"  #'page' name/id to redirect to
+          buttontype: "Primary" #button Color type
+          buttondisabled: false #If button is disabled or not
+        button2:
+          buttonclass: 1
+          buttonname: "Back" #Name of the button
+          buttonids: "kgameguide"  #'page' name/id to redirect to
+          buttontype: "Primary" #button Color type
+          buttondisabled: false #If button is disabled or not
+  options:
+    ephemeral: true #leave at true for now
+    update: true # set to true for third level menu
+
+kkeystoneguide23:
+  items:
+    embedrow:
+      type: 2
+      title: "   "
+      text: "3️⃣ Two tabs will appear at the top of the inventory: “Locked” and “Unlocked.” Go to the ‘Locked’ tab to show the list of Keystones that are locked into the game.’"
+      image: "https://cdn.discordapp.com/attachments/980696706628857856/1013073376119636049/unknown.png"
+    buttonrow:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Next" #Name of the button
+          buttonids: "kkeystoneguide24"  #'page' name/id to redirect to
+          buttontype: "Primary" #button Color type
+          buttondisabled: false #If button is disabled or not
+        button2:
+          buttonclass: 1
+          buttonname: "Back" #Name of the button
+          buttonids: "kgameguide"  #'page' name/id to redirect to
+          buttontype: "Primary" #button Color type
+          buttondisabled: false #If button is disabled or not
+  options:
+    ephemeral: true #leave at true for now
+    update: true # set to true for third level menu
+
+
+kkeystoneguide24:
+  items:
+    embedrow:
+      type: 2
+      title: "   "
+      text: "4️⃣ Click on “Unlock” on a stack of Keystones to stash out.’"
+      image: "https://cdn.discordapp.com/attachments/980696706628857856/1013073376752967690/unknown.png"
+    buttonrow:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Next" #Name of the button
+          buttonids: "kkeystoneguide25"  #'page' name/id to redirect to
+          buttontype: "Primary" #button Color type
+          buttondisabled: false #If button is disabled or not
+        button2:
+          buttonclass: 1
+          buttonname: "Back" #Name of the button
+          buttonids: "kgameguide"  #'page' name/id to redirect to
+          buttontype: "Primary" #button Color type
+          buttondisabled: false #If button is disabled or not
+  options:
+    ephemeral: true #leave at true for now
+    update: true # set to true for third level menu
+
+kkeystoneguide25:
+  items:
+    embedrow:
+      type: 2
+      title: "   "
+      text: "5️⃣ Upon clicking “Unlock” a keystone pop-up warning dialog will appear.\n
+            \n
+            6️⃣ Wait to successfully process.\n"
+      image: "https://cdn.discordapp.com/attachments/980696706628857856/1013073377449234472/unknown.png"
+    buttonrow:
+      type: 3
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Next" #Name of the button
+          buttonids: "kkeystoneguide26"  #'page' name/id to redirect to
+          buttontype: "Primary" #button Color type
+          buttondisabled: false #If button is disabled or not
+        button2:
+          buttonclass: 1
+          buttonname: "Back" #Name of the button
+          buttonids: "kgameguide"  #'page' name/id to redirect to
+          buttontype: "Primary" #button Color type
+          buttondisabled: false #If button is disabled or not
+  options:
+    ephemeral: true #leave at true for now
+    update: true # set to true for third level menu
+
+
+kkeystoneguide26:
+  items:
+    embedrow:
+      type: 2
+      title: "   "
+      text: "7️⃣ Once successfully Unlocked, you will see this prompt."
+      image: "https://cdn.discordapp.com/attachments/980696706628857856/1013073378141282374/unknown.png"
+    buttonrow:
+      type: 3
+      items:
+        button2:
+          buttonclass: 1
+          buttonname: "Back" #Name of the button
+          buttonids: "kgameguide"  #'page' name/id to redirect to
+          buttontype: "Primary" #button Color type
+          buttondisabled: false #If button is disabled or not
+  options:
+    ephemeral: true #leave at true for now
+    update: true # set to true for third level menu
